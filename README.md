@@ -20,6 +20,5 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 
 | Release | Published | Link |
 | --- | --- | --- |
-| `snapshot-20260313T235951Z` | 2026-03-13 23:59 UTC | [Overview Page Header Cleanup](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/snapshot-20260313T235951Z) |
-| `snapshot-20260313T235033Z` | 2026-03-13 23:51 UTC | [Overview page cleanup](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/snapshot-20260313T235033Z) |
+| `snapshot-20260313T235033Z` | 2026-03-13 23:50 UTC | [Overview page cleanup](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/snapshot-20260313T235033Z) |
 | `initial` | 2026-03-13 22:29 UTC | [Initial release](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/initial) |
