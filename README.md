@@ -20,9 +20,9 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 
 | Release | Published | Link |
 | --- | --- | --- |
-| `archive-20260318T070503Z` | 2026-03-18 07:05 UTC | [Authentication and Config Docs Clarified](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260318T070503Z) |
+| `archive-20260318T110250Z` | 2026-03-18 11:02 UTC | [Permission Mode Clarifications and Feedback Rename](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260318T110250Z) |
+| `archive-20260318T070503Z` | 2026-03-18 07:06 UTC | [Authentication and Config Docs Clarified](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260318T070503Z) |
 | `archive-20260318T023444Z` | 2026-03-18 02:35 UTC | [Subagent Invocation Docs Expanded](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260318T023444Z) |
 | `archive-20260318T010344Z` | 2026-03-18 01:04 UTC | [Claude Code 2.1.78 Changelog Update](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260318T010344Z) |
 | `archive-20260317T235218Z` | 2026-03-17 23:53 UTC | [Plugin Persistence and Permission Clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260317T235218Z) |
 | `archive-20260317T230754Z` | 2026-03-17 23:09 UTC | [Voice Dictation, Plugin Reloads, and Sandbox Read Controls](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260317T230754Z) |
-| `archive-20260316T180417Z` | 2026-03-16 18:05 UTC | [Permission hook guidance and example fixes](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260316T180417Z) |
