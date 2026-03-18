@@ -20,9 +20,9 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 
 | Release | Published | Link |
 | --- | --- | --- |
-| `archive-20260318T225258Z` | 2026-03-18 22:52 UTC | [StopFailure Hooks and Config Clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260318T225258Z) |
+| `archive-20260318T235141Z` | 2026-03-18 23:51 UTC | [Claude Code 2.1.79 Docs Refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260318T235141Z) |
+| `archive-20260318T225258Z` | 2026-03-18 22:54 UTC | [StopFailure Hooks and Config Clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260318T225258Z) |
 | `archive-20260318T180407Z` | 2026-03-18 18:05 UTC | [Remote Control Docs Clarified](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260318T180407Z) |
 | `archive-20260318T110250Z` | 2026-03-18 11:03 UTC | [Permission Mode Clarifications and Feedback Rename](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260318T110250Z) |
 | `archive-20260318T070503Z` | 2026-03-18 07:06 UTC | [Authentication and Config Docs Clarified](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260318T070503Z) |
 | `archive-20260318T023444Z` | 2026-03-18 02:35 UTC | [Subagent Invocation Docs Expanded](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260318T023444Z) |
-| `archive-20260318T010344Z` | 2026-03-18 01:04 UTC | [Claude Code 2.1.78 Changelog Update](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260318T010344Z) |
