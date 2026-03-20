@@ -20,9 +20,9 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 
 | Release | Published | Link |
 | --- | --- | --- |
-| `archive-20260320T205348Z` | 2026-03-20 20:53 UTC | [Sandboxing and Skills Clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260320T205348Z) |
+| `archive-20260320T215148Z` | 2026-03-20 21:51 UTC | [Plugin discovery and admin control docs clarified](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260320T215148Z) |
+| `archive-20260320T205348Z` | 2026-03-20 20:54 UTC | [Sandboxing and Skills Clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260320T205348Z) |
 | `archive-20260320T170008Z` | 2026-03-20 17:00 UTC | [Channels setup clarification](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260320T170008Z) |
 | `archive-20260320T155849Z` | 2026-03-20 15:59 UTC | [Inline Marketplaces and Rate Limits](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260320T155849Z) |
 | `archive-20260320T150019Z` | 2026-03-20 15:01 UTC | [Managed Hooks and Tooling Docs Clarified](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260320T150019Z) |
 | `archive-20260320T010719Z` | 2026-03-20 01:08 UTC | [Expanded channel setup docs and behavior notes](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260320T010719Z) |
-| `archive-20260319T225240Z` | 2026-03-19 22:54 UTC | [Channels docs and 2.1.80 notes](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260319T225240Z) |
