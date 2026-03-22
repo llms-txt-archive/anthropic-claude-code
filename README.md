@@ -20,9 +20,9 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 
 | Release | Published | Link |
 | --- | --- | --- |
-| `archive-20260321T225027Z` | 2026-03-21 22:50 UTC | [Plugin setup and telemetry docs refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260321T225027Z) |
+| `archive-20260322T154959Z` | 2026-03-22 15:49 UTC | [Permission Relay and Bare Mode Docs](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260322T154959Z) |
+| `archive-20260321T225027Z` | 2026-03-21 22:51 UTC | [Plugin setup and telemetry docs refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260321T225027Z) |
 | `archive-20260321T175042Z` | 2026-03-21 17:51 UTC | [GitHub Actions Flag Naming Update](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260321T175042Z) |
 | `archive-20260320T235058Z` | 2026-03-20 23:51 UTC | [Claude Code 2.1.81 and admin settings clarification](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260320T235058Z) |
 | `archive-20260320T225227Z` | 2026-03-20 22:53 UTC | [Channels and IDE Config Docs Expanded](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260320T225227Z) |
 | `archive-20260320T215148Z` | 2026-03-20 21:52 UTC | [Plugin discovery and admin control docs clarified](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260320T215148Z) |
-| `archive-20260320T205348Z` | 2026-03-20 20:54 UTC | [Sandboxing and Skills Clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260320T205348Z) |
