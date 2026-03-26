@@ -20,9 +20,9 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 
 | Release | Published | Link |
 | --- | --- | --- |
-| `archive-20260326T150546Z` | 2026-03-26 15:05 UTC | [Task hooks, skill filters, and Remote Control docs refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260326T150546Z) |
+| `archive-20260326T170521Z` | 2026-03-26 17:05 UTC | [Claude Code on the Web Adds PR Auto-Fix Docs](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260326T170521Z) |
+| `archive-20260326T150546Z` | 2026-03-26 15:07 UTC | [Task hooks, skill filters, and Remote Control docs refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260326T150546Z) |
 | `archive-20260326T060705Z` | 2026-03-26 06:07 UTC | [Plugin Docs Source Refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260326T060705Z) |
 | `archive-20260326T010741Z` | 2026-03-26 01:09 UTC | [PowerShell Preview and Model Override Docs](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260326T010741Z) |
 | `archive-20260325T235406Z` | 2026-03-25 23:55 UTC | [VS Code Links, Plugin CLI, and Memory Clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260325T235406Z) |
 | `archive-20260325T225723Z` | 2026-03-25 22:58 UTC | [.claude/rules Link Anchor Fixes](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260325T225723Z) |
-| `archive-20260325T190501Z` | 2026-03-25 19:06 UTC | [Hooks, Channels, and Plugin Configuration Docs](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260325T190501Z) |
