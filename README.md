@@ -20,9 +20,9 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 
 | Release | Published | Link |
 | --- | --- | --- |
-| `archive-20260327T034226Z` | 2026-03-27 03:42 UTC | [Claude Code 2.1.85 and Telemetry Logging Clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260327T034226Z) |
+| `archive-20260327T044017Z` | 2026-03-27 04:40 UTC | [Code Review Triggering and Check Run Clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260327T044017Z) |
+| `archive-20260327T034226Z` | 2026-03-27 03:43 UTC | [Claude Code 2.1.85 and Telemetry Logging Clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260327T034226Z) |
 | `archive-20260327T023507Z` | 2026-03-27 02:36 UTC | [Add the .claude Directory Guide](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260327T023507Z) |
 | `archive-20260326T235302Z` | 2026-03-26 23:53 UTC | [Memory Guide Clarifies CLAUDE.md Context Placement](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260326T235302Z) |
 | `archive-20260326T225307Z` | 2026-03-26 22:54 UTC | [Context Window Walkthrough and MCP Context Updates](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260326T225307Z) |
 | `archive-20260326T205355Z` | 2026-03-26 20:54 UTC | [Document .worktreeinclude for worktrees](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260326T205355Z) |
-| `archive-20260326T180411Z` | 2026-03-26 18:04 UTC | [Clarified Auto Memory Load Limits](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260326T180411Z) |
