@@ -233,6 +233,8 @@ Configure how `--worktree` creates and manages git worktrees. Use these settings
 | `worktree.symlinkDirectories` | Directories to symlink from the main repository into each worktree to avoid duplicating large directories on disk. No directories are symlinked by default   | `["node_modules", ".cache"]`          |
 | `worktree.sparsePaths`        | Directories to check out in each worktree via git sparse-checkout (cone mode). Only the listed paths are written to disk, which is faster in large monorepos | `["packages/my-app", "shared/utils"]` |
 
+To copy gitignored files like `.env` into new worktrees, use a [`.worktreeinclude` file](/en/common-workflows#copy-gitignored-files-to-worktrees) in your project root instead of a setting.
+
 ### Permission settings
 
 | Keys                           | Description                                                                                                                                                                                                                                      | Example                                                                |

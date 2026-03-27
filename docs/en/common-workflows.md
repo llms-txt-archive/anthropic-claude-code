@@ -728,7 +728,7 @@ Learn more in the [official Git worktree documentation](https://git-scm.com/docs
 
 ### Non-git version control
 
-Worktree isolation works with git by default. For other version control systems like SVN, Perforce, or Mercurial, configure [WorktreeCreate and WorktreeRemove hooks](/en/hooks#worktreecreate) to provide custom worktree creation and cleanup logic. When configured, these hooks replace the default git behavior when you use `--worktree`.
+Worktree isolation works with git by default. For other version control systems like SVN, Perforce, or Mercurial, configure [WorktreeCreate and WorktreeRemove hooks](/en/hooks#worktreecreate) to provide custom worktree creation and cleanup logic. When configured, these hooks replace the default git behavior when you use `--worktree`, so [`.worktreeinclude`](#copy-gitignored-files-to-worktrees) is not processed. Copy any local configuration files inside your hook script instead.
 
 For automated coordination of parallel sessions with shared tasks and messaging, see [agent teams](/en/agent-teams).
 
