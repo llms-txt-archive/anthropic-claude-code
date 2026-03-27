@@ -746,6 +746,16 @@ themselves by leaving a TODO(human) marker instead of writing it.`
       document.removeEventListener('fullscreenchange', onFsChange);
     };
   }, []);
+  useEffect(() => {
+    if (!mounted || !rootRef.current) return;
+    const hash = window.location.hash.slice(1);
+    if (hash.startsWith('ce-') && allNodes[hash.slice(3)]) {
+      rootRef.current.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  }, [mounted]);
   if (!mounted) return null;
   const selected = allNodes[selectedId];
   const tree = FILE_TREE[activeRoot];
@@ -862,7 +872,7 @@ themselves by leaving a TODO(human) marker instead of writing it.`
     const isExpanded = expandedFolders.has(node.id);
     const isSelected = selectedId === node.id;
     return <div key={node.id}>
-        <button role="treeitem" onClick={() => selectNode(node)} aria-selected={isSelected} aria-expanded={isFolder ? isExpanded : undefined} style={{
+        <button role="treeitem" tabIndex={-1} onClick={() => selectNode(node)} aria-selected={isSelected} aria-expanded={isFolder ? isExpanded : undefined} style={{
       display: 'flex',
       alignItems: 'center',
       gap: '5px',
@@ -873,6 +883,7 @@ themselves by leaving a TODO(human) marker instead of writing it.`
       borderRight: 'none',
       borderBottom: 'none',
       borderLeft: isSelected ? '2px solid var(--ce-accent)' : '2px solid transparent',
+      outline: 'none',
       cursor: 'pointer',
       textAlign: 'left',
       fontFamily: 'var(--ce-mono)',
