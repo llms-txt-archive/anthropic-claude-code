@@ -20,9 +20,9 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 
 | Release | Published | Link |
 | --- | --- | --- |
-| `archive-20260330T210020Z` | 2026-03-30 21:00 UTC | [New GitHub Enterprise Server guide](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260330T210020Z) |
+| `archive-20260330T235410Z` | 2026-03-30 23:54 UTC | [Claude Code Web Setup Clarified](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260330T235410Z) |
+| `archive-20260330T210020Z` | 2026-03-30 21:01 UTC | [New GitHub Enterprise Server guide](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260330T210020Z) |
 | `archive-20260330T200017Z` | 2026-03-30 20:00 UTC | [Model pinning and schedule limit clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260330T200017Z) |
 | `archive-20260330T190452Z` | 2026-03-30 19:05 UTC | [Auto Mode Coverage Update](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260330T190452Z) |
 | `archive-20260330T180203Z` | 2026-03-30 18:02 UTC | [Voice Dictation Data Handling Clarified](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260330T180203Z) |
 | `archive-20260330T170414Z` | 2026-03-30 17:05 UTC | [CLI Computer Use Docs and Permission Clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260330T170414Z) |
-| `archive-20260328T175229Z` | 2026-03-28 17:53 UTC | [Gateway Header and Skill Budget Clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260328T175229Z) |
