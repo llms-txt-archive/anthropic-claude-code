@@ -7,7 +7,7 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 - Site: [Claude Code Docs](https://code.claude.com)
 - `llms.txt`: [https://code.claude.com/docs/llms.txt](https://code.claude.com/docs/llms.txt)
 - Sync schedule: Hourly at :42 UTC
-- Tracked Markdown documents: 72
+- Tracked Markdown documents: 73
 - Skipped non-Markdown URLs: 0
 
 ## How It Works
@@ -20,9 +20,9 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 
 | Release | Published | Link |
 | --- | --- | --- |
-| `archive-20260328T175229Z` | 2026-03-28 17:52 UTC | [Gateway Header and Skill Budget Clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260328T175229Z) |
+| `archive-20260330T170414Z` | 2026-03-30 17:04 UTC | [CLI Computer Use Docs and Permission Clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260330T170414Z) |
+| `archive-20260328T175229Z` | 2026-03-28 17:53 UTC | [Gateway Header and Skill Budget Clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260328T175229Z) |
 | `archive-20260328T155207Z` | 2026-03-28 15:52 UTC | [Clarified bare mode, feedback opt-out, and notification setup](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260328T155207Z) |
 | `archive-20260327T225513Z` | 2026-03-27 22:56 UTC | [Claude Code 2.1.86 changelog sync](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260327T225513Z) |
 | `archive-20260327T215415Z` | 2026-03-27 21:55 UTC | [Tmux Worktree Docs and Global Config Clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260327T215415Z) |
 | `archive-20260327T170337Z` | 2026-03-27 17:04 UTC | [Hook filters, MCP auth helpers, and telemetry clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260327T170337Z) |
-| `archive-20260327T160217Z` | 2026-03-27 16:03 UTC | [Worktree, MCP, and Settings Docs Updates](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260327T160217Z) |
