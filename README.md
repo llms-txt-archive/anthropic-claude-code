@@ -20,9 +20,9 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 
 | Release | Published | Link |
 | --- | --- | --- |
-| `archive-20260401T200119Z` | 2026-04-01 20:01 UTC | [Permission Denials, Deferred Tools, and Settings Clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260401T200119Z) |
+| `archive-20260401T210014Z` | 2026-04-01 21:00 UTC | [Fullscreen scrolling setup clarified](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260401T210014Z) |
+| `archive-20260401T200119Z` | 2026-04-01 20:02 UTC | [Permission Denials, Deferred Tools, and Settings Clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260401T200119Z) |
 | `archive-20260401T180037Z` | 2026-04-01 18:01 UTC | [Windows Install Shell Clarification](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260401T180037Z) |
 | `archive-20260401T170437Z` | 2026-04-01 17:05 UTC | [Plugin Marketplace Path Handling Clarified](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260401T170437Z) |
 | `archive-20260401T023544Z` | 2026-04-01 02:36 UTC | [Bedrock SSO troubleshooting and 2.1.89 changelog](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260401T023544Z) |
 | `archive-20260331T235316Z` | 2026-03-31 23:54 UTC | [Agent teams and configuration docs expanded](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260331T235316Z) |
-| `archive-20260331T225417Z` | 2026-03-31 22:55 UTC | [Tools Reference Expansion](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260331T225417Z) |
