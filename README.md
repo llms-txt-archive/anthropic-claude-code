@@ -20,9 +20,9 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 
 | Release | Published | Link |
 | --- | --- | --- |
-| `archive-20260331T235316Z` | 2026-03-31 23:53 UTC | [Agent teams and configuration docs expanded](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260331T235316Z) |
+| `archive-20260401T023544Z` | 2026-04-01 02:35 UTC | [Bedrock SSO troubleshooting and 2.1.89 changelog](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260401T023544Z) |
+| `archive-20260331T235316Z` | 2026-03-31 23:54 UTC | [Agent teams and configuration docs expanded](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260331T235316Z) |
 | `archive-20260331T225417Z` | 2026-03-31 22:55 UTC | [Tools Reference Expansion](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260331T225417Z) |
 | `archive-20260331T205736Z` | 2026-03-31 20:58 UTC | [Add-Dir and Hook Rules Clarified](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260331T205736Z) |
 | `archive-20260331T195959Z` | 2026-03-31 20:00 UTC | [Changelog Rollback to 2.1.87](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260331T195959Z) |
 | `archive-20260331T080618Z` | 2026-03-31 08:07 UTC | [Agent Teams Reuse Subagent Roles](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260331T080618Z) |
-| `archive-20260331T023506Z` | 2026-03-31 02:35 UTC | [Code Review Troubleshooting and Desktop Setup Clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260331T023506Z) |
