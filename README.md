@@ -20,9 +20,9 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 
 | Release | Published | Link |
 | --- | --- | --- |
-| `archive-20260403T010753Z` | 2026-04-03 01:07 UTC | [Computer use platform clarifications and integration doc updates](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260403T010753Z) |
+| `archive-20260403T023501Z` | 2026-04-03 02:35 UTC | [CLAUDE.local.md and 2.1.91 docs refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260403T023501Z) |
+| `archive-20260403T010753Z` | 2026-04-03 01:09 UTC | [Computer use platform clarifications and integration doc updates](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260403T010753Z) |
 | `archive-20260402T235357Z` | 2026-04-02 23:54 UTC | [Plugin Marketplace Docs Expansion](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260402T235357Z) |
 | `archive-20260402T190431Z` | 2026-04-02 19:05 UTC | [Worktree cleanup and sandbox docs clarified](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260402T190431Z) |
 | `archive-20260402T170405Z` | 2026-04-02 17:05 UTC | [Tracing, Protected Writes, and Plugin Recovery](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260402T170405Z) |
 | `archive-20260402T160430Z` | 2026-04-02 16:05 UTC | [Install, Shortcut, and Plan Naming Refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260402T160430Z) |
-| `archive-20260402T080557Z` | 2026-04-02 08:06 UTC | [Bedrock 1M Context and Model Default Refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260402T080557Z) |
