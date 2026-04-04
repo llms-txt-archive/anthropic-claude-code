@@ -20,9 +20,9 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 
 | Release | Published | Link |
 | --- | --- | --- |
-| `archive-20260404T010725Z` | 2026-04-04 01:07 UTC | [Agent-Team Subagent Behavior Clarified](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260404T010725Z) |
+| `archive-20260404T023425Z` | 2026-04-04 02:34 UTC | [Claude Code 2.1.92 Changelog Sync](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260404T023425Z) |
+| `archive-20260404T010725Z` | 2026-04-04 01:08 UTC | [Agent-Team Subagent Behavior Clarified](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260404T010725Z) |
 | `archive-20260403T225530Z` | 2026-04-03 22:56 UTC | [OAuth guidance clarified in legal docs](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260403T225530Z) |
 | `archive-20260403T195512Z` | 2026-04-03 19:56 UTC | [Permission Mode Docs Refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260403T195512Z) |
 | `archive-20260403T190157Z` | 2026-04-03 19:03 UTC | [Desktop Scheduling Split-Out and Ultraplan Docs](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260403T190157Z) |
 | `archive-20260403T175434Z` | 2026-04-03 17:55 UTC | [Bedrock setup clarification and desktop quickstart refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260403T175434Z) |
-| `archive-20260403T023501Z` | 2026-04-03 02:35 UTC | [CLAUDE.local.md and 2.1.91 docs refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260403T023501Z) |
