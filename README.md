@@ -20,9 +20,9 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 
 | Release | Published | Link |
 | --- | --- | --- |
-| `archive-20260409T170600Z` | 2026-04-09 17:06 UTC | [Setup-token auth and commands reference refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260409T170600Z) |
+| `archive-20260409T190543Z` | 2026-04-09 19:05 UTC | [Settings docs add managed deployment templates](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260409T190543Z) |
+| `archive-20260409T170600Z` | 2026-04-09 17:07 UTC | [Setup-token auth and commands reference refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260409T170600Z) |
 | `archive-20260409T160856Z` | 2026-04-09 16:10 UTC | [Hook Matchers and Editor Docs Refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260409T160856Z) |
 | `archive-20260409T142029Z` | 2026-04-09 14:21 UTC | [Remote Control VS Code Guidance](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260409T142029Z) |
 | `archive-20260409T034001Z` | 2026-04-09 03:41 UTC | [AcceptEdits, transcript viewer, and status line docs refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260409T034001Z) |
 | `archive-20260408T225951Z` | 2026-04-08 23:01 UTC | [Claude Code 2.1.97 and PR auto-fix docs](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260408T225951Z) |
-| `archive-20260408T205955Z` | 2026-04-08 21:00 UTC | [Agent SDK observability and skill behavior clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260408T205955Z) |
