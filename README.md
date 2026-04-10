@@ -20,9 +20,9 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 
 | Release | Published | Link |
 | --- | --- | --- |
-| `archive-20260410T205714Z` | 2026-04-10 20:57 UTC | [Cost, MCP, and telemetry doc refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260410T205714Z) |
+| `archive-20260410T215608Z` | 2026-04-10 21:56 UTC | [TLS Store and Mantle Docs Refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260410T215608Z) |
+| `archive-20260410T205714Z` | 2026-04-10 20:58 UTC | [Cost, MCP, and telemetry doc refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260410T205714Z) |
 | `archive-20260410T195610Z` | 2026-04-10 19:57 UTC | [2.1.101 Notes and Enterprise Deployment Callouts](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260410T195610Z) |
 | `archive-20260410T190406Z` | 2026-04-10 19:04 UTC | [Plugin and Skill Monitoring Docs Update](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260410T190406Z) |
 | `archive-20260410T175944Z` | 2026-04-10 18:00 UTC | [Expanded /loop guidance and CLI behavior clarifications](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260410T175944Z) |
 | `archive-20260410T170200Z` | 2026-04-10 17:02 UTC | [Server-Managed Settings Doc Renamed](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260410T170200Z) |
-| `archive-20260410T071023Z` | 2026-04-10 07:11 UTC | [Homebrew Cask Guidance Refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260410T071023Z) |
