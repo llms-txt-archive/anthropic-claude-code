@@ -20,9 +20,9 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 
 | Release | Published | Link |
 | --- | --- | --- |
-| `archive-20260410T071023Z` | 2026-04-10 07:10 UTC | [Homebrew Cask Guidance Refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260410T071023Z) |
+| `archive-20260410T170200Z` | 2026-04-10 17:02 UTC | [Server-Managed Settings Doc Renamed](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260410T170200Z) |
+| `archive-20260410T071023Z` | 2026-04-10 07:11 UTC | [Homebrew Cask Guidance Refresh](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260410T071023Z) |
 | `archive-20260410T061805Z` | 2026-04-10 06:18 UTC | [Agent SDK docs add Monitor coverage](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260410T061805Z) |
 | `archive-20260409T235533Z` | 2026-04-09 23:56 UTC | [Structured feedback guidance and hooks timing update](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260409T235533Z) |
 | `archive-20260409T225954Z` | 2026-04-09 23:02 UTC | [Monitor Tool and Feedback Docs Update](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260409T225954Z) |
 | `archive-20260409T210419Z` | 2026-04-09 21:05 UTC | [Cloud setup and compaction guidance](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260409T210419Z) |
-| `archive-20260409T200420Z` | 2026-04-09 20:05 UTC | [Claude Code 2.1.98 and plugin docs clarification](https://github.com/f-pisani/claude-code-docs-archive/releases/tag/archive-20260409T200420Z) |
