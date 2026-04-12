@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   sync:
-    uses: f-pisani/llmstxt/.github/workflows/archive-sync.yml@main
+    uses: llms-txt-archive/llmstxt/.github/workflows/archive-sync.yml@main
     with:
       source_url: https://code.claude.com/docs/llms.txt
       site_name: Claude Code Docs
