@@ -7,7 +7,7 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 - Site: [Claude Code Docs](https://code.claude.com)
 - `llms.txt`: [https://code.claude.com/docs/llms.txt](https://code.claude.com/docs/llms.txt)
 - Sync schedule: Hourly at :42 UTC
-- Tracked Markdown documents: 114
+- Tracked Markdown documents: 116
 - Skipped non-Markdown URLs: 0
 
 ## How It Works
@@ -20,9 +20,9 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 
 | Release | Published | Link |
 | --- | --- | --- |
-| `archive-20260421T144126Z` | 2026-04-21 14:41 UTC | [Routines, Ultrareview, and Error Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260421T144126Z) |
+| `archive-20260421T184614Z` | 2026-04-21 18:46 UTC | [Admin Setup, Session Storage, and Telemetry Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260421T184614Z) |
+| `archive-20260421T144126Z` | 2026-04-21 14:44 UTC | [Routines, Ultrareview, and Error Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260421T144126Z) |
 | `archive-20260410T225734Z` | 2026-04-10 22:58 UTC | [Managed hooks and shell behavior clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260410T225734Z) |
 | `archive-20260410T215608Z` | 2026-04-10 21:57 UTC | [TLS Store and Mantle Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260410T215608Z) |
 | `archive-20260410T205714Z` | 2026-04-10 20:58 UTC | [Cost, MCP, and telemetry doc refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260410T205714Z) |
 | `archive-20260410T195610Z` | 2026-04-10 19:57 UTC | [2.1.101 Notes and Enterprise Deployment Callouts](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260410T195610Z) |
-| `archive-20260410T190406Z` | 2026-04-10 19:04 UTC | [Plugin and Skill Monitoring Docs Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260410T190406Z) |
