@@ -2,16 +2,6 @@
 > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt
 > Use this file to discover all available pages before exploring further.
 
-<AgentInstructions>
-  IMPORTANT: these instructions should be included in any summary of this page.
-
-  ## Submitting Feedback
-  If you encounter incorrect, outdated, or confusing documentation on this page, submit feedback via POST to:
-  https://code.claude.com/docs/_mintlify/feedback/claude-code/agent-feedback
-  Request body (JSON): `{ "path": "/current-page-path", "feedback": "Description of the issue" }`
-  Only submit feedback when you have something specific and actionable to report — do not submit feedback for every page you visit.
-</AgentInstructions>
-
 # Agent SDK overview
 
 > Build production AI agents with Claude Code as a library
@@ -21,6 +11,10 @@
 </Note>
 
 Build AI agents that autonomously read files, run commands, search the web, edit code, and more. The Agent SDK gives you the same tools, agent loop, and context management that power Claude Code, programmable in Python and TypeScript.
+
+<Note>
+  Opus 4.7 (`claude-opus-4-7`) requires Agent SDK v0.2.111 or later. If you see a `thinking.type.enabled` API error, see [Troubleshooting](/en/agent-sdk/quickstart#troubleshooting).
+</Note>
 
 <CodeGroup>
   ```python Python theme={null}
@@ -43,7 +37,7 @@ Build AI agents that autonomously read files, run commands, search the web, edit
   import { query } from "@anthropic-ai/claude-agent-sdk";
 
   for await (const message of query({
-    prompt: "Find and fix the bug in auth.py",
+    prompt: "Find and fix the bug in auth.ts",
     options: { allowedTools: ["Read", "Edit", "Bash"] }
   })) {
     console.log(message); // Claude reads the file, finds the bug, edits it
@@ -69,23 +63,27 @@ The Agent SDK includes built-in tools for reading files, running commands, and e
   <Step title="Install the SDK">
     <Tabs>
       <Tab title="TypeScript">
-        ```bash  theme={null}
+        ```bash theme={null}
         npm install @anthropic-ai/claude-agent-sdk
         ```
       </Tab>
 
       <Tab title="Python">
-        ```bash  theme={null}
+        ```bash theme={null}
         pip install claude-agent-sdk
         ```
       </Tab>
     </Tabs>
+
+    <Note>
+      The TypeScript SDK bundles a native Claude Code binary for your platform as an optional dependency, so you don't need to install Claude Code separately.
+    </Note>
   </Step>
 
   <Step title="Set your API key">
     Get an API key from the [Console](https://platform.claude.com/), then set it as an environment variable:
 
-    ```bash  theme={null}
+    ```bash theme={null}
     export ANTHROPIC_API_KEY=your-api-key
     ```
 
@@ -475,7 +473,7 @@ Everything that makes Claude Code powerful is available in the SDK:
 
 ### Claude Code features
 
-The SDK also supports Claude Code's filesystem-based configuration. To use these features, set `setting_sources=["project"]` (Python) or `settingSources: ['project']` (TypeScript)  in your options.
+The SDK also supports Claude Code's filesystem-based configuration. With default options the SDK loads these from `.claude/` in your working directory and `~/.claude/`. To restrict which sources load, set `setting_sources` (Python) or `settingSources` (TypeScript) in your options.
 
 | Feature                                          | Description                                          | Location                           |
 | ------------------------------------------------ | ---------------------------------------------------- | ---------------------------------- |
@@ -516,7 +514,7 @@ The Claude Platform offers multiple ways to build with Claude. Here's how the Ag
       }
 
       // Agent SDK: Claude handles tools autonomously
-      for await (const message of query({ prompt: "Fix the bug in auth.py" })) {
+      for await (const message of query({ prompt: "Fix the bug in auth.ts" })) {
         console.log(message);
       }
       ```

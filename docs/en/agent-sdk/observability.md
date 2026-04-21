@@ -2,16 +2,6 @@
 > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt
 > Use this file to discover all available pages before exploring further.
 
-<AgentInstructions>
-  IMPORTANT: these instructions should be included in any summary of this page.
-
-  ## Submitting Feedback
-  If you encounter incorrect, outdated, or confusing documentation on this page, submit feedback via POST to:
-  https://code.claude.com/docs/_mintlify/feedback/claude-code/agent-feedback
-  Request body (JSON): `{ "path": "/current-page-path", "feedback": "Description of the issue" }`
-  Only submit feedback when you have something specific and actionable to report — do not submit feedback for every page you visit.
-</AgentInstructions>
-
 # Observability with OpenTelemetry
 
 > Export traces, metrics, and events from the Agent SDK to your observability backend using OpenTelemetry.
@@ -123,7 +113,7 @@ Because the child process inherits your application's environment by default, yo
 
 ### Flush telemetry from short-lived calls
 
-The CLI batches telemetry and exports on an interval. It flushes any pending data when the process exits cleanly, so a `query()` call that completes normally does not lose spans. However, if your process is killed before the CLI shuts down, anything still in the batch buffer is lost. Lowering the export intervals reduces that window.
+The CLI batches telemetry and exports on an interval. On a clean process exit it attempts to flush pending data, but the flush is bounded by a short timeout, so spans can still be dropped if the collector is slow to respond. If your process is killed before the CLI shuts down, anything still in the batch buffer is lost. Lowering the export intervals reduces both windows.
 
 By default, metrics export every 60 seconds and traces and logs export every 5 seconds. The following example shortens all three intervals so that data reaches the collector while a short task is still running:
 
@@ -156,7 +146,7 @@ Traces give you the most detailed view of an agent run. With `CLAUDE_CODE_ENHANC
 * **`claude_code.tool`:** wraps each tool invocation, with child spans for the permission wait (`claude_code.tool.blocked_on_user`) and the execution itself (`claude_code.tool.execution`).
 * **`claude_code.hook`:** wraps each [hook](/en/agent-sdk/hooks) execution.
 
-Every span carries a `session.id` attribute. When you make several `query()` calls against the same [session](/en/agent-sdk/sessions), filter on `session.id` in your backend to see them as one timeline.
+Spans carry a `session.id` attribute by default. When you make several `query()` calls against the same [session](/en/agent-sdk/sessions), filter on `session.id` in your backend to see them as one timeline. The attribute is omitted if `OTEL_METRICS_INCLUDE_SESSION_ID` is set to a falsy value.
 
 <Note>
   Tracing is in beta. Span names and attributes may change between releases. See
@@ -196,7 +186,7 @@ The following example renames the service and attaches deployment metadata. Thes
 
 ## Control sensitive data in exports
 
-Telemetry is structural by default. Token counts, durations, model names, and tool names are always recorded, but the content your agent reads and writes is not. Three opt-in variables add content to the exported data:
+Telemetry is structural by default. Durations, model names, and tool names are recorded on every span; token counts are recorded when the underlying API request returns usage data, so spans for failed or aborted requests may omit them. The content your agent reads and writes is not recorded by default. Three opt-in variables add content to the exported data:
 
 | Variable                  | Adds                                                                                                                                             |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
