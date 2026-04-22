@@ -20,9 +20,9 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 
 | Release | Published | Link |
 | --- | --- | --- |
-| `archive-20260422T035233Z` | 2026-04-22 03:52 UTC | [Configuration debugging guide and 2.1.117 notes](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260422T035233Z) |
+| `archive-20260422T203454Z` | 2026-04-22 20:34 UTC | [Marketplace, Resume, and Storage Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260422T203454Z) |
+| `archive-20260422T035233Z` | 2026-04-22 03:53 UTC | [Configuration debugging guide and 2.1.117 notes](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260422T035233Z) |
 | `archive-20260421T232216Z` | 2026-04-21 23:23 UTC | [WebFetch Preflight and Guide Cleanup](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260421T232216Z) |
 | `archive-20260421T184614Z` | 2026-04-21 18:48 UTC | [Admin Setup, Session Storage, and Telemetry Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260421T184614Z) |
 | `archive-20260421T144126Z` | 2026-04-21 14:44 UTC | [Routines, Ultrareview, and Error Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260421T144126Z) |
 | `archive-20260410T225734Z` | 2026-04-10 22:58 UTC | [Managed hooks and shell behavior clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260410T225734Z) |
-| `archive-20260410T215608Z` | 2026-04-10 21:57 UTC | [TLS Store and Mantle Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260410T215608Z) |
