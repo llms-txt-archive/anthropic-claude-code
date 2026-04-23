@@ -7,7 +7,7 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 - Site: [Claude Code Docs](https://code.claude.com)
 - `llms.txt`: [https://code.claude.com/docs/llms.txt](https://code.claude.com/docs/llms.txt)
 - Sync schedule: Hourly at :42 UTC
-- Tracked Markdown documents: 116
+- Tracked Markdown documents: 117
 - Skipped non-Markdown URLs: 0
 
 ## How It Works
@@ -20,9 +20,9 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 
 | Release | Published | Link |
 | --- | --- | --- |
-| `archive-20260423T043831Z` | 2026-04-23 04:38 UTC | [Linux Package Manager Installation Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260423T043831Z) |
+| `archive-20260423T175806Z` | 2026-04-23 17:58 UTC | [Admin setup, batch hooks, and custom themes](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260423T175806Z) |
+| `archive-20260423T043831Z` | 2026-04-23 04:39 UTC | [Linux Package Manager Installation Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260423T043831Z) |
 | `archive-20260423T011319Z` | 2026-04-23 01:14 UTC | [Claude Code 2.1.118 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260423T011319Z) |
 | `archive-20260422T233203Z` | 2026-04-22 23:33 UTC | [Deferred Tool Use and Network Allowlist Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260422T233203Z) |
 | `archive-20260422T213558Z` | 2026-04-22 21:37 UTC | [Standalone Auto Mode Guide and Tap Voice Dictation](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260422T213558Z) |
 | `archive-20260422T203454Z` | 2026-04-22 20:36 UTC | [Marketplace, Resume, and Storage Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260422T203454Z) |
-| `archive-20260422T035233Z` | 2026-04-22 03:53 UTC | [Configuration debugging guide and 2.1.117 notes](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260422T035233Z) |
