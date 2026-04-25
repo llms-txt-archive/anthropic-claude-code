@@ -1,28 +1,26 @@
 # Claude Code Docs Archive
 
-This repository is auto-generated and updated by CI from the source `llms.txt` index. It tracks raw Markdown files in git so upstream documentation changes are visible in normal diffs.
+Versioned mirror of [Claude Code Docs](https://code.claude.com) documentation. Updated Hourly at :42 UTC from [`llms.txt`](https://code.claude.com/docs/llms.txt).
 
-## Source
+Every change to the upstream docs produces a git commit and a GitHub release, so you can diff any two points in time.
 
-- Site: [Claude Code Docs](https://code.claude.com)
-- `llms.txt`: [https://code.claude.com/docs/llms.txt](https://code.claude.com/docs/llms.txt)
-- Sync schedule: Hourly at :42 UTC
-- Tracked Markdown documents: 117
-- Skipped non-Markdown URLs: 0
+| | |
+|---|---|
+| **Source** | [https://code.claude.com/docs/llms.txt](https://code.claude.com/docs/llms.txt) |
+| **Documents** | 117 Markdown files |
+| **Schedule** | Hourly at :42 UTC |
 
-## How It Works
+## How it works
 
-- Only `.md` links listed in `llms.txt` are mirrored into this repository.
-- Raw Markdown files are tracked in git.
-- `manifest.json` is not committed. It is attached to each GitHub Release and used as the last successful crawl state for conditional requests.
+A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` index, fetches every linked `.md` file, and commits the result. The `manifest.json` attached to each release tracks ETags and hashes for conditional requests.
 
-## Latest Releases
+## Releases
 
-| Release | Published | Link |
-| --- | --- | --- |
-| `archive-20260425T042217Z` | 2026-04-25 04:22 UTC | [2.1.120 Changelog Entry Removed](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260425T042217Z) |
+| Tag | Date | Summary |
+|-----|------|---------|
+| `archive-20260425T193241Z` | 2026-04-25 19:32 UTC | [Desktop routines and terminal theming updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260425T193241Z) |
+| `archive-20260425T042217Z` | 2026-04-25 04:23 UTC | [2.1.120 Changelog Entry Removed](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260425T042217Z) |
 | `archive-20260425T010535Z` | 2026-04-25 01:06 UTC | [Claude Code 2.1.120 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260425T010535Z) |
 | `archive-20260424T173704Z` | 2026-04-24 17:38 UTC | [Settings Migration and MCP Search Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260424T173704Z) |
 | `archive-20260424T063024Z` | 2026-04-24 06:31 UTC | [Hosted Platform Sales Link Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260424T063024Z) |
 | `archive-20260424T011254Z` | 2026-04-24 01:13 UTC | [Claude Code 2.1.119 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260424T011254Z) |
-| `archive-20260423T232959Z` | 2026-04-23 23:30 UTC | [Forked Subagents and 1-Hour Cache TTL](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260423T232959Z) |
