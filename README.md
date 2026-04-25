@@ -20,9 +20,9 @@ This repository is auto-generated and updated by CI from the source `llms.txt` i
 
 | Release | Published | Link |
 | --- | --- | --- |
-| `archive-20260424T173704Z` | 2026-04-24 17:37 UTC | [Settings Migration and MCP Search Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260424T173704Z) |
+| `archive-20260425T010535Z` | 2026-04-25 01:05 UTC | [Claude Code 2.1.120 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260425T010535Z) |
+| `archive-20260424T173704Z` | 2026-04-24 17:38 UTC | [Settings Migration and MCP Search Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260424T173704Z) |
 | `archive-20260424T063024Z` | 2026-04-24 06:31 UTC | [Hosted Platform Sales Link Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260424T063024Z) |
 | `archive-20260424T011254Z` | 2026-04-24 01:13 UTC | [Claude Code 2.1.119 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260424T011254Z) |
 | `archive-20260423T232959Z` | 2026-04-23 23:30 UTC | [Forked Subagents and 1-Hour Cache TTL](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260423T232959Z) |
 | `archive-20260423T175806Z` | 2026-04-23 18:00 UTC | [Admin setup, batch hooks, and custom themes](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260423T175806Z) |
-| `archive-20260423T043831Z` | 2026-04-23 04:39 UTC | [Linux Package Manager Installation Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260423T043831Z) |
