@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260425T193241Z` | 2026-04-25 19:32 UTC | [Desktop routines and terminal theming updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260425T193241Z) |
+| `archive-20260426T044651Z` | 2026-04-26 04:46 UTC | [Claude Code command and setup doc refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260426T044651Z) |
+| `archive-20260425T193241Z` | 2026-04-25 19:33 UTC | [Desktop routines and terminal theming updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260425T193241Z) |
 | `archive-20260425T042217Z` | 2026-04-25 04:23 UTC | [2.1.120 Changelog Entry Removed](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260425T042217Z) |
 | `archive-20260425T010535Z` | 2026-04-25 01:06 UTC | [Claude Code 2.1.120 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260425T010535Z) |
 | `archive-20260424T173704Z` | 2026-04-24 17:38 UTC | [Settings Migration and MCP Search Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260424T173704Z) |
 | `archive-20260424T063024Z` | 2026-04-24 06:31 UTC | [Hosted Platform Sales Link Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260424T063024Z) |
-| `archive-20260424T011254Z` | 2026-04-24 01:13 UTC | [Claude Code 2.1.119 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260424T011254Z) |
