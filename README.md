@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260428T233727Z` | 2026-04-28 23:37 UTC | [Setup Hooks, Hook Matchers, and Env Var Coverage](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260428T233727Z) |
+| `archive-20260429T012333Z` | 2026-04-29 01:23 UTC | [Clarified plugin loading, terminal clipboard setup, and hook coverage](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260429T012333Z) |
+| `archive-20260428T233727Z` | 2026-04-28 23:38 UTC | [Setup Hooks, Hook Matchers, and Env Var Coverage](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260428T233727Z) |
 | `archive-20260428T223825Z` | 2026-04-28 22:39 UTC | [Troubleshooting split and Windows/WSL clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260428T223825Z) |
 | `archive-20260428T205041Z` | 2026-04-28 20:51 UTC | [Agent SDK Overview Adds Managed Agents Comparison](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260428T205041Z) |
 | `archive-20260428T172017Z` | 2026-04-28 17:21 UTC | [New rollout kits and hook context docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260428T172017Z) |
 | `archive-20260428T151145Z` | 2026-04-28 15:12 UTC | [Claude Code Glossary Added](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260428T151145Z) |
-| `archive-20260428T075559Z` | 2026-04-28 07:56 UTC | [Server-managed settings clarify third-party provider bypasses](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260428T075559Z) |
