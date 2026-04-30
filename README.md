@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260429T223829Z` | 2026-04-29 22:38 UTC | [Install Troubleshooting Adds Fish and Nushell PATH Help](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260429T223829Z) |
+| `archive-20260430T233556Z` | 2026-04-30 23:35 UTC | [Clarified CLAUDE.md instruction ordering](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260430T233556Z) |
+| `archive-20260429T223829Z` | 2026-04-29 22:39 UTC | [Install Troubleshooting Adds Fish and Nushell PATH Help](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260429T223829Z) |
 | `archive-20260429T204402Z` | 2026-04-29 20:44 UTC | [Windows Install Troubleshooting Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260429T204402Z) |
 | `archive-20260429T145719Z` | 2026-04-29 14:58 UTC | [Sandbox, Skills, and PR Review Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260429T145719Z) |
 | `archive-20260429T075103Z` | 2026-04-29 07:51 UTC | [Sandbox network policy docs clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260429T075103Z) |
 | `archive-20260429T050001Z` | 2026-04-29 05:01 UTC | [Bedrock tiers and Windows shell fallback docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260429T050001Z) |
-| `archive-20260429T012333Z` | 2026-04-29 01:24 UTC | [Clarified plugin loading, terminal clipboard setup, and hook coverage](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260429T012333Z) |
