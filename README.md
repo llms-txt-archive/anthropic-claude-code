@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260501T184650Z` | 2026-05-01 18:46 UTC | [Shell Prefix Scope Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260501T184650Z) |
+| `archive-20260501T223449Z` | 2026-05-01 22:34 UTC | [Plugin Manifest Agents Example Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260501T223449Z) |
+| `archive-20260501T184650Z` | 2026-05-01 18:47 UTC | [Shell Prefix Scope Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260501T184650Z) |
 | `archive-20260501T075221Z` | 2026-05-01 07:53 UTC | [Changelog revisions for remote session notes](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260501T075221Z) |
 | `archive-20260501T052756Z` | 2026-05-01 05:29 UTC | [Project Purge and Gateway Model Discovery](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260501T052756Z) |
 | `archive-20260501T012723Z` | 2026-05-01 01:28 UTC | [Auto Mode Availability Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260501T012723Z) |
 | `archive-20260430T233556Z` | 2026-04-30 23:36 UTC | [Clarified CLAUDE.md instruction ordering](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260430T233556Z) |
-| `archive-20260429T223829Z` | 2026-04-29 22:39 UTC | [Install Troubleshooting Adds Fish and Nushell PATH Help](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260429T223829Z) |
