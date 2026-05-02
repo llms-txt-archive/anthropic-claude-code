@@ -7,7 +7,7 @@ Every change to the upstream docs produces a git commit and a GitHub release, so
 | | |
 |---|---|
 | **Source** | [https://code.claude.com/docs/llms.txt](https://code.claude.com/docs/llms.txt) |
-| **Documents** | 123 Markdown files |
+| **Documents** | 124 Markdown files |
 | **Schedule** | Hourly at :42 UTC |
 
 ## How it works
@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
+| `archive-20260502T183447Z` | 2026-05-02 18:34 UTC | [Deep Links and Workflow Reference Split](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260502T183447Z) |
 | `archive-20260502T044707Z` | 2026-05-02 04:47 UTC | [Desktop docs clarify Linux fallback](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260502T044707Z) |
 | `archive-20260501T223449Z` | 2026-05-01 22:35 UTC | [Plugin Manifest Agents Example Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260501T223449Z) |
 | `archive-20260501T184650Z` | 2026-05-01 18:47 UTC | [Shell Prefix Scope Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260501T184650Z) |
 | `archive-20260501T075221Z` | 2026-05-01 07:53 UTC | [Changelog revisions for remote session notes](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260501T075221Z) |
 | `archive-20260501T052756Z` | 2026-05-01 05:29 UTC | [Project Purge and Gateway Model Discovery](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260501T052756Z) |
-| `archive-20260501T012723Z` | 2026-05-01 01:28 UTC | [Auto Mode Availability Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260501T012723Z) |
