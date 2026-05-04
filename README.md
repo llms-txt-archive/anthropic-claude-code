@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260504T050420Z` | 2026-05-04 05:04 UTC | [Hook Blocking and Auto Memory Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260504T050420Z) |
+| `archive-20260504T145633Z` | 2026-05-04 14:56 UTC | [Theme token, telemetry, and AVX docs refined](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260504T145633Z) |
+| `archive-20260504T050420Z` | 2026-05-04 05:05 UTC | [Hook Blocking and Auto Memory Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260504T050420Z) |
 | `archive-20260502T183447Z` | 2026-05-02 18:36 UTC | [Deep Links and Workflow Reference Split](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260502T183447Z) |
 | `archive-20260502T044707Z` | 2026-05-02 04:47 UTC | [Desktop docs clarify Linux fallback](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260502T044707Z) |
 | `archive-20260501T223449Z` | 2026-05-01 22:35 UTC | [Plugin Manifest Agents Example Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260501T223449Z) |
 | `archive-20260501T184650Z` | 2026-05-01 18:47 UTC | [Shell Prefix Scope Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260501T184650Z) |
-| `archive-20260501T075221Z` | 2026-05-01 07:53 UTC | [Changelog revisions for remote session notes](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260501T075221Z) |
