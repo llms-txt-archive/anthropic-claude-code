@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260506T050045Z` | 2026-05-06 05:00 UTC | [Claude Code 2.1.129 Docs Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260506T050045Z) |
+| `archive-20260506T075658Z` | 2026-05-06 07:56 UTC | [Claude Code 2.1.131 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260506T075658Z) |
+| `archive-20260506T050045Z` | 2026-05-06 05:01 UTC | [Claude Code 2.1.129 Docs Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260506T050045Z) |
 | `archive-20260505T223657Z` | 2026-05-05 22:37 UTC | [Plan Mode and Web Setup Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260505T223657Z) |
 | `archive-20260505T170754Z` | 2026-05-05 17:10 UTC | [Security Telemetry and Access Control Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260505T170754Z) |
 | `archive-20260504T233517Z` | 2026-05-04 23:36 UTC | [Claude Code 2.1.128 Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260504T233517Z) |
 | `archive-20260504T223843Z` | 2026-05-04 22:39 UTC | [Hook outcomes and dictation binding limits](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260504T223843Z) |
-| `archive-20260504T145633Z` | 2026-05-04 14:57 UTC | [Theme token, telemetry, and AVX docs refined](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260504T145633Z) |
