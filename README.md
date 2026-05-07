@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260507T012335Z` | 2026-05-07 01:23 UTC | [Claude Code 2.1.132 Archive Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260507T012335Z) |
+| `archive-20260507T050258Z` | 2026-05-07 05:02 UTC | [SDK controls and terminal behavior changes](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260507T050258Z) |
+| `archive-20260507T012335Z` | 2026-05-07 01:24 UTC | [Claude Code 2.1.132 Archive Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260507T012335Z) |
 | `archive-20260506T171329Z` | 2026-05-06 17:14 UTC | [Plugin URL Loading and Skill Override Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260506T171329Z) |
 | `archive-20260506T151513Z` | 2026-05-06 15:15 UTC | [Clarified Settings Override Behavior](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260506T151513Z) |
 | `archive-20260506T075658Z` | 2026-05-06 07:57 UTC | [Claude Code 2.1.131 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260506T075658Z) |
 | `archive-20260506T050045Z` | 2026-05-06 05:01 UTC | [Claude Code 2.1.129 Docs Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260506T050045Z) |
-| `archive-20260505T223657Z` | 2026-05-05 22:37 UTC | [Plan Mode and Web Setup Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260505T223657Z) |
