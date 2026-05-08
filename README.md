@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260508T165557Z` | 2026-05-08 16:55 UTC | [Routines and permission docs clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260508T165557Z) |
+| `archive-20260508T185644Z` | 2026-05-08 18:56 UTC | [Claude Code 2.1.136 notes and commands guide refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260508T185644Z) |
+| `archive-20260508T165557Z` | 2026-05-08 16:56 UTC | [Routines and permission docs clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260508T165557Z) |
 | `archive-20260508T070906Z` | 2026-05-08 07:10 UTC | [Desktop SSH allowlist docs added](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260508T070906Z) |
 | `archive-20260508T012447Z` | 2026-05-08 01:26 UTC | [Claude Code docs: skills, worktrees, and V2 deprecation](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260508T012447Z) |
 | `archive-20260507T224249Z` | 2026-05-07 22:43 UTC | [Cloud network access and config debugging updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260507T224249Z) |
 | `archive-20260507T181417Z` | 2026-05-07 18:15 UTC | [Vertex AI auth and config docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260507T181417Z) |
-| `archive-20260507T155445Z` | 2026-05-07 15:56 UTC | [Python SDK result fields and hook guidance](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260507T155445Z) |
