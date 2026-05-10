@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260510T052238Z` | 2026-05-10 05:22 UTC | [Auto Mode Error Guidance Expanded](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T052238Z) |
+| `archive-20260510T173637Z` | 2026-05-10 17:36 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260510T052238Z` | 2026-05-10 05:23 UTC | [Auto Mode Error Guidance Expanded](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T052238Z) |
 | `archive-20260509T072653Z` | 2026-05-09 07:27 UTC | [Claude Code 2.1.138 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260509T072653Z) |
 | `archive-20260509T045558Z` | 2026-05-09 04:57 UTC | [Week 18-19 Digests and Policy Controls](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260509T045558Z) |
 | `archive-20260509T012212Z` | 2026-05-09 01:22 UTC | [Changelog adds 2.1.137 Windows fix](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260509T012212Z) |
 | `archive-20260508T214052Z` | 2026-05-08 21:41 UTC | [Clarified MCP, resume, and npm install docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260508T214052Z) |
-| `archive-20260508T185644Z` | 2026-05-08 18:57 UTC | [Claude Code 2.1.136 notes and commands guide refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260508T185644Z) |
