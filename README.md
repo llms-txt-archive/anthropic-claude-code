@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260512T182519Z` | 2026-05-12 18:25 UTC | [Prompt customization, fast mode, and survey telemetry updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260512T182519Z) |
+| `archive-20260512T201956Z` | 2026-05-12 20:19 UTC | [Task Tool Migration and MCP Guidance](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260512T201956Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260512T182519Z` | 2026-05-12 18:26 UTC | [Prompt customization, fast mode, and survey telemetry updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260512T182519Z) |
 | `archive-20260512T160608Z` | 2026-05-12 16:06 UTC | [Remembered Approvals and Connector Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260512T160608Z) |
 | `archive-20260512T012514Z` | 2026-05-12 01:26 UTC | [Hook path and permission mode clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260512T012514Z) |
 | `archive-20260511T234008Z` | 2026-05-11 23:41 UTC | [Hook, Plugin, and Agent View Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260511T234008Z) |
-| `archive-20260511T215319Z` | 2026-05-11 21:54 UTC | [Parallel Agents and Worktrees Documentation](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260511T215319Z) |
