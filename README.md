@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260513T211114Z` | 2026-05-13 21:11 UTC | [Output Styles and Access Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260513T211114Z) |
+| `archive-20260513T224906Z` | 2026-05-13 22:49 UTC | [Clarified Precedence and Session Behavior](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260513T224906Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260513T211114Z` | 2026-05-13 21:12 UTC | [Output Styles and Access Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260513T211114Z) |
 | `archive-20260513T192436Z` | 2026-05-13 19:25 UTC | [Agent SDK Credit Guidance Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260513T192436Z) |
 | `archive-20260513T170151Z` | 2026-05-13 17:02 UTC | [Ultrareview pricing docs refreshed](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260513T170151Z) |
 | `archive-20260513T012941Z` | 2026-05-13 01:30 UTC | [Clarified auto-fix, 1M context access, and managed-settings auth behavior](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260513T012941Z) |
-| `archive-20260512T234110Z` | 2026-05-12 23:42 UTC | [Agent View and Config Loading Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260512T234110Z) |
