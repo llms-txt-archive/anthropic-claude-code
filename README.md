@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260514T155911Z` | 2026-05-14 15:59 UTC | [Desktop changelog and workflow doc clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260514T155911Z) |
+| `archive-20260514T233629Z` | 2026-05-14 23:36 UTC | [Claude Code 2.1.142 Notes](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260514T233629Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260514T155911Z` | 2026-05-14 16:00 UTC | [Desktop changelog and workflow doc clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260514T155911Z) |
 | `archive-20260514T081723Z` | 2026-05-14 08:18 UTC | [Agent View defaults and config flags](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260514T081723Z) |
 | `archive-20260514T013205Z` | 2026-05-14 01:32 UTC | [Claude Code 2.1.141 docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260514T013205Z) |
 | `archive-20260513T224906Z` | 2026-05-13 22:50 UTC | [Clarified Precedence and Session Behavior](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260513T224906Z) |
-| `archive-20260513T211114Z` | 2026-05-13 21:12 UTC | [Output Styles and Access Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260513T211114Z) |
