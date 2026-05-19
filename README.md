@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260518T234439Z` | 2026-05-18 23:44 UTC | [Task Tools, Agent View, and Plugin Updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260518T234439Z) |
+| `archive-20260519T044621Z` | 2026-05-19 04:46 UTC | [Claude Code docs refresh: changelog and troubleshooting](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260519T044621Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260518T234439Z` | 2026-05-18 23:46 UTC | [Task Tools, Agent View, and Plugin Updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260518T234439Z) |
 | `archive-20260518T215042Z` | 2026-05-18 21:51 UTC | [Thinking Display and IDE Context Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260518T215042Z) |
 | `archive-20260518T201850Z` | 2026-05-18 20:20 UTC | [Usage Credits Rename and Subagent Context Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260518T201850Z) |
 | `archive-20260518T174824Z` | 2026-05-18 17:49 UTC | [Windows Status Line Path Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260518T174824Z) |
-| `archive-20260517T013020Z` | 2026-05-17 01:31 UTC | [Foundry startup and config clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260517T013020Z) |
