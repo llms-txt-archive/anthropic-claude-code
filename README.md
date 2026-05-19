@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260519T201954Z` | 2026-05-19 20:19 UTC | [Disallowed Tool Rules Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260519T201954Z) |
+| `archive-20260519T215946Z` | 2026-05-19 21:59 UTC | [Claude Code 2.1.145 Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260519T215946Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260519T201954Z` | 2026-05-19 20:21 UTC | [Disallowed Tool Rules Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260519T201954Z) |
 | `archive-20260519T182625Z` | 2026-05-19 18:28 UTC | [Prompt Caching Guide and Marketplace Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260519T182625Z) |
 | `archive-20260519T160242Z` | 2026-05-19 16:04 UTC | [Week 20 Digest and Session Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260519T160242Z) |
 | `archive-20260519T044621Z` | 2026-05-19 04:47 UTC | [Claude Code docs refresh: changelog and troubleshooting](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260519T044621Z) |
-| `archive-20260518T234439Z` | 2026-05-18 23:46 UTC | [Task Tools, Agent View, and Plugin Updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260518T234439Z) |
