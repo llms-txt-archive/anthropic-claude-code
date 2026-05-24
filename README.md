@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260523T042852Z` | 2026-05-23 04:28 UTC | [SDK and Subagent Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260523T042852Z) |
+| `archive-20260524T062323Z` | 2026-05-24 06:23 UTC | [Local Review and Shell Behavior Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260524T062323Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260523T042852Z` | 2026-05-23 04:29 UTC | [SDK and Subagent Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260523T042852Z) |
 | `archive-20260522T234548Z` | 2026-05-22 23:46 UTC | [Claude Code 2.1.149 changelog update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260522T234548Z) |
 | `archive-20260522T054928Z` | 2026-05-22 05:50 UTC | [Setup Guide Snippet Cleanup](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260522T054928Z) |
 | `archive-20260522T013500Z` | 2026-05-22 01:36 UTC | [Sandbox docs split and /code-review refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260522T013500Z) |
-| `archive-20260521T225115Z` | 2026-05-21 22:52 UTC | [Auto Mode Availability Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260521T225115Z) |
