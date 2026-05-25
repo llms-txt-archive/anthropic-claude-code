@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260525T215049Z` | 2026-05-25 21:50 UTC | [Clarified cache behavior and session naming docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260525T215049Z) |
+| `archive-20260525T234441Z` | 2026-05-25 23:44 UTC | [MCP, Telemetry, and Subagent Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260525T234441Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260525T215049Z` | 2026-05-25 21:51 UTC | [Clarified cache behavior and session naming docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260525T215049Z) |
 | `archive-20260525T201418Z` | 2026-05-25 20:16 UTC | [Usage breakdowns, managed MCP connector controls, and skill sync docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260525T201418Z) |
 | `archive-20260524T062323Z` | 2026-05-24 06:24 UTC | [Local Review and Shell Behavior Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260524T062323Z) |
 | `archive-20260523T042852Z` | 2026-05-23 04:29 UTC | [SDK and Subagent Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260523T042852Z) |
-| `archive-20260522T234548Z` | 2026-05-22 23:46 UTC | [Claude Code 2.1.149 changelog update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260522T234548Z) |
