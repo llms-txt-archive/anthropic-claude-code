@@ -20,7 +20,7 @@ This page covers how to:
 
 ## CLAUDE.md vs auto memory
 
-Claude Code has two complementary memory systems. Both are loaded at the start of every conversation. Claude treats them as context, not enforced configuration. The more specific and concise your instructions, the more consistently Claude follows them.
+Claude Code has two complementary memory systems. Both are loaded at the start of every conversation. Claude treats them as context, not enforced configuration. To block an action regardless of what Claude decides, use a [PreToolUse hook](/en/hooks-guide) instead. The more specific and concise your instructions, the more consistently Claude follows them.
 
 |                      | CLAUDE.md files                                   | Auto memory                                                      |
 | :------------------- | :------------------------------------------------ | :--------------------------------------------------------------- |
