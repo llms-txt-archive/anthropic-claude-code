@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260528T175222Z` | 2026-05-28 17:52 UTC | [Dynamic Workflows and Opus 4.8 Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260528T175222Z) |
+| `archive-20260528T205855Z` | 2026-05-28 20:58 UTC | [Claude Code 2.1.154 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260528T205855Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260528T175222Z` | 2026-05-28 17:54 UTC | [Dynamic Workflows and Opus 4.8 Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260528T175222Z) |
 | `archive-20260528T104151Z` | 2026-05-28 10:43 UTC | [Model Switching and Runtime Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260528T104151Z) |
 | `archive-20260528T012453Z` | 2026-05-28 01:25 UTC | [Claude Code 2.1.153 documentation sync](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260528T012453Z) |
 | `archive-20260527T205350Z` | 2026-05-27 20:56 UTC | [Standalone Docs, Review Flow, and Hook Updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260527T205350Z) |
-| `archive-20260527T181505Z` | 2026-05-27 18:16 UTC | [Four standalone guides removed; `/btw` docs expanded](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260527T181505Z) |
