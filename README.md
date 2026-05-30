@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260530T013050Z` | 2026-05-30 01:30 UTC | [Hosting Guidance and Skills-Directory Plugins](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260530T013050Z) |
+| `archive-20260530T080824Z` | 2026-05-30 08:08 UTC | [Claude Code 2.1.158 changelog update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260530T080824Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260530T013050Z` | 2026-05-30 01:32 UTC | [Hosting Guidance and Skills-Directory Plugins](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260530T013050Z) |
 | `archive-20260529T225920Z` | 2026-05-29 23:00 UTC | [Workflow docs and effort-level clarification](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260529T225920Z) |
 | `archive-20260529T210119Z` | 2026-05-29 21:02 UTC | [Agent SDK Setup Clarified, 2.1.157 Logged](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260529T210119Z) |
 | `archive-20260529T175545Z` | 2026-05-29 17:56 UTC | [WebSocket MCP docs and marketplace naming clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260529T175545Z) |
-| `archive-20260529T055736Z` | 2026-05-29 05:58 UTC | [Claude Code 2.1.156 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260529T055736Z) |
