@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260531T195259Z` | 2026-05-31 19:52 UTC | [Claude Code 2.1.159 Changelog Sync](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260531T195259Z) |
+| `archive-20260601T211746Z` | 2026-06-01 21:17 UTC | [Hooks and Prompt Caching Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260601T211746Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260531T195259Z` | 2026-05-31 19:53 UTC | [Claude Code 2.1.159 Changelog Sync](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260531T195259Z) |
 | `archive-20260530T195256Z` | 2026-05-30 19:53 UTC | [Claude Code Docs: Week 21 and Week 22 digests](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260530T195256Z) |
 | `archive-20260530T080824Z` | 2026-05-30 08:09 UTC | [Claude Code 2.1.158 changelog update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260530T080824Z) |
 | `archive-20260530T013050Z` | 2026-05-30 01:32 UTC | [Hosting Guidance and Skills-Directory Plugins](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260530T013050Z) |
-| `archive-20260529T225920Z` | 2026-05-29 23:00 UTC | [Workflow docs and effort-level clarification](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260529T225920Z) |
