@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260608T190908Z` | 2026-06-08 19:09 UTC | [Skills docs clarify temporary tool restrictions](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260608T190908Z) |
+| `archive-20260608T212705Z` | 2026-06-08 21:27 UTC | [Zero Data Retention Eligibility Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260608T212705Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260608T190908Z` | 2026-06-08 19:09 UTC | [Skills docs clarify temporary tool restrictions](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260608T190908Z) |
 | `archive-20260607T051215Z` | 2026-06-07 05:12 UTC | [Claude Code 2.1.168 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260607T051215Z) |
 | `archive-20260606T054032Z` | 2026-06-06 05:41 UTC | [Claude Code changelog updated for 2.1.166 and 2.1.167](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260606T054032Z) |
 | `archive-20260605T224715Z` | 2026-06-05 22:47 UTC | [Clarified model pinning and plugin telemetry docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260605T224715Z) |
-| `archive-20260605T211135Z` | 2026-06-05 21:12 UTC | [Claude Code Docs: hooks, version controls, and plugin reload updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260605T211135Z) |
