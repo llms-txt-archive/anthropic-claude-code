@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260609T013117Z` | 2026-06-09 01:31 UTC | [Dynamic workflows docs drop preview wording](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260609T013117Z) |
+| `archive-20260609T162107Z` | 2026-06-09 16:21 UTC | [Permission Rules, Safe Mode, and Cloud Session Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260609T162107Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260609T013117Z` | 2026-06-09 01:32 UTC | [Dynamic workflows docs drop preview wording](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260609T013117Z) |
 | `archive-20260608T230304Z` | 2026-06-08 23:04 UTC | [Claude Code 2.1.169 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260608T230304Z) |
 | `archive-20260608T212705Z` | 2026-06-08 21:27 UTC | [Zero Data Retention Eligibility Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260608T212705Z) |
 | `archive-20260608T190908Z` | 2026-06-08 19:09 UTC | [Skills docs clarify temporary tool restrictions](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260608T190908Z) |
-| `archive-20260607T051215Z` | 2026-06-07 05:12 UTC | [Claude Code 2.1.168 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260607T051215Z) |
