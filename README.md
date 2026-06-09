@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260609T183708Z` | 2026-06-09 18:37 UTC | [Fable 5 and CLI Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260609T183708Z) |
+| `archive-20260609T203606Z` | 2026-06-09 20:36 UTC | [Fable 5 and session behavior docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260609T203606Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260609T183708Z` | 2026-06-09 18:38 UTC | [Fable 5 and CLI Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260609T183708Z) |
 | `archive-20260609T162107Z` | 2026-06-09 16:22 UTC | [Permission Rules, Safe Mode, and Cloud Session Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260609T162107Z) |
 | `archive-20260609T013117Z` | 2026-06-09 01:32 UTC | [Dynamic workflows docs drop preview wording](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260609T013117Z) |
 | `archive-20260608T230304Z` | 2026-06-08 23:04 UTC | [Claude Code 2.1.169 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260608T230304Z) |
-| `archive-20260608T212705Z` | 2026-06-08 21:27 UTC | [Zero Data Retention Eligibility Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260608T212705Z) |
