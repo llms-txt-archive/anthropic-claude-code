@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260609T235841Z` | 2026-06-09 23:58 UTC | [Advisor Tool Docs and Provider Scope Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260609T235841Z) |
+| `archive-20260610T050617Z` | 2026-06-10 05:06 UTC | [Cloud Permission Mode Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260610T050617Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260609T235841Z` | 2026-06-09 23:59 UTC | [Advisor Tool Docs and Provider Scope Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260609T235841Z) |
 | `archive-20260609T221410Z` | 2026-06-09 22:14 UTC | [Settings docs clarify local file handling](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260609T221410Z) |
 | `archive-20260609T203606Z` | 2026-06-09 20:38 UTC | [Fable 5 and session behavior docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260609T203606Z) |
 | `archive-20260609T183708Z` | 2026-06-09 18:38 UTC | [Fable 5 and CLI Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260609T183708Z) |
-| `archive-20260609T162107Z` | 2026-06-09 16:22 UTC | [Permission Rules, Safe Mode, and Cloud Session Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260609T162107Z) |
