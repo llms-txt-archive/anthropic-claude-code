@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260611T051438Z` | 2026-06-11 05:14 UTC | [Claude Code 2.1.172 changelog sync](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260611T051438Z) |
+| `archive-20260611T095341Z` | 2026-06-11 09:53 UTC | [Claude Code 2.1.173 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260611T095341Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260611T051438Z` | 2026-06-11 05:15 UTC | [Claude Code 2.1.172 changelog sync](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260611T051438Z) |
 | `archive-20260611T000358Z` | 2026-06-11 00:04 UTC | [Custom Tools Removal and Plugin Setup Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260611T000358Z) |
 | `archive-20260610T195704Z` | 2026-06-10 19:58 UTC | [Static docs pass and plugin submission update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260610T195704Z) |
 | `archive-20260610T050617Z` | 2026-06-10 05:07 UTC | [Cloud Permission Mode Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260610T050617Z) |
-| `archive-20260609T235841Z` | 2026-06-09 23:59 UTC | [Advisor Tool Docs and Provider Scope Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260609T235841Z) |
