@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260612T142212Z` | 2026-06-12 14:22 UTC | [Hooks docs clarify optional SessionStart model data](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260612T142212Z) |
+| `archive-20260612T230320Z` | 2026-06-12 23:03 UTC | [Nested Subagents, Child Sessions, and Model Rule Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260612T230320Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260612T142212Z` | 2026-06-12 14:22 UTC | [Hooks docs clarify optional SessionStart model data](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260612T142212Z) |
 | `archive-20260612T112912Z` | 2026-06-12 11:29 UTC | [Claude Code June 12 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260612T112912Z) |
 | `archive-20260612T070750Z` | 2026-06-12 07:08 UTC | [IDE setup docs clarify account requirements](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260612T070750Z) |
 | `archive-20260612T015936Z` | 2026-06-12 02:00 UTC | [Session Scope, Review Targets, and MCP Tool Naming](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260612T015936Z) |
-| `archive-20260611T231023Z` | 2026-06-11 23:10 UTC | [Clarified VS Code CLI setup](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260611T231023Z) |
