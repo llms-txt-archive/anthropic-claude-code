@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260613T170240Z` | 2026-06-13 17:02 UTC | [Clarified settings source verification](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260613T170240Z) |
+| `archive-20260613T224538Z` | 2026-06-13 22:45 UTC | [Model Allowlist Enforcement Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260613T224538Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260613T170240Z` | 2026-06-13 17:03 UTC | [Clarified settings source verification](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260613T170240Z) |
 | `archive-20260613T064147Z` | 2026-06-13 06:42 UTC | [JetBrains plugin setup clarification](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260613T064147Z) |
 | `archive-20260613T015208Z` | 2026-06-13 01:52 UTC | [Claude Code 2.1.176 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260613T015208Z) |
 | `archive-20260612T230320Z` | 2026-06-12 23:04 UTC | [Nested Subagents, Child Sessions, and Model Rule Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260612T230320Z) |
-| `archive-20260612T142212Z` | 2026-06-12 14:22 UTC | [Hooks docs clarify optional SessionStart model data](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260612T142212Z) |
