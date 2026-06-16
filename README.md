@@ -7,7 +7,7 @@ Every change to the upstream docs produces a git commit and a GitHub release, so
 | | |
 |---|---|
 | **Source** | [https://code.claude.com/docs/llms.txt](https://code.claude.com/docs/llms.txt) |
-| **Documents** | 146 Markdown files |
+| **Documents** | 148 Markdown files |
 | **Schedule** | Hourly at :42 UTC |
 
 ## How it works
@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260615T220438Z` | 2026-06-15 22:04 UTC | [Diagram refresh and notice cleanup](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260615T220438Z) |
+| `archive-20260616T001619Z` | 2026-06-16 00:16 UTC | [Weekly digests and config docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260616T001619Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260615T220438Z` | 2026-06-15 22:05 UTC | [Diagram refresh and notice cleanup](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260615T220438Z) |
 | `archive-20260613T224538Z` | 2026-06-13 22:46 UTC | [Model Allowlist Enforcement Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260613T224538Z) |
 | `archive-20260613T170240Z` | 2026-06-13 17:03 UTC | [Clarified settings source verification](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260613T170240Z) |
 | `archive-20260613T064147Z` | 2026-06-13 06:42 UTC | [JetBrains plugin setup clarification](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260613T064147Z) |
-| `archive-20260613T015208Z` | 2026-06-13 01:52 UTC | [Claude Code 2.1.176 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260613T015208Z) |
