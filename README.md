@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260616T230938Z` | 2026-06-16 23:09 UTC | [Agent Teams and Config Discovery Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260616T230938Z) |
+| `archive-20260617T081509Z` | 2026-06-17 08:15 UTC | [Changelog Update for Linux Sandbox Symlink Fix](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260617T081509Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260616T230938Z` | 2026-06-16 23:11 UTC | [Agent Teams and Config Discovery Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260616T230938Z) |
 | `archive-20260616T213518Z` | 2026-06-16 21:35 UTC | [Permissions Rule Precedence Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260616T213518Z) |
 | `archive-20260616T001619Z` | 2026-06-16 00:17 UTC | [Weekly digests and config docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260616T001619Z) |
 | `archive-20260615T220438Z` | 2026-06-15 22:05 UTC | [Diagram refresh and notice cleanup](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260615T220438Z) |
-| `archive-20260613T224538Z` | 2026-06-13 22:46 UTC | [Model Allowlist Enforcement Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260613T224538Z) |
