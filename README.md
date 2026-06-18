@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260617T230728Z` | 2026-06-17 23:07 UTC | [Claude Code 2.1.181 Changelog Sync](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260617T230728Z) |
+| `archive-20260618T020345Z` | 2026-06-18 02:03 UTC | [Memory docs clarify literal `@` references](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260618T020345Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260617T230728Z` | 2026-06-17 23:08 UTC | [Claude Code 2.1.181 Changelog Sync](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260617T230728Z) |
 | `archive-20260617T162844Z` | 2026-06-17 16:29 UTC | [Clarified skill naming and subagent tool filtering](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260617T162844Z) |
 | `archive-20260617T081509Z` | 2026-06-17 08:15 UTC | [Changelog Update for Linux Sandbox Symlink Fix](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260617T081509Z) |
 | `archive-20260616T230938Z` | 2026-06-16 23:11 UTC | [Agent Teams and Config Discovery Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260616T230938Z) |
-| `archive-20260616T213518Z` | 2026-06-16 21:35 UTC | [Permissions Rule Precedence Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260616T213518Z) |
