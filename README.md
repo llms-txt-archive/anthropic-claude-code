@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260620T224829Z` | 2026-06-20 22:48 UTC | [Claude Code 2.1.185 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260620T224829Z) |
+| `archive-20260622T214849Z` | 2026-06-22 21:48 UTC | [Claude Code 2.1.186 Changelog Sync](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260622T214849Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260620T224829Z` | 2026-06-20 22:49 UTC | [Claude Code 2.1.185 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260620T224829Z) |
 | `archive-20260619T234659Z` | 2026-06-19 23:47 UTC | [Connector controls and headless behavior updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260619T234659Z) |
 | `archive-20260619T214921Z` | 2026-06-19 21:49 UTC | [TypeScript SDK rate-limit credit fields](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260619T214921Z) |
 | `archive-20260619T022146Z` | 2026-06-19 02:22 UTC | [Claude Code 2.1.183 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260619T022146Z) |
-| `archive-20260618T232349Z` | 2026-06-18 23:24 UTC | [Skills Guide Adds Evaluation Workflow](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260618T232349Z) |
