@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260624T013041Z` | 2026-06-24 01:30 UTC | [Claude Code 2.1.187 Changelog Sync](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260624T013041Z) |
+| `archive-20260624T173139Z` | 2026-06-24 17:31 UTC | [Model Controls and Managed Settings Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260624T173139Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260624T013041Z` | 2026-06-24 01:31 UTC | [Claude Code 2.1.187 Changelog Sync](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260624T013041Z) |
 | `archive-20260623T211948Z` | 2026-06-23 21:20 UTC | [Agent View Dispatch and Claude Tag Updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260623T211948Z) |
 | `archive-20260622T235404Z` | 2026-06-22 23:55 UTC | [Plugin Relevance, MCP Auth, and Retry Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260622T235404Z) |
 | `archive-20260622T214849Z` | 2026-06-22 21:49 UTC | [Claude Code 2.1.186 Changelog Sync](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260622T214849Z) |
-| `archive-20260620T224829Z` | 2026-06-20 22:49 UTC | [Claude Code 2.1.185 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260620T224829Z) |
