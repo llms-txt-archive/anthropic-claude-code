@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260625T095750Z` | 2026-06-25 09:57 UTC | [Claude Code 2.1.191 Notes Added](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260625T095750Z) |
+| `archive-20260625T160934Z` | 2026-06-25 16:09 UTC | [Troubleshooting updates for MCP and hidden CLI commands](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260625T160934Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260625T095750Z` | 2026-06-25 09:58 UTC | [Claude Code 2.1.191 Notes Added](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260625T095750Z) |
 | `archive-20260625T055054Z` | 2026-06-25 05:52 UTC | [LLM Gateway Docs Restructured](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260625T055054Z) |
 | `archive-20260624T211229Z` | 2026-06-24 21:13 UTC | [Permission Modes Wording Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260624T211229Z) |
 | `archive-20260624T191754Z` | 2026-06-24 19:18 UTC | [Claude Code docs clarify plugins, history search, and subagent depth](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260624T191754Z) |
-| `archive-20260624T173139Z` | 2026-06-24 17:32 UTC | [Model Controls and Managed Settings Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260624T173139Z) |
