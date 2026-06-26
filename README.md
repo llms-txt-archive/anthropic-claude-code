@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260625T230218Z` | 2026-06-25 23:02 UTC | [Monitoring Usage Attribution Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260625T230218Z) |
+| `archive-20260626T015208Z` | 2026-06-26 01:52 UTC | [Owner Access Clarifications and 2.1.193 Updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260626T015208Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260625T230218Z` | 2026-06-25 23:02 UTC | [Monitoring Usage Attribution Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260625T230218Z) |
 | `archive-20260625T211743Z` | 2026-06-25 21:18 UTC | [Feature Availability and Agent Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260625T211743Z) |
 | `archive-20260625T185659Z` | 2026-06-25 18:57 UTC | [Trusted Devices and Compatibility Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260625T185659Z) |
 | `archive-20260625T160934Z` | 2026-06-25 16:10 UTC | [Troubleshooting updates for MCP and hidden CLI commands](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260625T160934Z) |
-| `archive-20260625T095750Z` | 2026-06-25 09:58 UTC | [Claude Code 2.1.191 Notes Added](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260625T095750Z) |
