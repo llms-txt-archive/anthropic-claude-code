@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260626T210901Z` | 2026-06-26 21:09 UTC | [Session scripting and fast mode updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260626T210901Z) |
+| `archive-20260626T224906Z` | 2026-06-26 22:49 UTC | [Agent SDK and Cloud Session Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260626T224906Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260626T210901Z` | 2026-06-26 21:10 UTC | [Session scripting and fast mode updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260626T210901Z) |
 | `archive-20260626T063845Z` | 2026-06-26 06:39 UTC | [PowerShell PATH troubleshooting clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260626T063845Z) |
 | `archive-20260626T015208Z` | 2026-06-26 01:52 UTC | [Owner Access Clarifications and 2.1.193 Updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260626T015208Z) |
 | `archive-20260625T230218Z` | 2026-06-25 23:02 UTC | [Monitoring Usage Attribution Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260625T230218Z) |
-| `archive-20260625T211743Z` | 2026-06-25 21:18 UTC | [Feature Availability and Agent Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260625T211743Z) |
