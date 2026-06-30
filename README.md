@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260629T211257Z` | 2026-06-29 21:12 UTC | [Claude Apps Gateway Docs and Gateway Guide Split](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260629T211257Z) |
+| `archive-20260630T064120Z` | 2026-06-30 06:41 UTC | [Agent Handoff, Plugin Migration, and Monitor Docs Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260630T064120Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260629T211257Z` | 2026-06-29 21:14 UTC | [Claude Apps Gateway Docs and Gateway Guide Split](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260629T211257Z) |
 | `archive-20260627T013353Z` | 2026-06-27 01:34 UTC | [Week 25-26 digests and June 26 changelog](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260627T013353Z) |
 | `archive-20260626T224906Z` | 2026-06-26 22:50 UTC | [Agent SDK and Cloud Session Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260626T224906Z) |
 | `archive-20260626T210901Z` | 2026-06-26 21:10 UTC | [Session scripting and fast mode updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260626T210901Z) |
-| `archive-20260626T063845Z` | 2026-06-26 06:39 UTC | [PowerShell PATH troubleshooting clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260626T063845Z) |
