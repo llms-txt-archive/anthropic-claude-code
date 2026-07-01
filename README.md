@@ -7,7 +7,7 @@ Every change to the upstream docs produces a git commit and a GitHub release, so
 | | |
 |---|---|
 | **Source** | [https://code.claude.com/docs/llms.txt](https://code.claude.com/docs/llms.txt) |
-| **Documents** | 163 Markdown files |
+| **Documents** | 156 Markdown files |
 | **Schedule** | Hourly at :42 UTC |
 
 ## How it works
@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260630T225629Z` | 2026-06-30 22:56 UTC | [Permission, Hook, and Policy Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260630T225629Z) |
+| `archive-20260701T015801Z` | 2026-07-01 01:58 UTC | [Claude Code guide removals and agent behavior clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260701T015801Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260630T225629Z` | 2026-06-30 22:57 UTC | [Permission, Hook, and Policy Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260630T225629Z) |
 | `archive-20260630T192357Z` | 2026-06-30 19:24 UTC | [Sonnet 5 Default and 1M Context Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260630T192357Z) |
 | `archive-20260630T172814Z` | 2026-06-30 17:28 UTC | [Claude Desktop Linux Beta Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260630T172814Z) |
 | `archive-20260630T064120Z` | 2026-06-30 06:43 UTC | [Agent Handoff, Plugin Migration, and Monitor Docs Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260630T064120Z) |
-| `archive-20260629T211257Z` | 2026-06-29 21:14 UTC | [Claude Apps Gateway Docs and Gateway Guide Split](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260629T211257Z) |
