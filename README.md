@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260702T181944Z` | 2026-07-02 18:19 UTC | [Artifacts docs now cover Pro and Max access](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260702T181944Z) |
+| `archive-20260702T200712Z` | 2026-07-02 20:07 UTC | [Task Checklist and Setup Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260702T200712Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260702T181944Z` | 2026-07-02 18:20 UTC | [Artifacts docs now cover Pro and Max access](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260702T181944Z) |
 | `archive-20260702T054207Z` | 2026-07-02 05:42 UTC | [Clarified model restriction guidance](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260702T054207Z) |
 | `archive-20260702T013604Z` | 2026-07-02 01:36 UTC | [Claude Code 2.1.198 Notes and Artifacts Wording Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260702T013604Z) |
 | `archive-20260701T211136Z` | 2026-07-01 21:12 UTC | [Clarified IDE Extension Auto-Install Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260701T211136Z) |
-| `archive-20260701T192339Z` | 2026-07-01 19:24 UTC | [Sonnet 5 model docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260701T192339Z) |
