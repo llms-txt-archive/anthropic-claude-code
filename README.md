@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260703T043028Z` | 2026-07-03 04:30 UTC | [Background Agents, Org Model Controls, and Gateway AWS Support](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260703T043028Z) |
+| `archive-20260703T075035Z` | 2026-07-03 07:50 UTC | [TypeScript SDK sandbox error handling clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260703T075035Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260703T043028Z` | 2026-07-03 04:31 UTC | [Background Agents, Org Model Controls, and Gateway AWS Support](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260703T043028Z) |
 | `archive-20260702T234425Z` | 2026-07-02 23:45 UTC | [Workflow Guide Adds Example Prompts](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260702T234425Z) |
 | `archive-20260702T200712Z` | 2026-07-02 20:07 UTC | [Task Checklist and Setup Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260702T200712Z) |
 | `archive-20260702T181944Z` | 2026-07-02 18:20 UTC | [Artifacts docs now cover Pro and Max access](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260702T181944Z) |
-| `archive-20260702T054207Z` | 2026-07-02 05:42 UTC | [Clarified model restriction guidance](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260702T054207Z) |
