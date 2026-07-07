@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260706T211421Z` | 2026-07-06 21:14 UTC | [Add gateway config and GitHub Actions docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260706T211421Z) |
+| `archive-20260707T012302Z` | 2026-07-07 01:23 UTC | [Workflow Sizing and v2.1.202 Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260707T012302Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260706T211421Z` | 2026-07-06 21:14 UTC | [Add gateway config and GitHub Actions docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260706T211421Z) |
 | `archive-20260706T192322Z` | 2026-07-06 19:24 UTC | [Gateway and GitHub Actions Pages Retired; Linux Install Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260706T192322Z) |
 | `archive-20260706T164418Z` | 2026-07-06 16:45 UTC | [GHES Marketplace Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260706T164418Z) |
 | `archive-20260704T042406Z` | 2026-07-04 04:25 UTC | [Cloud Session and Provider Naming Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260704T042406Z) |
-| `archive-20260703T224117Z` | 2026-07-03 22:41 UTC | [Clarified SDK error, todo, and rewind docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260703T224117Z) |
