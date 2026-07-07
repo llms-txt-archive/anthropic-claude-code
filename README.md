@@ -7,7 +7,7 @@ Every change to the upstream docs produces a git commit and a GitHub release, so
 | | |
 |---|---|
 | **Source** | [https://code.claude.com/docs/llms.txt](https://code.claude.com/docs/llms.txt) |
-| **Documents** | 163 Markdown files |
+| **Documents** | 162 Markdown files |
 | **Schedule** | Hourly at :42 UTC |
 
 ## How it works
@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260707T161130Z` | 2026-07-07 16:11 UTC | [Agent SDK and Plugin MCP Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260707T161130Z) |
+| `archive-20260707T183614Z` | 2026-07-07 18:36 UTC | [Agent SDK checkpointing page removed](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260707T183614Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260707T161130Z` | 2026-07-07 16:12 UTC | [Agent SDK and Plugin MCP Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260707T161130Z) |
 | `archive-20260707T012302Z` | 2026-07-07 01:26 UTC | [Workflow Sizing and v2.1.202 Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260707T012302Z) |
 | `archive-20260706T211421Z` | 2026-07-06 21:14 UTC | [Add gateway config and GitHub Actions docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260706T211421Z) |
 | `archive-20260706T192322Z` | 2026-07-06 19:24 UTC | [Gateway and GitHub Actions Pages Retired; Linux Install Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260706T192322Z) |
-| `archive-20260706T164418Z` | 2026-07-06 16:45 UTC | [GHES Marketplace Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260706T164418Z) |
