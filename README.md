@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260708T155320Z` | 2026-07-08 15:53 UTC | [Background session, ultracode, and Foundry auth docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260708T155320Z) |
+| `archive-20260708T180557Z` | 2026-07-08 18:05 UTC | [Clarified MCP and Plugin Configuration Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260708T180557Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260708T155320Z` | 2026-07-08 15:54 UTC | [Background session, ultracode, and Foundry auth docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260708T155320Z) |
 | `archive-20260708T075746Z` | 2026-07-08 07:58 UTC | [Claude Code changelog adds 2.1.203 and 2.1.204](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260708T075746Z) |
 | `archive-20260707T203200Z` | 2026-07-07 20:32 UTC | [Agent SDK File Checkpointing Page Added](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260707T203200Z) |
 | `archive-20260707T183614Z` | 2026-07-07 18:37 UTC | [Agent SDK checkpointing page removed](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260707T183614Z) |
-| `archive-20260707T161130Z` | 2026-07-07 16:12 UTC | [Agent SDK and Plugin MCP Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260707T161130Z) |
