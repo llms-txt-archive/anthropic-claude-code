@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260711T044738Z` | 2026-07-11 04:47 UTC | [Week 27-28 digests and model default refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260711T044738Z) |
+| `archive-20260711T072640Z` | 2026-07-11 07:26 UTC | [Permission Prompt Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260711T072640Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260711T044738Z` | 2026-07-11 04:48 UTC | [Week 27-28 digests and model default refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260711T044738Z) |
 | `archive-20260711T010910Z` | 2026-07-11 01:09 UTC | [Claude Code 2.1.207 Changelog Sync](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260711T010910Z) |
 | `archive-20260710T200530Z` | 2026-07-10 20:06 UTC | [Added integration and tool search docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260710T200530Z) |
 | `archive-20260710T181244Z` | 2026-07-10 18:13 UTC | [Archive trims provider and gateway guides](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260710T181244Z) |
-| `archive-20260710T160552Z` | 2026-07-10 16:06 UTC | [System prompt file docs and Linux install troubleshooting](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260710T160552Z) |
