@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260710T200530Z` | 2026-07-10 20:05 UTC | [Added integration and tool search docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260710T200530Z) |
+| `archive-20260711T010910Z` | 2026-07-11 01:09 UTC | [Claude Code 2.1.207 Changelog Sync](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260711T010910Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260710T200530Z` | 2026-07-10 20:06 UTC | [Added integration and tool search docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260710T200530Z) |
 | `archive-20260710T181244Z` | 2026-07-10 18:13 UTC | [Archive trims provider and gateway guides](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260710T181244Z) |
 | `archive-20260710T160552Z` | 2026-07-10 16:06 UTC | [System prompt file docs and Linux install troubleshooting](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260710T160552Z) |
 | `archive-20260710T011505Z` | 2026-07-10 01:15 UTC | [Claude Code 2.1.206 and Desktop 3P doc rename](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260710T011505Z) |
-| `archive-20260709T210645Z` | 2026-07-09 21:07 UTC | [Browser pane docs and new standalone references](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260709T210645Z) |
