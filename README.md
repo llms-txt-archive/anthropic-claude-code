@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260714T184627Z` | 2026-07-14 18:46 UTC | [Install guidance and blog cross-links refreshed](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260714T184627Z) |
+| `archive-20260714T204308Z` | 2026-07-14 20:43 UTC | [Bedrock, Errors, and Background Sessions](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260714T204308Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260714T184627Z` | 2026-07-14 18:47 UTC | [Install guidance and blog cross-links refreshed](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260714T184627Z) |
 | `archive-20260714T165016Z` | 2026-07-14 16:50 UTC | [Setup Guide Formatting Cleanup](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260714T165016Z) |
 | `archive-20260714T065709Z` | 2026-07-14 06:57 UTC | [Claude Code docs changelog updated for 2.1.209](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260714T065709Z) |
 | `archive-20260714T043407Z` | 2026-07-14 04:34 UTC | [Auto Mode Boundaries and 2.1.208 Notes](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260714T043407Z) |
-| `archive-20260714T010344Z` | 2026-07-14 01:04 UTC | [Artifact Sharing and CLI Behavior Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260714T010344Z) |
