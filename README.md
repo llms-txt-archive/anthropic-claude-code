@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260714T043407Z` | 2026-07-14 04:34 UTC | [Auto Mode Boundaries and 2.1.208 Notes](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260714T043407Z) |
+| `archive-20260714T065709Z` | 2026-07-14 06:57 UTC | [Claude Code docs changelog updated for 2.1.209](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260714T065709Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260714T043407Z` | 2026-07-14 04:34 UTC | [Auto Mode Boundaries and 2.1.208 Notes](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260714T043407Z) |
 | `archive-20260714T010344Z` | 2026-07-14 01:04 UTC | [Artifact Sharing and CLI Behavior Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260714T010344Z) |
 | `archive-20260713T233416Z` | 2026-07-13 23:34 UTC | [IDE MCP, Hooks, and Artifact Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260713T233416Z) |
 | `archive-20260713T223718Z` | 2026-07-13 22:38 UTC | [Desktop Network Access and Gateway Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260713T223718Z) |
-| `archive-20260713T213709Z` | 2026-07-13 21:38 UTC | [Auto Mode, Agent View, and Provider Auth Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260713T213709Z) |
