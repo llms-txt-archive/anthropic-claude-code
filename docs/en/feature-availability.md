@@ -53,7 +53,7 @@ These require signing in with a claude.ai account and are not reachable with an 
 * [Artifacts](/en/artifacts): Pro, Max, Team, and Enterprise plans
 * [Voice dictation](/en/voice-dictation)
 
-Desktop is the partial exception: Enterprise deployments can route Desktop to Google Cloud's Agent Platform or a gateway provider via [managed settings](https://claude.com/docs/third-party/claude-desktop/configuration), and [Claude Desktop on 3P](https://claude.com/docs/third-party/claude-desktop/overview) runs the Code tab on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry, or a self-hosted LLM gateway. For per-plan availability of these features, see [Availability by subscription plan](#availability-by-subscription-plan).
+Desktop is the partial exception: [gateway routing can be configured in the app or by an administrator](/en/llm-gateway-connect#desktop-app), Enterprise deployments can route Desktop to Google Cloud's Agent Platform or a gateway provider via [managed settings](https://claude.com/docs/third-party/claude-desktop/configuration), and [Claude Desktop on 3P](https://claude.com/docs/third-party/claude-desktop/overview) runs the Code tab on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry, or a self-hosted LLM gateway. For per-plan availability of these features, see [Availability by subscription plan](#availability-by-subscription-plan).
 
 ### CLI capabilities that vary by provider
 
