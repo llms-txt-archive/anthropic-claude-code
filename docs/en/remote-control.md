@@ -102,7 +102,7 @@ You can start a Remote Control session from the CLI or the VS Code extension. Th
     /remote-control
     ```
 
-    A banner appears above the prompt box showing connection status. Once connected, click **Open in browser** in the banner to go directly to the session, or find it in the session list at [claude.ai/code](https://claude.ai/code). The session URL is also posted in the conversation.
+    A banner appears above the prompt box showing connection status. Once connected, click **claude.ai/code** in the banner to go directly to the session, or find it in the session list at [claude.ai/code](https://claude.ai/code). Claude Code also posts the session URL in the conversation.
 
     To disconnect, click the close icon on the banner or run `/remote-control` again.
 
@@ -261,6 +261,7 @@ Claude Code skips mobile push notifications while you are typing in or focused o
   * `/model`, `/effort`, `/fast`, `/color`, and `/rename`: pass the value as an argument, for example `/model sonnet` or `/effort high`. From mobile and web, `/model` and `/effort` take the argument in place of the terminal picker or slider.
   * {/* min-version: 2.1.166 */}`/mcp`, from v2.1.166: from the mobile app, returns a text summary of server status instead of opening the picker. On the web, `/mcp` on its own opens a directory of [claude.ai connectors](/en/mcp#use-mcp-servers-from-claude-ai) instead of returning the summary. The `reconnect`, `enable`, and `disable` [subcommands](/en/commands#all-commands) work from both. Unlike the local CLI, `/mcp reconnect` without a server name reconnects every server that has failed or needs authentication.
   * {/* min-version: 2.1.181 */}`/config`, from v2.1.181: from the mobile app, pass `key=value` to set a setting, or run it with no argument to list the keys you can set. On the web, `/config` opens the Claude Code section of your settings instead, and ignores text after the command.
+  * {/* min-version: 2.1.211 */}On Team and Enterprise, `/usage-credits` from mobile or web doesn't send a [usage-credits request to your admin](/en/costs#set-a-spend-limit-on-pro-and-max). Sending requires a confirmation that appears only in the interactive CLI, so the command tells you to run it there instead. Before v2.1.211, the text form sent the request without confirmation.
 
 ## Troubleshooting
 
