@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260715T214021Z` | 2026-07-15 21:40 UTC | [Connector Artifacts and Permission Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260715T214021Z) |
+| `archive-20260716T010918Z` | 2026-07-16 01:09 UTC | [Claude Code 2.1.211 Changelog Sync](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260716T010918Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260715T214021Z` | 2026-07-15 21:41 UTC | [Connector Artifacts and Permission Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260715T214021Z) |
 | `archive-20260715T204111Z` | 2026-07-15 20:41 UTC | [Desktop Gateway Setup and Agent SDK Additions](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260715T204111Z) |
 | `archive-20260715T184542Z` | 2026-07-15 18:46 UTC | [SDK Guide Removal and Provider Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260715T184542Z) |
 | `archive-20260715T165509Z` | 2026-07-15 16:56 UTC | [Login, MCP, and worktree clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260715T165509Z) |
-| `archive-20260715T151108Z` | 2026-07-15 15:11 UTC | [Gateway Connectivity Docs Expanded](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260715T151108Z) |
