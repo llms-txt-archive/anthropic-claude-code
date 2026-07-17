@@ -110,6 +110,7 @@
 - [Connect to MCP servers](https://code.claude.com/docs/en/mcp-quickstart.md): Add an MCP server to Claude Code, verify the connection, and find the configuration on disk.
 - [How Claude remembers your project](https://code.claude.com/docs/en/memory.md): Give Claude persistent instructions with CLAUDE.md files, and let Claude accumulate learnings automatically with auto memory.
 - [Claude Code on Microsoft Foundry](https://code.claude.com/docs/en/microsoft-foundry.md): Learn about configuring Claude Code through Microsoft Foundry, including setup, configuration, and troubleshooting.
+- [Claude Code on mobile](https://code.claude.com/docs/en/mobile.md): Start, monitor, and steer Claude Code tasks from your phone with the Claude app for iOS and Android.
 - [Model configuration](https://code.claude.com/docs/en/model-config.md): Learn about the Claude Code model configuration, including model aliases like `opusplan`
 - [Monitoring](https://code.claude.com/docs/en/monitoring-usage.md): Learn how to enable and configure OpenTelemetry for Claude Code.
 - [Enterprise network configuration](https://code.claude.com/docs/en/network-config.md): Configure Claude Code for enterprise environments with proxy servers, custom Certificate Authorities (CA), and mutual Transport Layer Security (mTLS) authentication.
