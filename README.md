@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260718T010413Z` | 2026-07-18 01:04 UTC | [Agent View, Worktrees, and Gateway Policy Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260718T010413Z) |
+| `archive-20260718T043235Z` | 2026-07-18 04:32 UTC | [Forking, Search Caps, and Review Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260718T043235Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260718T010413Z` | 2026-07-18 01:05 UTC | [Agent View, Worktrees, and Gateway Policy Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260718T010413Z) |
 | `archive-20260717T233236Z` | 2026-07-17 23:33 UTC | [MCP Timing and Subagent Limits](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260717T233236Z) |
 | `archive-20260717T223038Z` | 2026-07-17 22:31 UTC | [Expanded hook reference and workflow clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260717T223038Z) |
 | `archive-20260717T213154Z` | 2026-07-17 21:33 UTC | [Mobile docs and workflow clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260717T213154Z) |
-| `archive-20260717T194750Z` | 2026-07-17 19:48 UTC | [Week 29 digest and OAuth token scope clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260717T194750Z) |
