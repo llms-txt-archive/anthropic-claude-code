@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260721T223447Z` | 2026-07-21 22:34 UTC | [Desktop Preview and Simulator Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260721T223447Z) |
+| `archive-20260721T234007Z` | 2026-07-21 23:40 UTC | [Usage Credits and Spend Limits](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260721T234007Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260721T223447Z` | 2026-07-21 22:35 UTC | [Desktop Preview and Simulator Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260721T223447Z) |
 | `archive-20260721T204817Z` | 2026-07-21 20:49 UTC | [iOS Simulator Docs Split-Out](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260721T204817Z) |
 | `archive-20260721T185352Z` | 2026-07-21 18:54 UTC | [Channel, telemetry, and session docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260721T185352Z) |
 | `archive-20260721T170102Z` | 2026-07-21 17:02 UTC | [Sandboxing, Telemetry, and Rewind Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260721T170102Z) |
-| `archive-20260721T152447Z` | 2026-07-21 15:25 UTC | [Chrome Integration Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260721T152447Z) |
