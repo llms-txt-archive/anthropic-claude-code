@@ -459,6 +459,7 @@ Each entry in the `configurations` array accepts the following fields:
 | `autoPort`          | boolean   | How to handle port conflicts. See below                                                                                                                                                                                                                                  |
 | `program`           | string    | A script to run with `node`. See [when to use `program` vs `runtimeExecutable`](#when-to-use-program-vs-runtimeexecutable)                                                                                                                                               |
 | `args`              | string\[] | Arguments passed to `program`. Only used when `program` is set                                                                                                                                                                                                           |
+| `url`               | string    | The address the preview opens instead of `http://localhost:<port>`. See [open the preview at a specific URL](#open-the-preview-at-a-specific-url)                                                                                                                        |
 
 <a id="when-to-use-program-vs-runtimeexecutable" />
 
@@ -467,6 +468,47 @@ Each entry in the `configurations` array accepts the following fields:
 Use `runtimeExecutable` with `runtimeArgs` to start a dev server through a package manager. For example, `"runtimeExecutable": "npm"` with `"runtimeArgs": ["run", "dev"]` runs `npm run dev`.
 
 Use `program` when you have a standalone script you want to run with `node` directly. For example, `"program": "server.js"` runs `node server.js`. Pass additional flags with `args`.
+
+<a id="open-the-preview-at-a-specific-url" />
+
+##### Open the preview at a specific URL
+
+By default, the preview opens `http://localhost:<port>`. Set `url` when your server needs a different address. Common cases are servers that require local HTTPS, apps that use `*.localhost` subdomains, and apps that sign you in through a redirect.
+
+```json theme={null}
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "my-app",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 8443,
+      "url": "https://localhost:8443"
+    }
+  ]
+}
+```
+
+Localhost addresses open directly, exactly like the default port address. This includes `localhost`, any `*.localhost` subdomain, `127.0.0.1`, and `::1`. For security, a localhost `url` must be just your server's origin — no path or query, and the port must match the entry's port. To show a specific page, ask Claude to navigate there after the preview opens. A localhost `url` with a path, query, or mismatched port is reported as a configuration error that names the url and shows the fix.
+
+Any other address asks for your permission the first time it opens, the same way browsing to a new site in the preview does. External addresses may include paths. Choose **Always allow** to skip the prompt for that site in the future. Organization policies that restrict external sites in the preview still apply.
+
+To preview a server you already run yourself, set `url` without a command. Claude attaches the preview to your running server instead of starting one:
+
+```json theme={null}
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "my-app",
+      "url": "https://app.localhost:3000"
+    }
+  ]
+}
+```
+
+The `url` must be `http` or `https`, and must not contain a username or password.
 
 #### Port conflicts
 
@@ -649,6 +691,7 @@ Managed settings override project and user settings and apply to Claude Code ses
 | `disableAutoMode`                          | set to `"disable"` to prevent users from enabling [Auto](/docs/en/permission-modes#eliminate-prompts-with-auto-mode) mode. Removes Auto from the mode selector. Also accepted under `permissions`.                                                                                                                                                                                                                                                           |
 | `autoMode`                                 | customize what the auto mode classifier trusts and blocks across your organization. See [Configure auto mode](/docs/en/auto-mode-config).                                                                                                                                                                                                                                                                                                                    |
 | `browserExternalPageTools`                 | set to `"disabled"` to prevent Claude from using tools to read or act on external pages in the [Browser pane](#browse-external-sites). Users can still navigate to external sites themselves, and local dev server previews are unaffected.                                                                                                                                                                                                             |
+| `disableMobileSimulatorTools`              | set to `true` to block Claude's tools for controlling and capturing devices in the [iOS Simulator pane](/docs/en/desktop-ios-simulator#turn-off-simulator-access). The pane stays usable for the user's own taps; only Claude's access is removed.                                                                                                                                                                                                           |
 | `disableBrowserExternalNavigation`         | set to `true` to turn off external browsing in the [Browser pane](#browse-external-sites) entirely. Neither users nor Claude can navigate to external sites, and localhost dev server previews are unaffected. The value must be the JSON boolean `true`; the string `"true"` is ignored.                                                                                                                                                               |
 | `sshConfigs`                               | pre-configure [SSH connections](#pre-configure-ssh-connections-for-your-team) that appear in the environment dropdown. Users cannot edit or delete managed connections.                                                                                                                                                                                                                                                                                 |
 | `sshHostAllowlist`                         | restrict [SSH sessions](#restrict-which-ssh-hosts-users-can-connect-to) to hosts whose resolved hostname matches one of these patterns. An empty array disables SSH sessions. Read from managed settings only.                                                                                                                                                                                                                                          |
