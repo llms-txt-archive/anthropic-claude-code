@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260721T010842Z` | 2026-07-21 01:08 UTC | [EndConversation reference and troubleshooting expansion](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260721T010842Z) |
+| `archive-20260721T045204Z` | 2026-07-21 04:52 UTC | [Claude Code Docs Route and Admin Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260721T045204Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260721T010842Z` | 2026-07-21 01:10 UTC | [EndConversation reference and troubleshooting expansion](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260721T010842Z) |
 | `archive-20260720T233845Z` | 2026-07-20 23:39 UTC | [Agent SDK and Session Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260720T233845Z) |
 | `archive-20260720T223742Z` | 2026-07-20 22:38 UTC | [Claude Code 2.1.216 Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260720T223742Z) |
 | `archive-20260720T205212Z` | 2026-07-20 20:53 UTC | [Monitoring docs distinguish terminal and Desktop Code tab telemetry](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260720T205212Z) |
-| `archive-20260720T191623Z` | 2026-07-20 19:16 UTC | [Expanded network allowlist guidance](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260720T191623Z) |
