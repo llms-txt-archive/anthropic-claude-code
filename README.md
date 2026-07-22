@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260722T204401Z` | 2026-07-22 20:44 UTC | [Cloud Naming and Behavior Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260722T204401Z) |
+| `archive-20260722T224015Z` | 2026-07-22 22:40 UTC | [Claude Code 2.1.218 and Usage Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260722T224015Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260722T204401Z` | 2026-07-22 20:45 UTC | [Cloud Naming and Behavior Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260722T204401Z) |
 | `archive-20260722T170103Z` | 2026-07-22 17:01 UTC | [Claude Security docs and session branching clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260722T170103Z) |
 | `archive-20260721T234007Z` | 2026-07-21 23:41 UTC | [Usage Credits and Spend Limits](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260721T234007Z) |
 | `archive-20260721T223447Z` | 2026-07-21 22:35 UTC | [Desktop Preview and Simulator Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260721T223447Z) |
-| `archive-20260721T204817Z` | 2026-07-21 20:49 UTC | [iOS Simulator Docs Split-Out](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260721T204817Z) |
