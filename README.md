@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260723T045737Z` | 2026-07-23 04:57 UTC | [Subagent docs clarify nesting and tool limits](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260723T045737Z) |
+| `archive-20260723T153541Z` | 2026-07-23 15:35 UTC | [Background Sessions, Permissions, and Auto Mode](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260723T153541Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260723T045737Z` | 2026-07-23 04:58 UTC | [Subagent docs clarify nesting and tool limits](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260723T045737Z) |
 | `archive-20260722T234141Z` | 2026-07-22 23:42 UTC | [Accessibility, Background Task, and MCP Auth Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260722T234141Z) |
 | `archive-20260722T224015Z` | 2026-07-22 22:41 UTC | [Claude Code 2.1.218 and Usage Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260722T224015Z) |
 | `archive-20260722T204401Z` | 2026-07-22 20:45 UTC | [Cloud Naming and Behavior Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260722T204401Z) |
-| `archive-20260722T170103Z` | 2026-07-22 17:01 UTC | [Claude Security docs and session branching clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260722T170103Z) |
