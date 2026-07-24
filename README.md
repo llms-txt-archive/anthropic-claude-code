@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260724T190404Z` | 2026-07-24 19:04 UTC | [Claude Code 2.1.219 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260724T190404Z) |
+| `archive-20260724T205021Z` | 2026-07-24 20:50 UTC | [Fast Mode and Runtime Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260724T205021Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260724T190404Z` | 2026-07-24 19:04 UTC | [Claude Code 2.1.219 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260724T190404Z) |
 | `archive-20260724T171116Z` | 2026-07-24 17:12 UTC | [Opus 5 Defaults and Fallback Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260724T171116Z) |
 | `archive-20260724T010716Z` | 2026-07-24 01:08 UTC | [Review workflow docs expanded](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260724T010716Z) |
 | `archive-20260723T233721Z` | 2026-07-23 23:38 UTC | [Troubleshooting and Reference Expansion](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260723T233721Z) |
-| `archive-20260723T184958Z` | 2026-07-23 18:50 UTC | [Claude Security Troubleshooting Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260723T184958Z) |
