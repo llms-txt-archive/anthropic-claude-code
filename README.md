@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260726T184413Z` | 2026-07-26 18:44 UTC | [Subagent Depth and Workflow Sizing Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260726T184413Z) |
+| `archive-20260727T181320Z` | 2026-07-27 18:13 UTC | [Sandbox allowlists and SDK result docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260727T181320Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260726T184413Z` | 2026-07-26 18:45 UTC | [Subagent Depth and Workflow Sizing Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260726T184413Z) |
 | `archive-20260726T050402Z` | 2026-07-26 05:04 UTC | [Agent View and Git Bash Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260726T050402Z) |
 | `archive-20260725T223622Z` | 2026-07-25 22:37 UTC | [Interactive Mode Clarifies Ctrl+L](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260725T223622Z) |
 | `archive-20260725T195753Z` | 2026-07-25 19:58 UTC | [Plugin Marketplace Author Metadata Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260725T195753Z) |
-| `archive-20260725T035405Z` | 2026-07-25 03:54 UTC | [Permission and Planning Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260725T035405Z) |
