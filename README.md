@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260728T204759Z` | 2026-07-28 20:47 UTC | [Standalone Guides and Clearer Runtime Troubleshooting](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260728T204759Z) |
+| `archive-20260728T224141Z` | 2026-07-28 22:41 UTC | [SDK, Hooks, and Claude Tag Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260728T224141Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260728T204759Z` | 2026-07-28 20:49 UTC | [Standalone Guides and Clearer Runtime Troubleshooting](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260728T204759Z) |
 | `archive-20260728T190023Z` | 2026-07-28 19:01 UTC | [Guide Prune and Session Resume Updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260728T190023Z) |
 | `archive-20260728T170808Z` | 2026-07-28 17:08 UTC | [Plugin and Agent SDK docs clarification pass](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260728T170808Z) |
 | `archive-20260728T150511Z` | 2026-07-28 15:06 UTC | [Cloud Environments Docs Split](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260728T150511Z) |
-| `archive-20260727T214657Z` | 2026-07-27 21:47 UTC | [Claude Desktop Gateway Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260727T214657Z) |
