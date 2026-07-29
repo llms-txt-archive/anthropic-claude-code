@@ -434,6 +434,8 @@ Because a single-shot `query()` call raises after yielding an error result, the 
   ```
 </CodeGroup>
 
+When the agent finishes successfully, the example prints a `Done:` line with the agent's summary of the fix, then a line like `Cost: $0.0312`.
+
 ## Next steps
 
 Now that you understand the loop, here's where to go depending on what you're building:

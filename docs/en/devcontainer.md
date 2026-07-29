@@ -57,6 +57,8 @@ When you open the container in VS Code or Codespaces, the feature also adds the 
     ```
 
     Replace the `image` line with your project's base image or remove it if your existing file uses a Dockerfile.
+
+    The Claude Code feature installs Node.js itself when the base image doesn't provide it. If that install fails and the build stops with `Failed to install Node.js and npm`, add `"ghcr.io/devcontainers/features/node:1": {}` to the `features` block above the Claude Code feature and rebuild.
   </Step>
 
   <Step title="Rebuild the container">
