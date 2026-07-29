@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260729T153401Z` | 2026-07-29 15:34 UTC | [Desktop Cross-Session Docs Expansion](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260729T153401Z) |
+| `archive-20260729T165717Z` | 2026-07-29 16:57 UTC | [Settings Reference Version Fix](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260729T165717Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260729T153401Z` | 2026-07-29 15:35 UTC | [Desktop Cross-Session Docs Expansion](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260729T153401Z) |
 | `archive-20260729T081015Z` | 2026-07-29 08:11 UTC | [AWS Gateway Guide and Runtime Docs Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260729T081015Z) |
 | `archive-20260729T045227Z` | 2026-07-29 04:53 UTC | [Auto Mode and Marketplace Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260729T045227Z) |
 | `archive-20260729T011055Z` | 2026-07-29 01:12 UTC | [Agent SDK and Settings Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260729T011055Z) |
-| `archive-20260728T234226Z` | 2026-07-28 23:43 UTC | [Agent SDK refresh and provider limit clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260728T234226Z) |
