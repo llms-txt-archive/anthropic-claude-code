@@ -31,7 +31,7 @@ These sections cover issues related to resource usage, responsiveness, and searc
 
 Claude Code is designed to work with most development environments, but may consume significant resources when processing large codebases. If you're experiencing performance issues:
 
-1. Use `/compact` regularly to reduce context size
+1. Use `/compact` regularly to reduce context size. If it returns `Not enough messages to compact.`, the conversation has too few turns to summarize; that can happen even with a full context when a single large paste filled it
 2. Close and restart Claude Code between major tasks
 3. Consider adding large build directories to your `.gitignore` file
 4. Restart with [`claude --safe-mode`](/docs/en/cli-reference#cli-flags) to check whether a plugin, MCP server, or hook is the source. It disables all customizations for the session; if usage drops, see [Debug your configuration](/docs/en/debug-your-config#test-against-a-clean-configuration) to find which one
@@ -110,7 +110,17 @@ If the Search tool, `@file` mentions, custom agents, or custom skills aren't fin
   </Tab>
 </Tabs>
 
-Then set `USE_BUILTIN_RIPGREP=0` in your [environment](/docs/en/env-vars). To confirm the switch took effect, run `claude doctor` in your terminal and check that the Search line shows the path of your system ripgrep instead of `OK (bundled)`.
+Then set `USE_BUILTIN_RIPGREP` to `0`, either in your shell [environment](/docs/en/env-vars) or in the `env` block of your [`settings.json`](/docs/en/settings#available-settings):
+
+```json theme={null}
+{
+  "env": {
+    "USE_BUILTIN_RIPGREP": "0"
+  }
+}
+```
+
+To confirm the switch took effect, run `claude doctor` in your terminal and check that the Search line shows the path of your system ripgrep instead of `OK (bundled)`.
 
 ### Slow or incomplete search results on WSL
 
