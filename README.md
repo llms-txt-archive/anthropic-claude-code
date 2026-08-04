@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260803T234714Z` | 2026-08-03 23:47 UTC | [Hooks, Subagents, and Simulator Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260803T234714Z) |
+| `archive-20260804T035405Z` | 2026-08-04 03:54 UTC | [Claude Code 2.1.221 Notes and Heapdump Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260804T035405Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260803T234714Z` | 2026-08-03 23:48 UTC | [Hooks, Subagents, and Simulator Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260803T234714Z) |
 | `archive-20260803T201745Z` | 2026-08-03 20:18 UTC | [Agent View and Fast Mode Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260803T201745Z) |
 | `archive-20260802T195142Z` | 2026-08-02 19:52 UTC | [Clarified headless CLI and install guidance](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260802T195142Z) |
 | `archive-20260802T174345Z` | 2026-08-02 17:44 UTC | [DirectoryAdded Hooks and Marketplace Registration Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260802T174345Z) |
-| `archive-20260731T234036Z` | 2026-07-31 23:41 UTC | [Authentication and Channels Pages, Plus Permission Mode Cleanup](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260731T234036Z) |
