@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260805T181046Z` | 2026-08-05 18:10 UTC | [Claude Tag docs and clearer hook, skill, and remote control guidance](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260805T181046Z) |
+| `archive-20260805T201344Z` | 2026-08-05 20:13 UTC | [Settings Exceptions and Worktree Safeguards](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260805T201344Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260805T181046Z` | 2026-08-05 18:12 UTC | [Claude Tag docs and clearer hook, skill, and remote control guidance](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260805T181046Z) |
 | `archive-20260805T044813Z` | 2026-08-05 04:49 UTC | [Hooks, Gateway, and Runtime Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260805T044813Z) |
 | `archive-20260805T010550Z` | 2026-08-05 01:07 UTC | [Ultraplan Retirement and Auto-compact Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260805T010550Z) |
 | `archive-20260804T224336Z` | 2026-08-04 22:44 UTC | [MCP and Sandbox Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260804T224336Z) |
-| `archive-20260804T205427Z` | 2026-08-04 20:56 UTC | [Agent SDK troubleshooting and plugin/MCP doc refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260804T205427Z) |
