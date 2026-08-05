@@ -7,7 +7,7 @@ Every change to the upstream docs produces a git commit and a GitHub release, so
 | | |
 |---|---|
 | **Source** | [https://code.claude.com/docs/llms.txt](https://code.claude.com/docs/llms.txt) |
-| **Documents** | 168 Markdown files |
+| **Documents** | 174 Markdown files |
 | **Schedule** | Hourly at :42 UTC |
 
 ## How it works
@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260805T010550Z` | 2026-08-05 01:05 UTC | [Ultraplan Retirement and Auto-compact Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260805T010550Z) |
+| `archive-20260805T044813Z` | 2026-08-05 04:48 UTC | [Hooks, Gateway, and Runtime Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260805T044813Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260805T010550Z` | 2026-08-05 01:07 UTC | [Ultraplan Retirement and Auto-compact Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260805T010550Z) |
 | `archive-20260804T224336Z` | 2026-08-04 22:44 UTC | [MCP and Sandbox Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260804T224336Z) |
 | `archive-20260804T205427Z` | 2026-08-04 20:56 UTC | [Agent SDK troubleshooting and plugin/MCP doc refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260804T205427Z) |
 | `archive-20260804T191128Z` | 2026-08-04 19:12 UTC | [Workflow and Security Doc Link Updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260804T191128Z) |
-| `archive-20260804T035405Z` | 2026-08-04 03:55 UTC | [Claude Code 2.1.221 Notes and Heapdump Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260804T035405Z) |
