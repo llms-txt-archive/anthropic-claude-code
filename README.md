@@ -7,7 +7,7 @@ Every change to the upstream docs produces a git commit and a GitHub release, so
 | | |
 |---|---|
 | **Source** | [https://code.claude.com/docs/llms.txt](https://code.claude.com/docs/llms.txt) |
-| **Documents** | 176 Markdown files |
+| **Documents** | 183 Markdown files |
 | **Schedule** | Hourly at :42 UTC |
 
 ## How it works
@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260807T033813Z` | 2026-08-07 03:38 UTC | [Hooks, Retries, and Plugin Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T033813Z) |
+| `archive-20260807T052259Z` | 2026-08-07 05:22 UTC | [Self-Hosted Environments and Cloud Session Routing](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T052259Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260807T033813Z` | 2026-08-07 03:39 UTC | [Hooks, Retries, and Plugin Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T033813Z) |
 | `archive-20260807T003010Z` | 2026-08-07 00:31 UTC | [Managed Settings and Review Workflow Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T003010Z) |
 | `archive-20260806T044826Z` | 2026-08-06 04:49 UTC | [MCP startup and retry docs clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260806T044826Z) |
 | `archive-20260806T010327Z` | 2026-08-06 01:04 UTC | [GitHub Actions docs split and expanded](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260806T010327Z) |
-| `archive-20260805T215444Z` | 2026-08-05 21:55 UTC | [Clarified fork isolation and worktree resume docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260805T215444Z) |
