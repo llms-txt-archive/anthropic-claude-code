@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260807T193752Z` | 2026-08-07 19:37 UTC | [Cross-Session Messaging and Bedrock Routing Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T193752Z) |
+| `archive-20260807T212153Z` | 2026-08-07 21:21 UTC | [Gateway and install docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T212153Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260807T193752Z` | 2026-08-07 19:39 UTC | [Cross-Session Messaging and Bedrock Routing Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T193752Z) |
 | `archive-20260807T173234Z` | 2026-08-07 17:33 UTC | [Import, Resume, and Review Docs Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T173234Z) |
 | `archive-20260807T153430Z` | 2026-08-07 15:35 UTC | [Structured Masking and Dialog Timeout Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T153430Z) |
 | `archive-20260807T065211Z` | 2026-08-07 06:52 UTC | [Archive Plugin Source Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T065211Z) |
-| `archive-20260807T052259Z` | 2026-08-07 05:24 UTC | [Self-Hosted Environments and Cloud Session Routing](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T052259Z) |
