@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260807T065211Z` | 2026-08-07 06:52 UTC | [Archive Plugin Source Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T065211Z) |
+| `archive-20260807T153430Z` | 2026-08-07 15:34 UTC | [Structured Masking and Dialog Timeout Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T153430Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260807T065211Z` | 2026-08-07 06:52 UTC | [Archive Plugin Source Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T065211Z) |
 | `archive-20260807T052259Z` | 2026-08-07 05:24 UTC | [Self-Hosted Environments and Cloud Session Routing](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T052259Z) |
 | `archive-20260807T033813Z` | 2026-08-07 03:39 UTC | [Hooks, Retries, and Plugin Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T033813Z) |
 | `archive-20260807T003010Z` | 2026-08-07 00:31 UTC | [Managed Settings and Review Workflow Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T003010Z) |
-| `archive-20260806T044826Z` | 2026-08-06 04:49 UTC | [MCP startup and retry docs clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260806T044826Z) |
