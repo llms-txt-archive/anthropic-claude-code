@@ -7,7 +7,7 @@ Every change to the upstream docs produces a git commit and a GitHub release, so
 | | |
 |---|---|
 | **Source** | [https://code.claude.com/docs/llms.txt](https://code.claude.com/docs/llms.txt) |
-| **Documents** | 184 Markdown files |
+| **Documents** | 185 Markdown files |
 | **Schedule** | Hourly at :42 UTC |
 
 ## How it works
@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260807T231645Z` | 2026-08-07 23:16 UTC | [Behavior Clarifications Across Prompt Recall, Skills, and Automation Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T231645Z) |
+| `archive-20260808T000457Z` | 2026-08-08 00:04 UTC | [Agent SDK Examples and Runtime Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260808T000457Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260807T231645Z` | 2026-08-07 23:17 UTC | [Behavior Clarifications Across Prompt Recall, Skills, and Automation Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T231645Z) |
 | `archive-20260807T221752Z` | 2026-08-07 22:18 UTC | [MCP diagnostics and deployment clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T221752Z) |
 | `archive-20260807T212153Z` | 2026-08-07 21:22 UTC | [Gateway and install docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T212153Z) |
 | `archive-20260807T193752Z` | 2026-08-07 19:39 UTC | [Cross-Session Messaging and Bedrock Routing Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T193752Z) |
-| `archive-20260807T173234Z` | 2026-08-07 17:33 UTC | [Import, Resume, and Review Docs Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260807T173234Z) |
