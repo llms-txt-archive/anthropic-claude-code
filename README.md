@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260810T202343Z` | 2026-08-10 20:23 UTC | [Settings and SDK Reference Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260810T202343Z) |
+| `archive-20260810T212513Z` | 2026-08-10 21:25 UTC | [Context Window Clarifications and Claude Tag Link Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260810T212513Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260810T202343Z` | 2026-08-10 20:25 UTC | [Settings and SDK Reference Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260810T202343Z) |
 | `archive-20260810T183213Z` | 2026-08-10 18:33 UTC | [Week 30 and Week 32 digests added](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260810T183213Z) |
 | `archive-20260810T173457Z` | 2026-08-10 17:36 UTC | [Claude Code Docs Index Reorganization](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260810T173457Z) |
 | `archive-20260809T045003Z` | 2026-08-09 04:50 UTC | [Prompt suggestion controls clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260809T045003Z) |
-| `archive-20260808T052511Z` | 2026-08-08 05:25 UTC | [Permission Mode Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260808T052511Z) |
