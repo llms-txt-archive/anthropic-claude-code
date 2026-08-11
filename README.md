@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260811T183556Z` | 2026-08-11 18:35 UTC | [Auto-compaction, Hooks, and Marketplace Policy Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260811T183556Z) |
+| `archive-20260811T194423Z` | 2026-08-11 19:44 UTC | [Profile Auth, Plugin Installs, and PR Posting](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260811T194423Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260811T183556Z` | 2026-08-11 18:37 UTC | [Auto-compaction, Hooks, and Marketplace Policy Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260811T183556Z) |
 | `archive-20260811T153652Z` | 2026-08-11 15:38 UTC | [Gateway Pricing and Error Guidance Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260811T153652Z) |
 | `archive-20260811T140511Z` | 2026-08-11 14:06 UTC | [Remote Control Recovery and Error Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260811T140511Z) |
 | `archive-20260811T045303Z` | 2026-08-11 04:53 UTC | [Fast mode billing and Enterprise simulator docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260811T045303Z) |
-| `archive-20260811T025049Z` | 2026-08-11 02:51 UTC | [Hook Timing and Gateway Proxy Updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260811T025049Z) |
