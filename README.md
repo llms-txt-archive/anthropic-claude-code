@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260811T045303Z` | 2026-08-11 04:53 UTC | [Fast mode billing and Enterprise simulator docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260811T045303Z) |
+| `archive-20260811T140511Z` | 2026-08-11 14:05 UTC | [Remote Control Recovery and Error Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260811T140511Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260811T045303Z` | 2026-08-11 04:53 UTC | [Fast mode billing and Enterprise simulator docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260811T045303Z) |
 | `archive-20260811T025049Z` | 2026-08-11 02:51 UTC | [Hook Timing and Gateway Proxy Updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260811T025049Z) |
 | `archive-20260811T000530Z` | 2026-08-11 00:06 UTC | [Agent SDK cleanup and 2.1.227 changelog](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260811T000530Z) |
 | `archive-20260810T231704Z` | 2026-08-10 23:18 UTC | [Cross-Session Messaging Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260810T231704Z) |
-| `archive-20260810T212513Z` | 2026-08-10 21:25 UTC | [Context Window Clarifications and Claude Tag Link Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260810T212513Z) |
