@@ -42,11 +42,11 @@ From the app you can start cloud sessions, drive a Claude Code session running o
 | [Remote Control](/docs/en/remote-control)                 | A Claude Code session running on your computer                        | The work needs your local filesystem, tools, or MCP servers.                                                                                         |
 | [Dispatch](/docs/en/desktop#sessions-from-dispatch)       | The Desktop app on your computer                                      | You want to message a task and let Dispatch decide how to run it. Requires a Pro or Max plan.                                                        |
 
-If your computer will be off, use cloud sessions: they run in the cloud and continue with your laptop closed. Remote Control and Dispatch drive your own machine, so it needs to stay on with Claude Code or the Desktop app running. If your machine sleeps during a Remote Control session, the session reconnects when it comes back online.
+If your computer will be off, use cloud sessions, which run in the cloud and continue with your laptop closed. Remote Control and Dispatch drive your own machine, so it needs to stay on with Claude Code or the Desktop app running. If your machine sleeps during a Remote Control session, Claude Code reconnects when the machine comes back online.
 
-For a fuller comparison that also covers Channels, Slack, and scheduled tasks, see [work when you are away from your terminal](/docs/en/platforms#work-when-you-are-away-from-your-terminal).
+For a fuller comparison, see [work when you are away from your terminal](/docs/en/platforms#work-when-you-are-away-from-your-terminal).
 
-Cloud sessions and Remote Control run from the **Code** tab and are covered below. For Dispatch, which you message as a task in the app, see [sessions from Dispatch](/docs/en/desktop#sessions-from-dispatch).
+Cloud sessions and Remote Control run from the **Code** tab. For Dispatch, which you message as a task in the app, see [sessions from Dispatch](/docs/en/desktop#sessions-from-dispatch).
 
 ### Start and monitor cloud sessions
 
