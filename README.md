@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260812T183709Z` | 2026-08-12 18:37 UTC | [Runner Release Timing and Allowlist Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260812T183709Z) |
+| `archive-20260812T194658Z` | 2026-08-12 19:46 UTC | [Synced Skills and Feature-Gated Workflows](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260812T194658Z) |
 | `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260812T183709Z` | 2026-08-12 18:38 UTC | [Runner Release Timing and Allowlist Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260812T183709Z) |
 | `archive-20260812T174038Z` | 2026-08-12 17:41 UTC | [Clarified settings precedence and plugin cache behavior](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260812T174038Z) |
 | `archive-20260812T163454Z` | 2026-08-12 16:36 UTC | [Login, Headless, and Gateway Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260812T163454Z) |
 | `archive-20260812T065815Z` | 2026-08-12 06:58 UTC | [Approval dialog and model fallback clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260812T065815Z) |
-| `archive-20260812T051802Z` | 2026-08-12 05:18 UTC | [Agent SDK Accounting and Access Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260812T051802Z) |
