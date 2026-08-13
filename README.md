@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260813T222354Z` | 2026-08-13 22:23 UTC | [VS Code Groups, Workflow Caching, and Sandbox IPv6](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260813T222354Z) |
+| `archive-20260813T232340Z` | 2026-08-13 23:23 UTC | [Gateway, Review, and Runner Docs Expanded](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260813T232340Z) |
+| `archive-20260813T222354Z` | 2026-08-13 22:24 UTC | [VS Code Groups, Workflow Caching, and Sandbox IPv6](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260813T222354Z) |
 | `archive-20260813T212749Z` | 2026-08-13 21:29 UTC | [Command Plugin Sources and Managed Settings Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260813T212749Z) |
 | `archive-20260813T194329Z` | 2026-08-13 19:44 UTC | [Claude Code docs cleanup and MCP consolidation](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260813T194329Z) |
 | `archive-20260813T183827Z` | 2026-08-13 18:39 UTC | [Remote session recovery and gateway telemetry clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260813T183827Z) |
 | `archive-20260813T174101Z` | 2026-08-13 17:41 UTC | [Managed hooks and Agent SDK session docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260813T174101Z) |
-| `archive-20260813T163402Z` | 2026-08-13 16:34 UTC | [Self-Hosted Environment Client Platform Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260813T163402Z) |
