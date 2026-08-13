@@ -18,8 +18,8 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260813T035339Z` | 2026-08-13 03:53 UTC | [Sandbox Environments Doc Clarification](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260813T035339Z) |
-| `archive-20260510T173637Z` | 2026-05-10 17:37 UTC | [Hooks guide clarifies multi-hook execution](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260510T173637Z) |
+| `archive-20260813T094605Z` | 2026-08-13 09:46 UTC | [Changelog update for MCP OAuth sign-in fix](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260813T094605Z) |
+| `archive-20260813T035339Z` | 2026-08-13 03:54 UTC | [Sandbox Environments Doc Clarification](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260813T035339Z) |
 | `archive-20260813T004339Z` | 2026-08-13 00:44 UTC | [Claude Code 2.1.229 and SDK Docs Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260813T004339Z) |
 | `archive-20260812T194658Z` | 2026-08-12 19:48 UTC | [Synced Skills and Feature-Gated Workflows](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260812T194658Z) |
 | `archive-20260812T183709Z` | 2026-08-12 18:38 UTC | [Runner Release Timing and Allowlist Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260812T183709Z) |
