@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260814T035105Z` | 2026-08-14 03:51 UTC | [Cross-Session Messaging and Naming Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260814T035105Z) |
+| `archive-20260814T173632Z` | 2026-08-14 17:36 UTC | [Voice Dictation Error Guidance Expanded](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260814T173632Z) |
+| `archive-20260814T035105Z` | 2026-08-14 03:52 UTC | [Cross-Session Messaging and Naming Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260814T035105Z) |
 | `archive-20260814T004251Z` | 2026-08-14 00:44 UTC | [Trust Rules, Fork Mode, and Marketplace Behavior](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260814T004251Z) |
 | `archive-20260813T232340Z` | 2026-08-13 23:24 UTC | [Gateway, Review, and Runner Docs Expanded](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260813T232340Z) |
 | `archive-20260813T222354Z` | 2026-08-13 22:24 UTC | [VS Code Groups, Workflow Caching, and Sandbox IPv6](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260813T222354Z) |
 | `archive-20260813T212749Z` | 2026-08-13 21:29 UTC | [Command Plugin Sources and Managed Settings Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260813T212749Z) |
-| `archive-20260813T194329Z` | 2026-08-13 19:44 UTC | [Claude Code docs cleanup and MCP consolidation](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260813T194329Z) |
