@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260815T095718Z` | 2026-08-15 09:57 UTC | [Task Tools, Auto Mode, and Session Flow Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260815T095718Z) |
+| `archive-20260815T155539Z` | 2026-08-15 15:55 UTC | [Unrecognized Model Diagnostics and Task Tool Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260815T155539Z) |
+| `archive-20260815T095718Z` | 2026-08-15 09:58 UTC | [Task Tools, Auto Mode, and Session Flow Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260815T095718Z) |
 | `archive-20260814T193603Z` | 2026-08-14 19:36 UTC | [Named subagents and agent teams clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260814T193603Z) |
 | `archive-20260814T173632Z` | 2026-08-14 17:37 UTC | [Voice Dictation Error Guidance Expanded](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260814T173632Z) |
 | `archive-20260814T035105Z` | 2026-08-14 03:52 UTC | [Cross-Session Messaging and Naming Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260814T035105Z) |
 | `archive-20260814T004251Z` | 2026-08-14 00:44 UTC | [Trust Rules, Fork Mode, and Marketplace Behavior](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260814T004251Z) |
-| `archive-20260813T232340Z` | 2026-08-13 23:24 UTC | [Gateway, Review, and Runner Docs Expanded](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260813T232340Z) |
