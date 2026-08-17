@@ -18,7 +18,7 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260817T180149Z` | 2026-08-17 18:01 UTC | [Claude Code docs trim stale caveats and duplicated guidance](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260817T180149Z) |
+| `archive-20260817T195832Z` | 2026-08-17 19:58 UTC | [Permission Mode Safety Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260817T195832Z) |
 | `archive-20260816T145809Z` | 2026-08-16 14:59 UTC | [SDK context payloads and runtime controls](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260816T145809Z) |
 | `archive-20260815T155539Z` | 2026-08-15 15:56 UTC | [Unrecognized Model Diagnostics and Task Tool Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260815T155539Z) |
 | `archive-20260815T095718Z` | 2026-08-15 09:58 UTC | [Task Tools, Auto Mode, and Session Flow Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260815T095718Z) |
