@@ -136,6 +136,7 @@ Match the message you see in your terminal to a section below.
 | `Plugin archive integrity check failed`                                                                                                                                                       | [Plugin errors](#plugin-archive-integrity-check-failed)                                                                       |
 | `would be spawned with zero tools — refusing`                                                                                                                                                 | [Tool errors](#agent-would-be-spawned-with-zero-tools)                                                                        |
 | `File is covered by a Read deny rule in your permission settings`                                                                                                                             | [Tool errors](#file-is-covered-by-a-read-deny-rule)                                                                           |
+| `subagent_type is required: the general-purpose agent is not available in this session`                                                                                                       | [Tool errors](#subagent-type-is-required)                                                                                     |
 | `Error: this write left the memory index at MEMORY.md at ..., over its ... read limit`                                                                                                        | [Tool errors](#memory-index-is-over-its-read-limit)                                                                           |
 | `pkill: refusing to run`                                                                                                                                                                      | [Tool errors](#pkill-pattern-matches-the-claude-code-process)                                                                 |
 | `Failed to write to <name>'s inbox — nothing was sent`                                                                                                                                        | [Tool errors](#failed-to-write-to-a-teammate-inbox)                                                                           |
@@ -1890,6 +1891,26 @@ When Claude Code refuses the Write tool, the message ends `and cannot be written
 
 * If Claude should be able to change the file, remove or narrow the `Read` deny rule in `/permissions` or in [settings](/docs/en/settings#permission-settings)
 * If the file must stay untouched, keep the rule and add an `Edit` deny rule for the same path to block the NotebookEdit tool too
+
+<h3 id="subagent-type-is-required">
+  subagent\_type is required
+</h3>
+
+```text theme={null}
+subagent_type is required: the general-purpose agent is not available in this session. Available agents: ...
+```
+
+Claude called the [Agent tool](/docs/en/tools-reference#agent-tool-behavior) without a `subagent_type`, and this session has no [general-purpose subagent](/docs/en/sub-agents#built-in-subagents) to fall back on. That is the case in two setups:
+
+* [`CLAUDE_AGENT_SDK_DISABLE_BUILTIN_AGENTS=1`](/docs/en/env-vars) is set in non-interactive mode, which removes every built-in subagent
+* The session's main-thread agent has a [`tools: Agent(...)` allowlist](/docs/en/sub-agents#restrict-which-subagents-can-be-spawned) that leaves out `general-purpose`
+
+**What to do:**
+
+* Usually nothing: the message lists the subagents the session does have, and Claude retries with one of them
+* If Claude keeps failing, add `general-purpose` to the `tools: Agent(...)` allowlist, or unset `CLAUDE_AGENT_SDK_DISABLE_BUILTIN_AGENTS`
+
+Before v2.1.235, the same call failed with `Agent type 'general-purpose' not found`.
 
 ### Memory index is over its read limit
 
