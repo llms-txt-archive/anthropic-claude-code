@@ -7,7 +7,7 @@ Every change to the upstream docs produces a git commit and a GitHub release, so
 | | |
 |---|---|
 | **Source** | [https://code.claude.com/docs/llms.txt](https://code.claude.com/docs/llms.txt) |
-| **Documents** | 187 Markdown files |
+| **Documents** | 186 Markdown files |
 | **Schedule** | Hourly at :42 UTC |
 
 ## How it works
@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260818T150553Z` | 2026-08-18 15:05 UTC | [Goal automation and permission-mode clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260818T150553Z) |
+| `archive-20260818T191533Z` | 2026-08-18 19:15 UTC | [Agent SDK skills and commands consolidation](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260818T191533Z) |
+| `archive-20260818T150553Z` | 2026-08-18 15:08 UTC | [Goal automation and permission-mode clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260818T150553Z) |
 | `archive-20260818T032636Z` | 2026-08-18 03:27 UTC | [Permission mode defaults, advisor consent, and accessibility refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260818T032636Z) |
 | `archive-20260818T020509Z` | 2026-08-18 02:06 UTC | [Queueing, Permissions, and Gateway Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260818T020509Z) |
 | `archive-20260817T225927Z` | 2026-08-17 23:00 UTC | [GitLab MR and Subagent Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260817T225927Z) |
 | `archive-20260817T215845Z` | 2026-08-17 21:59 UTC | [Claude Code 2.1.234 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260817T215845Z) |
-| `archive-20260817T195832Z` | 2026-08-17 19:59 UTC | [Permission Mode Safety Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260817T195832Z) |
