@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260818T235728Z` | 2026-08-18 23:57 UTC | [Context Limit and Messaging Error Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260818T235728Z) |
+| `archive-20260819T020648Z` | 2026-08-19 02:06 UTC | [Spellcheck and MCP Setup Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260819T020648Z) |
+| `archive-20260818T235728Z` | 2026-08-18 23:58 UTC | [Context Limit and Messaging Error Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260818T235728Z) |
 | `archive-20260818T225914Z` | 2026-08-18 23:00 UTC | [Claude Code 2.1.235 docs sync](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260818T225914Z) |
 | `archive-20260818T191533Z` | 2026-08-18 19:16 UTC | [Agent SDK skills and commands consolidation](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260818T191533Z) |
 | `archive-20260818T150553Z` | 2026-08-18 15:08 UTC | [Goal automation and permission-mode clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260818T150553Z) |
 | `archive-20260818T032636Z` | 2026-08-18 03:27 UTC | [Permission mode defaults, advisor consent, and accessibility refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260818T032636Z) |
-| `archive-20260818T020509Z` | 2026-08-18 02:06 UTC | [Queueing, Permissions, and Gateway Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260818T020509Z) |
