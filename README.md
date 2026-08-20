@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260819T225932Z` | 2026-08-19 22:59 UTC | [Claude Code 2.1.236 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260819T225932Z) |
+| `archive-20260820T020622Z` | 2026-08-20 02:06 UTC | [Default models, named session dirs, and validation docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260820T020622Z) |
+| `archive-20260819T225932Z` | 2026-08-19 23:00 UTC | [Claude Code 2.1.236 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260819T225932Z) |
 | `archive-20260819T170154Z` | 2026-08-19 17:03 UTC | [Plugin caching and Remote Control clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260819T170154Z) |
 | `archive-20260819T160224Z` | 2026-08-19 16:03 UTC | [Hooks and Redirection Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260819T160224Z) |
 | `archive-20260819T141713Z` | 2026-08-19 14:17 UTC | [Clarified Git URL Host Matching in Settings](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260819T141713Z) |
 | `archive-20260819T020648Z` | 2026-08-19 02:07 UTC | [Spellcheck and MCP Setup Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260819T020648Z) |
-| `archive-20260818T235728Z` | 2026-08-18 23:58 UTC | [Context Limit and Messaging Error Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260818T235728Z) |
