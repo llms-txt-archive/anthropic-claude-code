@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260821T051522Z` | 2026-08-21 05:15 UTC | [Cross-session, auto mode, and SDK loading docs clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260821T051522Z) |
+| `archive-20260821T170520Z` | 2026-08-21 17:05 UTC | [Claude Security docs clarification](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260821T170520Z) |
+| `archive-20260821T051522Z` | 2026-08-21 05:16 UTC | [Cross-session, auto mode, and SDK loading docs clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260821T051522Z) |
 | `archive-20260821T042215Z` | 2026-08-21 04:22 UTC | [SIGTERM Shutdown and Ctrl+W Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260821T042215Z) |
 | `archive-20260821T021218Z` | 2026-08-21 02:13 UTC | [MCP Runtime and Runner Ops Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260821T021218Z) |
 | `archive-20260820T230136Z` | 2026-08-20 23:02 UTC | [Artifact comments, Concise style, and clearer switch prompts](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260820T230136Z) |
 | `archive-20260820T220020Z` | 2026-08-20 22:01 UTC | [Claude Code 2.1.238 changelog sync](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260820T220020Z) |
-| `archive-20260820T210312Z` | 2026-08-20 21:03 UTC | [Clarified Desktop routine navigation](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260820T210312Z) |
