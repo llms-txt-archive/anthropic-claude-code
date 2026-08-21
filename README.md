@@ -7,7 +7,7 @@ Every change to the upstream docs produces a git commit and a GitHub release, so
 | | |
 |---|---|
 | **Source** | [https://code.claude.com/docs/llms.txt](https://code.claude.com/docs/llms.txt) |
-| **Documents** | 186 Markdown files |
+| **Documents** | 189 Markdown files |
 | **Schedule** | Hourly at :42 UTC |
 
 ## How it works
@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
+| `archive-20260821T225951Z` | 2026-08-21 22:59 UTC | [Settings docs split into reference and policy guides](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260821T225951Z) |
 | `archive-20260821T215905Z` | 2026-08-21 21:59 UTC | [Claude Code 2.1.239 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260821T215905Z) |
 | `archive-20260821T195622Z` | 2026-08-21 19:57 UTC | [Workflow and MCP Docs Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260821T195622Z) |
 | `archive-20260821T191337Z` | 2026-08-21 19:14 UTC | [Artifacts, Command Menu, and Session Resume Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260821T191337Z) |
 | `archive-20260821T180205Z` | 2026-08-21 18:03 UTC | [Windows Messaging, Memory, and Policy Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260821T180205Z) |
 | `archive-20260821T170520Z` | 2026-08-21 17:05 UTC | [Claude Security docs clarification](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260821T170520Z) |
-| `archive-20260821T051522Z` | 2026-08-21 05:16 UTC | [Cross-session, auto mode, and SDK loading docs clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260821T051522Z) |

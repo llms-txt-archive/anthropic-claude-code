@@ -157,7 +157,7 @@ A wrong or unreachable base URL produces a different symptom: Claude Code [retri
 
 ### Distribute the configuration
 
-Every developer machine needs the gateway address and a credential. You can distribute them centrally through [managed settings](/docs/en/settings#settings-files), so developers configure nothing, or hand developers the values to set themselves.
+Every developer machine needs the gateway address and a credential. You can distribute them centrally through [managed settings](/docs/en/managed-settings#delivery-mechanisms), so developers configure nothing, or hand developers the values to set themselves.
 
 #### What to distribute
 
@@ -176,7 +176,7 @@ The same set of variables applies whichever path you choose. Most rollouts only 
 
 #### Distribute through managed settings
 
-Deliver the variables through the `env` block of a [managed settings file](/docs/en/settings#settings-files), pushed by MDM, registry policy, or configuration management:
+Deliver the variables through the `env` block of a [managed settings file](/docs/en/managed-settings#delivery-mechanisms), pushed by MDM, registry policy, or configuration management:
 
 ```json theme={null}
 {
@@ -199,7 +199,7 @@ Some environments need separate delivery:
 
 * The desktop app reads gateway routing from its third-party inference configuration, not from managed settings; deploy that file through MDM alongside managed settings so desktop sessions route through the gateway too. See the [desktop third-party configuration docs](https://claude.com/docs/third-party/claude-desktop/configuration) and the [desktop gateway docs](https://claude.com/docs/third-party/claude-desktop/gateway)
 * CI runners need `ANTHROPIC_BASE_URL` and the credential set in the [runner's environment](/docs/en/llm-gateway-connect#configure-each-surface)
-* WSL on managed Windows machines reads the Windows managed settings only when [`wslInheritsWindowsSettings`](/docs/en/settings#available-settings) is `true`
+* WSL on managed Windows machines reads the Windows managed settings only when [`wslInheritsWindowsSettings`](/docs/en/settings-reference#wslinheritswindowssettings) is `true`
 
 #### Hand developers the values to set themselves
 
@@ -269,5 +269,6 @@ When sizing per-key rate limits, account for the client [retrying transient fail
 
 * [Connect Claude Code to an LLM gateway](/docs/en/llm-gateway-connect): the developer-facing setup steps, with per-surface configuration and a troubleshooting table you can hand to developers
 * [Gateway protocol reference](/docs/en/llm-gateway-protocol): the wire contract for gateway operators, covering endpoints, headers to forward, and the feature pass-through table
-* [Settings files and precedence](/docs/en/settings#settings-files): how managed, project, and user settings combine, and where the managed file goes on each platform
+* [Which value Claude Code uses](/docs/en/settings#which-value-claude-code-uses): how managed, project, and user settings combine
+* [Delivery mechanisms](/docs/en/managed-settings#delivery-mechanisms): where the managed file goes on each platform
 * [Set up Claude Code for your organization](/docs/en/admin-setup): the wider rollout this gateway is one part of, including policy enforcement, usage visibility, and data handling

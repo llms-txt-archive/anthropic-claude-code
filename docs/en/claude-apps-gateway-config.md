@@ -533,7 +533,7 @@ The gateway validates each document against the CLI's settings schema at boot, s
 
 Because validation uses the schema bundled with the gateway's installed version, putting a top-level settings key introduced by a newer Claude Code release into managed config requires upgrading the gateway first. Smoke-test a new policy on one client before rolling it out.
 
-The full key reference is in [Claude Code settings](/docs/en/settings#available-settings). The keys most operators reach for first:
+The full key reference is in [Claude Code settings](/docs/en/settings-reference#all-settings). The keys most operators reach for first:
 
 ```yaml theme={null}
 managed:
@@ -651,40 +651,9 @@ If you don't deploy Claude Desktop, leave `desktop` out of your policies entirel
 
 #### Precedence with other managed sources
 
-If a device also has a local `managed-settings.json` or MDM-delivered policy, the managed sources don't merge, with two per-key exceptions:
+If a device also has an MDM-delivered policy or a local `managed-settings.json`, Claude Code doesn't merge the managed sources: gateway-delivered settings rank first, so the local sources supply the policy only when the gateway delivers no policy key. [Precedence within the managed tier](/docs/en/managed-settings#precedence-within-the-managed-tier) on the managed settings page has the full ranking and the [keys Claude Code reads from every admin source](/docs/en/managed-settings#keys-read-from-every-admin-source) regardless of which source it selected, such as the sandbox lock keys, `forceRemoteSettingsRefresh`, and the per-variable `env` merge. A [`policyHelper`](/docs/en/settings-reference#policyhelper) configured in an MDM profile or the managed settings file runs only when the gateway delivers no settings; the entry says what its output replaces.
 
-* The `env` block, in Claude Code v2.1.223 or later
-* The [cross-source lock keys](/docs/en/settings#precedence-within-the-managed-tier)
-
-Both are covered in the list later in this section. The highest-priority source provides all policy settings, ranked in this order with highest priority first:
-
-1. Gateway-delivered settings
-2. MDM, via the HKLM registry on Windows or a plist on macOS
-3. The `managed-settings.json` file
-4. The HKCU registry, on Windows only
-
-When an MDM or file-based source wins and its [`policyHelper`](/docs/en/settings#compute-managed-settings-with-a-policy-helper) supplies managed settings, the helper's output replaces that source and neither per-key exception applies. A `policyHelper` in those sources doesn't run while the gateway delivers a non-empty configuration.
-
-Embedding hosts such as [Claude Desktop](/docs/en/desktop) can supply policy through the SDK `managedSettings` option. Whether it applies depends on the machine's managed configuration:
-
-* On machines with an admin-deployed managed source, it is ignored unless the highest-priority source opts in with [`parentSettingsBehavior: "merge"`](/docs/en/settings#available-settings).
-* It is never merged when an MDM or file-based source wins and its [`policyHelper`](/docs/en/settings#compute-managed-settings-with-a-policy-helper) supplies managed settings.
-* When merged, it passes through a restrictive-only allowlist. [Restrict parent settings](/docs/en/claude-apps-gateway#restrict-parent-settings) lists which allow-direction settings still apply without the `allowManaged*Only` locks.
-
-The following keys are honored when any admin source above the user-writable HKCU tier sets them, regardless of which source provides the rest of the policy. When an MDM or file-based source wins and its [`policyHelper`](/docs/en/settings#compute-managed-settings-with-a-policy-helper) supplies managed settings, the helper's output is the only source these checks read:
-
-* `sandbox.network.allowManagedDomainsOnly` and `sandbox.filesystem.allowManagedReadPathsOnly`: when locked, the corresponding allowlists are unioned across sources
-* [`allowAllClaudeAiMcps`](/docs/en/settings#available-settings): allow-only override for the claude.ai MCP server allowlist
-* `sandbox.bwrapPath` and `sandbox.socatPath`: filesystem paths to the [sandbox](/docs/en/sandboxing) helper binaries
-* [`sandbox.ripgrep`](/docs/en/settings#sandbox-settings): the `ripgrep` binary the sandbox uses
-* [`forceRemoteSettingsRefresh`](/docs/en/server-managed-settings): blocks startup until remote managed settings are freshly fetched, so an MDM or file policy that sets it is honored even when a cached remote payload that lacks the key is the highest-priority source
-* `env`: each variable comes from the highest-priority admin source that defines it, and lower admin sources fill in variables the higher sources leave unset. The telemetry unit and credential-paired routing variables follow their own rules; see [Per-key exceptions across managed sources](/docs/en/server-managed-settings#per-key-exceptions-across-managed-sources). Requires Claude Code v2.1.223 or later
-
-Every other key, including `disableBypassPermissionsMode`, comes from the highest-priority source only. One [parent-settings](/docs/en/claude-apps-gateway#restrict-parent-settings) check reads every admin source: when any admin source sets `allowManagedPermissionRulesOnly`, Claude Code drops parent-supplied permission allow rules and `additionalDirectories`. The key's effect on the developer's own rules still follows the highest-priority source.
-
-A `forceLoginOrgUUID` or `allowedMcpServers` value in the highest-priority admin source blocks a parent-supplied one and is the value Claude Code enforces. A value in a non-winning admin source neither applies nor blocks the parent's. Before v2.1.223, a value in any admin source blocked the parent's.
-
-See [Settings precedence](/docs/en/settings#settings-precedence) for the same rules on the settings page.
+Embedding hosts such as [Claude Desktop](/docs/en/desktop) can supply policy through the SDK `managedSettings` option. [Parent settings from embedding hosts](/docs/en/managed-settings#parent-settings-from-embedding-hosts) says when Claude Code applies it, and [Restrict parent settings](/docs/en/claude-apps-gateway#restrict-parent-settings) lists which allow-direction settings still apply without the `allowManaged*Only` locks.
 
 Gateway policies apply to every Claude Code invocation on the machine, including non-interactive `claude -p` runs and sessions spawned by the Agent SDK. If the gateway is unreachable at startup, signed-in sessions exit with an error rather than running without their policy.
 
@@ -904,7 +873,7 @@ telemetry:
 
 ## Client-side managed settings
 
-Everything above configures the gateway server. You point developer machines at the gateway separately, on each device, through Claude Code's [managed settings](/docs/en/settings#settings-files). The gateway can't push the login keys itself, because they're what tell the client where the gateway is.
+Everything above configures the gateway server. You point developer machines at the gateway separately, on each device, through Claude Code's [managed settings](/docs/en/managed-settings). The gateway can't push the login keys itself, because they're what tell the client where the gateway is.
 
 For the CLI, set these keys in the per-OS `managed-settings.json`. The two login keys route each developer's `/login` to your gateway:
 
@@ -930,7 +899,7 @@ A registry policy on Windows or a managed-preferences plist on macOS replaces th
 
 For Claude Desktop, set the `bootstrapUrl` key in Claude Desktop's own [managed configuration](https://claude.com/docs/third-party/claude-desktop/configuration) to `<listen.public_url>/user/bootstrap`. The sign-in flow and per-group policy then match the CLI's once a policy opts in server-side with a `desktop` key; without the opt-in, `/user/bootstrap` returns 404. See [Claude Desktop overlay](#claude-desktop-overlay) for the server-side half.
 
-`forceLoginGatewayUrl`, and the `"gateway"` value of `forceLoginMethod`, are honored only from the admin-controlled managed tier. A developer setting them in their own `~/.claude/settings.json` has no effect.
+[`forceLoginGatewayUrl`](/docs/en/settings-reference#forcelogingatewayurl), and the `"gateway"` value of [`forceLoginMethod`](/docs/en/settings-reference#forceloginmethod), are honored only from a managed source on the machine: `managed-settings.json`, the macOS plist or Windows HKLM registry, or a policy helper. A developer setting them in their own `~/.claude/settings.json` has no effect, and neither does setting them in the gateway payload.
 
 ## Related
 

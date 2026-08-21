@@ -59,7 +59,7 @@
   Make Ctrl+W delete back to whitespace
 </h3>
 
-By default, `Ctrl+W` deletes the previous word, stopping at punctuation such as `/`. Set [`keybindingFlavor`](/docs/en/settings#available-settings) to `"readline"` to make `Ctrl+W` delete back to the previous whitespace instead, as Bash does. The default value is `"classic"`. Requires Claude Code v2.1.238 or later.
+By default, `Ctrl+W` deletes the previous word, stopping at punctuation such as `/`. Set [`keybindingFlavor`](/docs/en/settings-reference#keybindingflavor) to `"readline"` to make `Ctrl+W` delete back to the previous whitespace instead, as Bash does. The default value is `"classic"`. Requires Claude Code v2.1.238 or later.
 
 Add the setting to `~/.claude/settings.json`:
 
@@ -146,7 +146,7 @@ Claude Code keeps your vim mode and cursor position when you toggle the [transcr
 
 ### Remap INSERT-mode key sequences
 
-The [`vimInsertModeRemaps`](/docs/en/settings#available-settings) setting maps a two-key INSERT-mode sequence to Escape, so a mapping like `jj` returns you to NORMAL mode. Requires Claude Code v2.1.208 or later.
+The [`vimInsertModeRemaps`](/docs/en/settings-reference#viminsertmoderemaps) setting maps a two-key INSERT-mode sequence to Escape, so a mapping like `jj` returns you to NORMAL mode. Requires Claude Code v2.1.208 or later.
 
 The following `~/.claude/settings.json` example turns on vim mode and maps `jj` to Escape:
 
@@ -161,7 +161,7 @@ Each key is exactly two printable characters typed in sequence, and `"<Esc>"` is
 
 Typing the first character of a sequence inserts it normally. Pressing the second character within one second removes that pending character and switches to NORMAL mode, leaving neither character in your input. After the one-second window, or if a different key follows, both characters stay as literal text, so you can still type a word containing the sequence by pausing between the two keys.
 
-Claude Code reads this setting from your user settings file, the `--settings` flag, and [managed settings](/docs/en/permissions#managed-settings) only. Entries in a project's `.claude/settings.json` or `.claude/settings.local.json` are ignored, so a checked-out repository can't remap your keystrokes.
+Claude Code reads this setting from your user settings file, the `--settings` flag, and [managed settings](/docs/en/managed-settings) only. Entries in a project's `.claude/settings.json` or `.claude/settings.local.json` are ignored, so a checked-out repository can't remap your keystrokes.
 
 ### Navigation (NORMAL mode)
 
@@ -327,7 +327,7 @@ Shell mode:
 * Exit with `Escape`, `Backspace`, or `Ctrl+U` on an empty prompt
 * Pasting text that starts with `!` into an empty prompt enters shell mode automatically, matching typed `!` behavior
 
-Claude responds to the command output automatically once it lands in the transcript, so you can run `! npm test` and get an explanation of the failures without a second prompt. The response costs the same as sending a normal prompt. To restore the earlier behavior where the output is added to context without a response, set [`respondToBashCommands`](/docs/en/settings#available-settings) to `false` in `settings.json`. Before v2.1.186, shell mode always added output to context without a response.
+Claude responds to the command output automatically once it lands in the transcript, so you can run `! npm test` and get an explanation of the failures without a second prompt. The response costs the same as sending a normal prompt. To restore the earlier behavior where the output is added to context without a response, set [`respondToBashCommands`](/docs/en/settings-reference#respondtobashcommands) to `false` in `settings.json`. Before v2.1.186, shell mode always added output to context without a response.
 
 ## Queue messages while Claude works
 
@@ -385,13 +385,13 @@ In print mode, Claude Code doesn't generate suggestions by default. Pass [`--pro
 To disable prompt suggestions entirely, use any of the following:
 
 * Turn off **Prompt suggestions** in `/config`
-* Set [`promptSuggestionEnabled`](/docs/en/settings#available-settings) to `false` in your settings file
+* Set [`promptSuggestionEnabled`](/docs/en/settings-reference#promptsuggestionenabled) to `false` in your settings file
 * Set the [`CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION`](/docs/en/env-vars) environment variable to `false`, which takes precedence over the setting:
   ```bash theme={null}
   export CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION=false
   ```
 
-To turn prompt suggestions off across an organization, set `promptSuggestionEnabled` to `false` in [managed settings](/docs/en/settings#settings-files). Also set `CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION` to `false` under the managed [`env`](/docs/en/settings#environment-variables) key so that users can't re-enable them with their own environment variable.
+To turn prompt suggestions off across an organization, set `promptSuggestionEnabled` to `false` in [managed settings](/docs/en/managed-settings). Also set `CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION` to `false` under the managed [`env`](/docs/en/settings-reference#env) key so that users can't re-enable them with their own environment variable.
 
 ## Emoji shortcodes
 
@@ -402,7 +402,7 @@ Type a `:` followed by an emoji shortcode in the prompt input to insert the emoj
 
 The shortcode must start the input or follow a space, so a `:` inside a word or URL doesn't open suggestions.
 
-To turn the feature off, set [`emojiCompletionEnabled`](/docs/en/settings#available-settings) to `false` in `settings.json`. This disables both the suggestion popup and the inline replacement.
+To turn the feature off, set [`emojiCompletionEnabled`](/docs/en/settings-reference#emojicompletionenabled) to `false` in `settings.json`. This disables both the suggestion popup and the inline replacement.
 
 ## Check spelling as you type
 
@@ -417,11 +417,11 @@ Spell checking is off by default, and Claude Code checks nothing in [screen read
 
 ### Turn spell checking on or off
 
-Claude Code reads the [`spellcheck`](/docs/en/settings#available-settings) setting from three places, and ignores it in a project's `.claude/settings.json` and `.claude/settings.local.json`. Turn it on from whichever one you use:
+Claude Code reads the [`spellcheck`](/docs/en/settings-reference#spellcheck) setting from three places, and ignores it in a project's `.claude/settings.json` and `.claude/settings.local.json`. Turn it on from whichever one you use:
 
 <Tabs>
   <Tab title="User settings">
-    Add `spellcheck` to `~/.claude/settings.json`. It applies in every project you open, like the rest of your [user settings](/docs/en/settings#settings-files):
+    Add `spellcheck` to `~/.claude/settings.json`. It applies in every project you open, like the rest of your [user settings](/docs/en/settings#where-settings-live):
 
     ```json theme={null}
     {

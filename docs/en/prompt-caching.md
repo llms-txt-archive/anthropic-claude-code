@@ -232,7 +232,7 @@ On Amazon Bedrock, prompt caching support, minimum cacheable prefix length, and 
 
 ### Override the TTL
 
-Set `FORCE_PROMPT_CACHING_5M=1` to force the five-minute TTL regardless of authentication. This is useful when you're debugging cache behavior, comparing the two TTLs, or overriding an `ENABLE_PROMPT_CACHING_1H` set in [managed settings](/docs/en/settings#settings-files).
+Set `FORCE_PROMPT_CACHING_5M=1` to force the five-minute TTL regardless of authentication. This is useful when you're debugging cache behavior, comparing the two TTLs, or overriding an `ENABLE_PROMPT_CACHING_1H` set in [managed settings](/docs/en/managed-settings).
 
 ## Cache scope
 
@@ -275,7 +275,7 @@ Disabling caching is occasionally useful when debugging caching behavior with a 
 | `DISABLE_PROMPT_CACHING_OPUS`   | Disable for Opus only   |
 | `DISABLE_PROMPT_CACHING_FABLE`  | Disable for Fable only  |
 
-To set caching policy across an organization, put any of these or the [TTL variables](#cache-lifetime) in the `env` block of [managed settings](/docs/en/settings#settings-files). For normal use, leave caching enabled.
+To set caching policy across an organization, put any of these or the [TTL variables](#cache-lifetime) in the `env` block of [managed settings](/docs/en/managed-settings). For normal use, leave caching enabled.
 
 ## Related resources
 
