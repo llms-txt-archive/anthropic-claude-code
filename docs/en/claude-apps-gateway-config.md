@@ -125,6 +125,25 @@ Multiple upstreams of the same provider must set a distinct `name:`.
 
 Amazon Bedrock, Claude Platform on AWS, Google Cloud's Agent Platform, and Microsoft Foundry clients are built once at startup, and their SDKs refresh credentials internally, so rotating cloud credentials doesn't require a restart. Static Anthropic API keys and bearers are read at startup; see [Anthropic API](#anthropic-api).
 
+#### Upstream error messages
+
+The gateway returns one upstream's error response, or its own `502`, depending on how the upstreams answered:
+
+* **An upstream returned a status the gateway doesn't [fail over](#multiple-upstreams) on**: that upstream's response. The gateway tries no further upstreams.
+* **Every upstream the gateway tried failed in a way it [fails over on](#multiple-upstreams)**: the last `429`. When none returned a `429`, the gateway prefers, in order, the last `401` or `403`, the last `404`, and the last `501`. When none returned any of those, the gateway's own `502`, `all upstreams failed (N attempted)`, where N counts every entry in [`upstreams`](#upstreams), including entries the gateway skipped because they don't serve the requested model.
+
+When the gateway returns an upstream's response, it keeps the upstream's status code. Whether it keeps the upstream's message depends on the provider. An Anthropic API upstream's error body reaches the developer unchanged.
+
+The Amazon Bedrock, Claude Platform on AWS, Google Cloud's Agent Platform, and Microsoft Foundry upstreams can name your account IDs, role ARNs, and project IDs in their error text. The gateway records that full text in the [operational log](/docs/en/claude-apps-gateway-deploy#logs). What the developer sees from those upstreams depends on the rejection:
+
+* `400` or `413` in Anthropic's standard error envelope: the upstream's own message, such as `prompt is too long`. Claude Platform on AWS, Agent Platform, and Microsoft Foundry return this envelope for model API rejections.
+* `400` or `413` in the provider's own shape: a `capability_rejected:` token. When the gateway can't classify the rejection, `upstream rejected the request` on a `400` or `request too large for this upstream` on a `413`.
+* Any other status: generic per-status copy, such as `upstream rate limit exceeded` on a `429`.
+
+For example, the gateway replaces Amazon Bedrock's `Input is too long for requested model.` with `capability_rejected: prompt_too_long`. Claude Code [compacts automatically](/docs/en/errors#prompt-is-too-long) on that token, as it does on `prompt is too long`.
+
+Keeping a cloud upstream's `400` or `413` message, or replacing it with a `capability_rejected:` token, requires gateway v2.1.233 or later.
+
 #### Anthropic API
 
 The minimal Anthropic upstream is an API key from the [Claude Console](https://platform.claude.com):
