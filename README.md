@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260822T165859Z` | 2026-08-22 16:58 UTC | [Auto Mode Setup Docs and Guidance Cleanup](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260822T165859Z) |
+| `archive-20260822T175706Z` | 2026-08-22 17:57 UTC | [Owner Roles and Self-Hosted Settings Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260822T175706Z) |
+| `archive-20260822T165859Z` | 2026-08-22 16:59 UTC | [Auto Mode Setup Docs and Guidance Cleanup](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260822T165859Z) |
 | `archive-20260822T131809Z` | 2026-08-22 13:19 UTC | [Synced plugins and clearer Claude Code troubleshooting](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260822T131809Z) |
 | `archive-20260822T060014Z` | 2026-08-22 06:00 UTC | [Remote Control Uploads and Agent View Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260822T060014Z) |
 | `archive-20260822T041655Z` | 2026-08-22 04:17 UTC | [Cloud session docs clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260822T041655Z) |
 | `archive-20260822T032449Z` | 2026-08-22 03:25 UTC | [Clarified Fullscreen, Agent Messaging, and Settings Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260822T032449Z) |
-| `archive-20260821T235831Z` | 2026-08-21 23:59 UTC | [Gateway Error, Caching, and Hosting Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260821T235831Z) |
