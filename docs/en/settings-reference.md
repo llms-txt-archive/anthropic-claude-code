@@ -606,6 +606,7 @@ scope: "Which settings files can set the key: user (~/.claude/settings.json), pr
 | [`autoCompactEnabled`](#autocompactenabled)                                                     | Turn [automatic compaction](/docs/en/context-window) off or on                                                                                                                                                                   | Memory and context                 | Any file                |
 | [`autoCompactWindow`](#autocompactwindow)                                                       | Set how full the context gets before Claude Code [compacts](/docs/en/context-window)                                                                                                                                             | Memory and context                 | Any file                |
 | [`autoConnectIde`](#autoconnectide)                                                             | Connect to a running [VS Code](/docs/en/vs-code) or [JetBrains](/docs/en/jetbrains#from-external-terminals) IDE automatically from an external terminal                                                                               | Global config settings             | Global config           |
+| [`autoContinueAtUsageLimit`](#autocontinueatusagelimit)                                         | Wait in the open session and [continue the task automatically](/docs/en/interactive-mode#wait-for-a-usage-limit-to-reset) after a claude.ai usage limit resets                                                                   | Interface and terminal             | User or managed         |
 | [`autoInstallIdeExtension`](#autoinstallideextension)                                           | Turn off automatic install of the [IDE extension](/docs/en/vs-code#install-the-extension) from a VS Code terminal                                                                                                                | Global config settings             | Global config           |
 | [`autoMemoryDirectory`](#automemorydirectory)                                                   | Store [auto memory](/docs/en/memory#auto-memory) in a directory you choose                                                                                                                                                       | Memory and context                 | Any file                |
 | [`autoMemoryEnabled`](#automemoryenabled)                                                       | Turn [auto memory](/docs/en/memory#auto-memory) off or on                                                                                                                                                                        | Memory and context                 | Any file                |
@@ -2577,6 +2578,24 @@ Let an unanswered [`AskUserQuestion`](/docs/en/tools-reference) dialog auto-cont
 ```
 
 Appears in `/config` as **Question auto-continue timeout**, which writes this key to user settings; Claude Code hides the row while managed settings or the `--settings` flag set the key. Requires Claude Code v2.1.200 or later.
+
+### `autoContinueAtUsageLimit`
+
+After a claude.ai usage limit stops your session, wait in the open session and continue the task automatically after the reset. See [Turn automatic continue off](/docs/en/interactive-mode#turn-automatic-continue-off). Requires Claude Code v2.1.234 or later.
+
+* **Scope**: [`User or managed`](#scopes). Read from user settings, `--settings`, and managed settings only. When none of those sets the key, a project or local settings file that sets it turns the feature off rather than being ignored.
+* **Type**: Boolean
+  * `true`: after a claude.ai usage limit stops your session, Claude Code waits in the open session and continues the task automatically after the reset
+  * `false`: Claude Code doesn't start the wait on its own. You can still [start a wait yourself](/docs/en/interactive-mode#start-a-wait-yourself) from the usage-limit options menu
+* **Default**: `true`
+
+```json settings.json theme={null}
+{
+  "autoContinueAtUsageLimit": false
+}
+```
+
+Appears in `/config` as **Continue automatically at usage limit**, which writes this key to user settings; Claude Code hides the row while managed settings or the `--settings` flag set the key.
 
 ### `autoScrollEnabled`
 
