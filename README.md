@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260825T082156Z` | 2026-08-25 08:21 UTC | [August 25 Claude Code Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260825T082156Z) |
+| `archive-20260825T171513Z` | 2026-08-25 17:15 UTC | [Permissions wildcard matching clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260825T171513Z) |
+| `archive-20260825T082156Z` | 2026-08-25 08:22 UTC | [August 25 Claude Code Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260825T082156Z) |
 | `archive-20260825T020801Z` | 2026-08-25 02:09 UTC | [Model Picker, Cache TTL, and Plugin Packaging Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260825T020801Z) |
 | `archive-20260824T230058Z` | 2026-08-24 23:02 UTC | [Usage-Limit Auto-Continue and Access Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260824T230058Z) |
 | `archive-20260824T220012Z` | 2026-08-24 22:01 UTC | [Archive auth and WebFetch docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260824T220012Z) |
 | `archive-20260824T200136Z` | 2026-08-24 20:02 UTC | [Permission Defaults and VS Code Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260824T200136Z) |
-| `archive-20260824T191715Z` | 2026-08-24 19:18 UTC | [Compaction and Managed Settings Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260824T191715Z) |
