@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260826T182350Z` | 2026-08-26 18:23 UTC | [Resumed Session Recovery and Hook Prompt Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260826T182350Z) |
+| `archive-20260826T211358Z` | 2026-08-26 21:13 UTC | [Claude-drafted Feedback and Network Guidance Updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260826T211358Z) |
+| `archive-20260826T182350Z` | 2026-08-26 18:24 UTC | [Resumed Session Recovery and Hook Prompt Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260826T182350Z) |
 | `archive-20260826T021332Z` | 2026-08-26 02:15 UTC | [Auto Mode and Linux Cowork Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260826T021332Z) |
 | `archive-20260825T230213Z` | 2026-08-25 23:02 UTC | [Claude Code 2.1.246 Changelog Sync](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260825T230213Z) |
 | `archive-20260825T210155Z` | 2026-08-25 21:03 UTC | [Streaming, Startup, and Settings Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260825T210155Z) |
 | `archive-20260825T200035Z` | 2026-08-25 20:01 UTC | [Clarified Terminal, Voice, and Auto Mode Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260825T200035Z) |
-| `archive-20260825T191648Z` | 2026-08-25 19:18 UTC | [Desktop session policy docs and a reorganized llms index](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260825T191648Z) |
