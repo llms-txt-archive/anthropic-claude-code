@@ -93,8 +93,6 @@ Match the message you see to a section below.
 | `Couldn't reconnect to your Remote Control session`                                                                                                                                           | [Network](#couldnt-reconnect-to-your-remote-control-session)                                                                  |
 | `N sessions ended while this machine was offline — the environment was cleaned up on the server and can't be resumed.`                                                                        | [Network](#sessions-ended-while-this-machine-was-offline)                                                                     |
 | `Couldn't share the transcript.`                                                                                                                                                              | [Network](#couldnt-share-the-transcript)                                                                                      |
-| `Couldn't show context usage: the remote sent a reply this version can't display`                                                                                                             | [Network](#the-remote-sent-a-reply-this-version-cant-display)                                                                 |
-| `The remote session sent a reply this version can't display`                                                                                                                                  | [Network](#the-remote-sent-a-reply-this-version-cant-display)                                                                 |
 | `Prompt is too long` / `Input is too long for requested model`                                                                                                                                | [Request errors](#prompt-is-too-long)                                                                                         |
 | `Prompt is too long · automatic compaction failed:`                                                                                                                                           | [Request errors](#prompt-is-too-long)                                                                                         |
 | `Prompt is too long · this conversation is a single exchange` / `A single-exchange conversation cannot be compacted`                                                                          | [Request errors](#prompt-is-too-long)                                                                                         |
@@ -112,6 +110,7 @@ Match the message you see to a section below.
 | `Unable to resize image`                                                                                                                                                                      | [Request errors](#unable-to-resize-image)                                                                                     |
 | `PDF too large` / `PDF is password protected`                                                                                                                                                 | [Request errors](#pdf-errors)                                                                                                 |
 | `Extra inputs are not permitted`                                                                                                                                                              | [Request errors](#extra-inputs-are-not-permitted)                                                                             |
+| `API Error: 400 ... tools.N.custom.input_schema: JSON schema is invalid`                                                                                                                      | [Request errors](#tool-input-schema-is-invalid)                                                                               |
 | `There's an issue with the selected model`                                                                                                                                                    | [Request errors](#theres-an-issue-with-the-selected-model)                                                                    |
 | `Model ... is not a recognized model id`                                                                                                                                                      | [Request errors](#model-is-not-a-recognized-model-id)                                                                         |
 | `Claude Opus is not available with the Claude Pro plan`                                                                                                                                       | [Request errors](#claude-opus-is-not-available-with-the-claude-pro-plan)                                                      |
@@ -148,6 +147,8 @@ Match the message you see to a section below.
 | `Diff is too large for ultrareview` / `PR #<N> is too large for ultrareview`                                                                                                                  | [Command-line errors](#diff-is-too-large-for-ultrareview)                                                                     |
 | `Could not find merge-base with <branch>`                                                                                                                                                     | [Command-line errors](#could-not-find-merge-base-with-the-base-branch)                                                        |
 | `Your checkout has no branches (detached HEAD only)`                                                                                                                                          | [Command-line errors](#your-checkout-has-no-branches)                                                                         |
+| `Ultrareview clones <owner>/<repo> in the cloud with the GitHub account connected to your Claude account, and none is connected`                                                              | [Command-line errors](#no-github-account-is-connected-to-your-claude-account)                                                 |
+| `Your connected GitHub account can't see <owner>/<repo>`                                                                                                                                      | [Command-line errors](#your-connected-github-account-cant-see-the-repository)                                                 |
 | `Failed to resume the conversation`                                                                                                                                                           | [Command-line errors](#failed-to-resume-the-conversation)                                                                     |
 | `No conversation found with session ID: <session-id>`                                                                                                                                         | [Command-line errors](#no-conversation-found-with-the-session-id)                                                             |
 | `Cannot switch renderers in this session`                                                                                                                                                     | [Command-line errors](#cannot-switch-renderers-in-this-session)                                                               |
@@ -159,6 +160,8 @@ Match the message you see to a section below.
 | `Monitor "<name>" from plugin <plugin> references ${user_config.*} in its command`                                                                                                            | [Plugin errors](#plugin-command-references-user-config)                                                                       |
 | `headersHelper for MCP server '<name>' references ${user_config.*}`                                                                                                                           | [Plugin errors](#plugin-command-references-user-config)                                                                       |
 | `Plugin archive integrity check failed`                                                                                                                                                       | [Plugin errors](#plugin-archive-integrity-check-failed)                                                                       |
+| `Failed to load marketplace configuration`                                                                                                                                                    | [Plugin errors](#failed-to-load-marketplace-configuration)                                                                    |
+| `Marketplace configuration file is corrupted`                                                                                                                                                 | [Plugin errors](#failed-to-load-marketplace-configuration)                                                                    |
 | `would be spawned with zero tools — refusing`                                                                                                                                                 | [Tool errors](#agent-would-be-spawned-with-zero-tools)                                                                        |
 | `File is covered by a Read deny rule in your permission settings`                                                                                                                             | [Tool errors](#file-is-covered-by-a-read-deny-rule)                                                                           |
 | `subagent_type is required: the general-purpose agent is not available in this session`                                                                                                       | [Tool errors](#subagent-type-is-required)                                                                                     |
@@ -175,6 +178,10 @@ Match the message you see to a section below.
 | `blocked because the path is spelled in a form that cannot be safely resolved`                                                                                                                | [Background session errors](#write-or-command-blocked-because-the-path-cannot-be-safely-resolved)                             |
 | `blocked because the path is network-shaped`                                                                                                                                                  | [Background session errors](#write-or-command-blocked-because-the-path-names-a-network-location)                              |
 | `This session has no saved transcript`                                                                                                                                                        | [Background session errors](#this-session-has-no-saved-transcript)                                                            |
+| `Can't open — this session is running in another terminal`                                                                                                                                    | [Background session errors](#this-session-is-running-in-another-terminal)                                                     |
+| `This conversation is already open in another running Claude session`                                                                                                                         | [Background session errors](#this-session-is-running-in-another-terminal)                                                     |
+| `This session's saved conversation is no longer on disk`                                                                                                                                      | [Background session errors](#this-sessions-saved-conversation-is-no-longer-on-disk)                                           |
+| `kept <id> — worktree has commits that are not pushed anywhere`                                                                                                                               | [Background session errors](#worktree-has-commits-that-are-not-pushed-anywhere)                                               |
 | `terminal host process died — press Enter to restart` / `This session's terminal host process died`                                                                                           | [Background session errors](#terminal-host-process-died)                                                                      |
 | `Session isn't responding` / `Press enter again to restart this session — it isn't responding`                                                                                                | [Background session errors](#session-isnt-responding)                                                                         |
 | `Session <id> was stopped while the respawn was in flight`                                                                                                                                    | [Background session errors](#session-was-stopped-while-the-respawn-was-in-flight)                                             |
@@ -191,6 +198,7 @@ Match the message you see to a section below.
 | `Transcript saving is off — inherited CLAUDE_CODE_CHILD_SESSION marker`                                                                                                                       | [Session saving warnings](#transcript-saving-is-off-child-session-marker)                                                     |
 | `Claude Code's fullscreen renderer didn't finish starting last time on this machine` / `Claude Code's fullscreen renderer has repeatedly failed to start on this machine`                     | [Configuration warnings](#fullscreen-failed-start-notice)                                                                     |
 | `Claude Code exited after an unrecoverable interface error (...)`                                                                                                                             | [Configuration warnings](#exited-after-an-unrecoverable-interface-error)                                                      |
+| `Agent descriptions are over the 15.0k-token limit`                                                                                                                                           | [Configuration warnings](#agent-descriptions-are-over-the-15000-token-limit)                                                  |
 | `Ignoring N permissions.allow entries from ... this workspace has not been trusted`                                                                                                           | [Configuration warnings](#workspace-has-not-been-trusted)                                                                     |
 | `headersHelper not run — this workspace has no persisted trust`                                                                                                                               | [Configuration warnings](#headershelper-not-run)                                                                              |
 | `... is not matched by file permission checks`                                                                                                                                                | [Configuration warnings](#is-not-matched-by-file-permission-checks)                                                           |
@@ -605,7 +613,7 @@ If you are prompted to log in repeatedly, see [Not logged in or token expired](/
 
 ### Could not resolve authentication method
 
-The session reached the API client without any credential. This appears in [background sessions](/docs/en/agent-view), cloud sessions, and Agent SDK contexts where the interactive login check doesn't run before the first request.
+The session reached the API client without any credential. [Background sessions](/docs/en/agent-view) and cloud sessions show this message when the worker starts without a credential. Interactive, `-p`, and Agent SDK runs report the same condition as [Not logged in](#not-logged-in) and write this string only to their debug log, so if you found it there, follow that entry instead.
 
 ```text theme={null}
 Could not resolve authentication method. Expected one of apiKey, authToken, credentials, config, or profile to be set. Or for one of the "X-Api-Key" or "Authorization" headers to be explicitly omitted
@@ -1302,25 +1310,6 @@ Claude Code shows this message in the terminal running [`claude remote-control`]
 * When Claude Code lists kept worktrees under this message, pick up any uncommitted work from them
 * Run `claude remote-control` to start a fresh environment
 
-<h3 id="the-remote-sent-a-reply-this-version-cant-display">
-  The remote sent a reply this version can't display
-</h3>
-
-`/context` shows this line in a terminal [attached to a cloud session](/docs/en/claude-code-on-the-web#send-follow-ups-from-the-cli):
-
-```text theme={null}
-Couldn't show context usage: the remote sent a reply this version can't display
-```
-
-While your terminal is attached, `/context` and `/btw` ask the cloud session for their answer. Sometimes the answer arrives in a form your terminal's Claude Code can't render. The usual cause is a version difference between the two. `/context` then shows the line above instead of the usage breakdown. `/btw` shows `The remote session sent a reply this version can't display` instead of its answer. The cloud session keeps running, and other commands still work.
-
-**What to do:**
-
-* Update Claude Code with `claude update`, reattach, and rerun the command
-* If the line still appears, run `/feedback` and name the command
-
-Before v2.1.235, this case showed a raw JavaScript error instead, such as `undefined is not an object`.
-
 <h3 id="couldnt-share-the-transcript">
   Couldn't share the transcript
 </h3>
@@ -1364,7 +1353,7 @@ When you turned auto-compact off in your [user settings](/docs/en/settings-refer
 Context limit reached · /compact or /clear to continue · auto-compact is off · /config to turn it on
 ```
 
-The **Auto-compact** toggle in `/config` writes `autoCompactEnabled` to user settings. The hint appears only when a `/config` change would take effect. For example, it doesn't appear when [`DISABLE_AUTO_COMPACT`](/docs/en/env-vars) or [`DISABLE_COMPACT`](/docs/en/env-vars) turned auto-compact off. It also doesn't appear when a higher-precedence scope, such as project or managed settings, set `autoCompactEnabled` to `false`. Nor does it appear in a terminal attached to a cloud session, where the cloud session owns auto-compact. Before v2.1.235, the line carried no auto-compact hint.
+The **Auto-compact** toggle in `/config` writes `autoCompactEnabled` to user settings. The hint appears only when a `/config` change would take effect. For example, it doesn't appear when [`DISABLE_AUTO_COMPACT`](/docs/en/env-vars) or [`DISABLE_COMPACT`](/docs/en/env-vars) turned auto-compact off. It also doesn't appear when a higher-precedence scope, such as project or managed settings, set `autoCompactEnabled` to `false`. Before v2.1.235, the line carried no auto-compact hint.
 
 Amazon Bedrock reports this condition as `Input is too long for requested model.`, which Claude Code handles the same way. Before v2.1.217, Claude Code didn't recognize the Bedrock wording, so auto-compact never triggered on it and `/compact` failed with the same error.
 
@@ -1535,6 +1524,24 @@ Claude Code sends beta-only fields such as `context_management` and `effort` alo
 
 * Configure your gateway to forward the `anthropic-beta` header. See [feature pass-through](/docs/en/llm-gateway-protocol#feature-pass-through) for what gateways must forward.
 * As a fallback, set [`CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1`](/docs/en/env-vars) before launching. [Disable pre-release capabilities](/docs/en/llm-gateway-protocol#disable-pre-release-capabilities) covers the exact scope.
+
+### Tool input schema is invalid
+
+A tool in the request declared an `input_schema` that fails the API's JSON Schema validation, so the API rejected the whole request. The number after `tools.` is the failing tool's position in the request's tool list, not a name you can look up.
+
+```text theme={null}
+API Error: 400 ... tools.N.custom.input_schema: JSON schema is invalid
+```
+
+Claude Code [excludes MCP tools whose input schema would fail this validation](/docs/en/mcp#tools-with-invalid-input-schemas) when it loads a server's tools, so requests normally never include one. On a deployment that doesn't receive the remote configuration that enables the exclusion, Claude Code records in the server's log which tool would be rejected but sends it anyway, so this error can still occur. The error can also occur for a tool whose schema declares a JSON Schema dialect other than draft 2020-12 in `$schema`: Claude Code doesn't check those schemas against the JSON Schema meta-schema, though it still excludes one with an invalid top-level property name.
+
+Before v2.1.216, no deployment ran the exclusion checks.
+
+**What to do:**
+
+* If your Claude Code version is earlier than v2.1.216, run `claude update`.
+* Remove or [disable](/docs/en/mcp#disable-a-server-without-removing-it) the MCP server that declares the invalid schema. The error names the tool only by position. On v2.1.216 or later, check each server's log for a line naming a tool whose input schema would be rejected. If no log names one, disable servers one at a time.
+* If you maintain the server, fix the tool's `input_schema`. The schema must be valid JSON Schema, and top-level property names must be 1 to 64 characters long and use only ASCII letters and digits, `_`, `.`, and `-`. See [Tools with invalid input schemas](/docs/en/mcp#tools-with-invalid-input-schemas).
 
 <h3 id="theres-an-issue-with-the-selected-model">
   There's an issue with the selected model
@@ -2045,6 +2052,44 @@ Before v2.1.221, Claude Code attempted to review every tracked file in this chec
 
 * Create a branch at your current commit with `git checkout -b <name>`, then rerun the review
 
+<h3 id="no-github-account-is-connected-to-your-claude-account">
+  No GitHub account is connected to your Claude account
+</h3>
+
+You ran `/code-review ultra <PR#>` or `claude ultrareview <PR#>`, and before creating the cloud session Claude Code asks the server whether [the GitHub account connected to your Claude account](/docs/en/ultrareview#review-a-pull-request) can reach the PR's repository. No account is connected, or the connection expired, so the cloud clone would fail and Claude Code refuses the launch. Claude Code doesn't spend a free run or bill usage credits for a refused launch.
+
+```text theme={null}
+Ultrareview clones <owner>/<repo> in the cloud with the GitHub account connected to your Claude account, and none is connected (or the connection expired). To fix: run /web-setup to reuse your GitHub CLI login, or connect an account at https://claude.ai/code/onboarding?step=alt-auth — then re-run /code-review ultra 1234 (allow a minute after connecting).
+```
+
+When [`/web-setup`](/docs/en/web-quickstart#connect-from-your-terminal) isn't available in your session, the message names only the claude.ai link.
+
+**What to do:**
+
+* Run `/web-setup` to connect your GitHub CLI login to your Claude account, or connect an account at [claude.ai/code/onboarding](https://claude.ai/code/onboarding?step=alt-auth)
+* Rerun the review a minute after connecting
+
+Before v2.1.248, Claude Code didn't check this before launch.
+
+<h3 id="your-connected-github-account-cant-see-the-repository">
+  Your connected GitHub account can't see the repository
+</h3>
+
+You ran `/code-review ultra <PR#>` or `claude ultrareview <PR#>`, and [the GitHub account connected to your Claude account](/docs/en/ultrareview#review-a-pull-request) can't read the PR's repository, so the cloud clone would fail and Claude Code refuses the launch. Claude Code doesn't spend a free run or bill usage credits for a refused launch.
+
+```text theme={null}
+Your connected GitHub account can't see <owner>/<repo> — usually the Claude GitHub app isn't installed on <owner> or wasn't granted this repo (web-connected accounts need it for private repos), or a different GitHub account is connected. To fix: run /web-setup to reuse your GitHub CLI login, or install the app at https://github.com/apps/claude/installations/new — then re-run /code-review ultra 1234.
+```
+
+When [`/web-setup`](/docs/en/web-quickstart#connect-from-your-terminal) isn't available in your session, the message names only the app install.
+
+**What to do:**
+
+* If your local `gh` CLI can read the repository, run `/web-setup` to connect that login to your Claude account
+* Rerun the review after the change
+
+Before v2.1.248, Claude Code didn't check this before launch.
+
 ### Failed to resume the conversation
 
 Claude Code couldn't read or process the saved transcript for the session you selected from the [`claude --resume` picker](/docs/en/sessions#use-the-session-picker), so it ends the process rather than continue in a partially loaded state. The message includes the command to retry:
@@ -2200,6 +2245,28 @@ Plugin archive integrity check failed for https://artifacts.example.com/claude-p
 * If you publish the plugin, recompute the digest of the exact file the URL serves, for example with `shasum -a 256 my-plugin.zip`, or `Get-FileHash -Algorithm SHA256 my-plugin.zip` in PowerShell, and update the `sha256` in the marketplace entry
 * If you install the plugin, run `/plugin marketplace update <name>` to refresh the catalog in case the entry was corrected, then retry the install
 * If the digests still disagree after a refresh, ask the marketplace owner which file they pinned before installing
+
+### Failed to load marketplace configuration
+
+Claude Code keeps the plugin marketplaces you've added in a registry file at `~/.claude/plugins/known_marketplaces.json`. A plugin command that needs the registry, such as `claude plugin install`, fails with one of two messages when Claude Code can't use the file:
+
+* `Failed to load marketplace configuration`: the file isn't valid JSON, or can't be read. An empty file fails this way too.
+* `Marketplace configuration file is corrupted`: the file is valid JSON but its contents don't match the registry schema.
+
+A missing file isn't a failure: Claude Code treats it as a registry with no marketplaces.
+
+With an empty file, `claude plugin install` reports:
+
+```text theme={null}
+✘ Failed to install plugin "my-plugin": Failed to load marketplace configuration: JSON Parse error: Unexpected EOF
+```
+
+Before v2.1.246, `claude plugin install` didn't report this failure.
+
+**What to do:**
+
+* Open `~/.claude/plugins/known_marketplaces.json` and repair the JSON, or fix the entries the message names as not matching the registry schema
+* If you can't repair it, delete the file or replace its contents with `{}`, then re-add each marketplace with `claude plugin marketplace add <source>`. Claude Code re-registers the marketplaces your user or managed settings declare in [`extraKnownMarketplaces`](/docs/en/settings-reference#extraknownmarketplaces) the next time you start it in a folder you've trusted.
 
 ## Tool errors
 
@@ -2443,6 +2510,70 @@ Opening the same session's row in [agent view](/docs/en/agent-view) shows `Press
 * The conversation you backgrounded from is intact: resume it with [`claude --resume`](/docs/en/sessions) or keep working in it
 * To start the stopped session fresh anyway, run `claude respawn <id>` with the ID from the message, or press `Enter` twice on its row in agent view
 * If the session did finish a response and you still see this refusal on a version before v2.1.214, an unreadable folder in `~/.claude/projects` could make the transcript scan miss the saved conversation; update to v2.1.214 or later, which tolerates unreadable folders during the scan
+
+<h3 id="this-session-is-running-in-another-terminal">
+  This session is running in another terminal
+</h3>
+
+You opened a stopped session's row in [agent view](/docs/en/agent-view), and its saved conversation is already open in another live Claude Code process on this machine, so Claude Code refuses to start a second process that would write to the same transcript. Which message you see depends on [what holds the conversation](/docs/en/agent-view#opening-a-session-says-the-conversation-is-already-open):
+
+```text theme={null}
+Can't open — this session is running in another terminal
+This conversation is already open in another running Claude session — use that one, or close it and try again
+```
+
+* **`running in another terminal`**: a terminal holds the conversation, for example one where you resumed it with `claude --resume` or `/resume`. The row also shows `Open in a terminal`.
+* **`already open in another running Claude session`**: another non-interactive Claude Code process holds it, for example a [background session](/docs/en/agent-view#the-supervisor-process) process for the same conversation that hasn't exited yet.
+
+Claude Code saves a reply you typed when opening the row and sends it as the session's next prompt when the session next starts.
+
+**What to do:**
+
+* Continue the conversation in the process that has it open, or exit that process and open the row again
+
+Before v2.1.248, only the `already open in another running Claude session` refusal existed: a conversation resumed in a terminal didn't count as open, and opening the row started a second Claude Code process writing to the same conversation.
+
+<h3 id="this-sessions-saved-conversation-is-no-longer-on-disk">
+  This session's saved conversation is no longer on disk
+</h3>
+
+You opened a [background session](/docs/en/agent-view) that ended while the background service was off, and [transcript cleanup](/docs/en/settings-reference#cleanupperioddays) has since removed its saved conversation, for example after the machine was off for weeks. Opening such a row normally [resumes its saved conversation](/docs/en/agent-view#sessions-show-as-failed-after-shutdown). With nothing left to resume, Claude Code refuses rather than re-run the session's original prompt without asking:
+
+```text theme={null}
+This session's saved conversation is no longer on disk (it ended while the background service was off, and old transcripts are cleaned up), so there is nothing to resume. `claude rm 7c5dcf5d` deletes the row; `claude respawn 7c5dcf5d` runs its original prompt again instead.
+```
+
+`claude attach <id>` prints this text. In agent view, the footer is shorter and ends with `ctrl+x deletes the row`.
+
+**What to do:**
+
+* Run `claude rm <id>` to delete the row
+* To run the session's original prompt again as a fresh conversation, run `claude respawn <id>`
+
+Before v2.1.248, opening such a row re-ran the session's original prompt instead of refusing, pulling a weeks-old task back into the foreground.
+
+<h3 id="worktree-has-commits-that-are-not-pushed-anywhere">
+  Worktree has commits that are not pushed anywhere
+</h3>
+
+You tried to delete a [background session](/docs/en/agent-view#what-deleting-a-session-removes) whose worktree holds commits Claude Code can't confirm are saved elsewhere. Claude Code keeps the worktree and the session row rather than destroy the commits. `claude rm` prints the kept path and the reason:
+
+```text theme={null}
+kept 7c5dcf5d — worktree has commits that are not pushed anywhere
+  worktree kept at /home/you/project/.claude/worktrees/fix-login
+  resolve that (commit/push, or remove the worktree), then run 'claude rm 7c5dcf5d' again
+```
+
+When you delete from [agent view](/docs/en/agent-view) with a `Ctrl+X` double-press, you consent to discarding uncommitted changes, but not to discarding commits, so Claude Code refuses there too. After a refused delete, the session's row shows `not deleted` with the same reason.
+
+Commits on a remote don't block the delete. Neither do commits on the local copy of your `origin` remote's default branch, as long as that branch is checked out in your main checkout, the repository directory itself rather than a worktree.
+
+**What to do:**
+
+* Push the worktree's branch, or merge it into the default branch checked out in your main checkout, then delete the session again
+* To discard the commits instead, remove the worktree yourself with `git worktree remove --force <path>`, using the path the message names, then run `claude rm <id>` again. See [Clean up subagent and background-session worktrees](/docs/en/worktrees#clean-up-subagent-and-background-session-worktrees).
+
+Before v2.1.248, the default branch checked out in your main checkout didn't count: a branch you had already merged there still triggered this refusal until its commits reached a remote.
 
 ### Terminal host process died
 
@@ -2732,7 +2863,7 @@ Inside tmux, Claude Code detects a marker that arrived through the tmux server's
 
 ## Configuration warnings
 
-Claude Code writes these messages to stderr rather than showing an error in the conversation, except where an entry notes that it writes the message to the debug log instead. It writes most of them at startup. Two exceptions: it writes the [unrecognized-model diagnostic line](#unrecognized-model-id-on-a-request) at request time, and the [unrecoverable interface error message](#exited-after-an-unrecoverable-interface-error) as it exits.
+Claude Code writes most of these messages to stderr, not into the conversation, and writes most of them at startup. An entry says so when its message appears somewhere else, such as in the debug log or as a startup notice in the conversation view, or at another time, such as the [unrecognized-model diagnostic line](#unrecognized-model-id-on-a-request) at request time.
 
 <h3 id="fullscreen-failed-start-notice">
   Fullscreen renderer didn't finish starting
@@ -2769,6 +2900,21 @@ Claude Code exited after an unrecoverable interface error (<error>). It happened
 * If the message names the fullscreen renderer, [Fullscreen rendering](/docs/en/fullscreen#fullscreen-renderer-didnt-finish-starting) says what the next launch does, which depends on how you turned fullscreen on, and how to try fullscreen again or keep the classic renderer.
 
 Before v2.1.236, Claude Code exited without printing a message after this kind of error.
+
+<h3 id="agent-descriptions-are-over-the-15000-token-limit">
+  Agent descriptions are over the 15.0k-token limit
+</h3>
+
+Claude Code shows this warning as a startup notice in the conversation view rather than on stderr. The combined descriptions of your [subagents](/docs/en/sub-agents), except the built-in ones, exceed 15,000 tokens as Claude Code estimates them. Each agent counts its name plus its `description` frontmatter. Claude Code loads every agent whether or not the total is over the limit, so the warning doesn't change what loads.
+
+```text theme={null}
+Agent descriptions are over the 15.0k-token limit (~16.2k tokens) · ask Claude to trim agent descriptions in .claude/agents/
+```
+
+**What to do:**
+
+* Shorten the `description` frontmatter of your agent files, or ask Claude to trim them for you.
+* Remove agent files you no longer use.
 
 ### Workspace has not been trusted
 
