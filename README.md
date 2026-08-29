@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260828T190030Z` | 2026-08-28 19:00 UTC | [Managed Pricing, Messaging, and SDK Troubleshooting](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260828T190030Z) |
+| `archive-20260829T022710Z` | 2026-08-29 02:27 UTC | [Caching, gateway, and SDK docs clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260829T022710Z) |
+| `archive-20260828T190030Z` | 2026-08-28 19:01 UTC | [Managed Pricing, Messaging, and SDK Troubleshooting](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260828T190030Z) |
 | `archive-20260828T062108Z` | 2026-08-28 06:22 UTC | [Managed Settings, MCP, and Session Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260828T062108Z) |
 | `archive-20260827T223615Z` | 2026-08-27 22:37 UTC | [Claude Code navigation refresh and 2.1.248 docs update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260827T223615Z) |
 | `archive-20260827T120134Z` | 2026-08-27 12:02 UTC | [Claude Code 2.1.247 and MCP Docs Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260827T120134Z) |
 | `archive-20260827T010353Z` | 2026-08-27 01:05 UTC | [Error Recovery and Web Onboarding Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260827T010353Z) |
-| `archive-20260826T211358Z` | 2026-08-26 21:15 UTC | [Claude-drafted Feedback and Network Guidance Updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260826T211358Z) |
