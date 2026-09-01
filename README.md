@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260901T000458Z` | 2026-09-01 00:04 UTC | [Subagents Guide Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260901T000458Z) |
+| `archive-20260901T054020Z` | 2026-09-01 05:40 UTC | [Held-Account Errors and Approval Rules](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260901T054020Z) |
+| `archive-20260901T000458Z` | 2026-09-01 00:05 UTC | [Subagents Guide Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260901T000458Z) |
 | `archive-20260831T202314Z` | 2026-08-31 20:24 UTC | [Subagent Model Order and 2.1.252 Notes](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260831T202314Z) |
 | `archive-20260831T142536Z` | 2026-08-31 14:26 UTC | [Sub-agent model guidance cleanup](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260831T142536Z) |
 | `archive-20260831T061052Z` | 2026-08-31 06:12 UTC | [Keyless Auth, Per-Model Effort, and Design Canvas Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260831T061052Z) |
 | `archive-20260830T174550Z` | 2026-08-30 17:46 UTC | [Bedrock, Auto Mode, and Policy Helper Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260830T174550Z) |
-| `archive-20260829T211319Z` | 2026-08-29 21:14 UTC | [Cloud Environment API Credentials](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260829T211319Z) |
