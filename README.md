@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
+| `archive-20260902T050445Z` | 2026-09-02 05:04 UTC | [SDK resource links and VS Code session archives](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260902T050445Z) |
 | `archive-20260902T003217Z` | 2026-09-02 00:32 UTC | [Claude Code 2.1.258 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260902T003217Z) |
 | `archive-20260901T220221Z` | 2026-09-01 22:03 UTC | [Time Display and Subagent Model Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260901T220221Z) |
 | `archive-20260901T185005Z` | 2026-09-01 18:51 UTC | [Fable 5.1 model docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260901T185005Z) |
 | `archive-20260901T151126Z` | 2026-09-01 15:12 UTC | [Credential Scrubbing Documentation Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260901T151126Z) |
 | `archive-20260901T054020Z` | 2026-09-01 05:41 UTC | [Held-Account Errors and Approval Rules](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260901T054020Z) |
-| `archive-20260901T000458Z` | 2026-09-01 00:05 UTC | [Subagents Guide Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260901T000458Z) |
