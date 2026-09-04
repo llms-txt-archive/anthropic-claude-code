@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260904T143256Z` | 2026-09-04 14:32 UTC | [Model and Settings Troubleshooting Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260904T143256Z) |
+| `archive-20260904T174815Z` | 2026-09-04 17:48 UTC | [Diff panel, permissions, and migration guidance](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260904T174815Z) |
+| `archive-20260904T143256Z` | 2026-09-04 14:33 UTC | [Model and Settings Troubleshooting Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260904T143256Z) |
 | `archive-20260904T050606Z` | 2026-09-04 05:07 UTC | [Gateway guide rename and cloud automation clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260904T050606Z) |
 | `archive-20260904T002440Z` | 2026-09-04 00:26 UTC | [Claude Code Docs archive refresh: v2.1.260 and permission boundary clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260904T002440Z) |
 | `archive-20260903T164114Z` | 2026-09-03 16:41 UTC | [Agent SDK command docs clarification](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260903T164114Z) |
 | `archive-20260903T062930Z` | 2026-09-03 06:30 UTC | [Plugin Validation and Behavior Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260903T062930Z) |
-| `archive-20260903T012656Z` | 2026-09-03 01:27 UTC | [Claude Code 2.1.259 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260903T012656Z) |
