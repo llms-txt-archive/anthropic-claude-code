@@ -43,7 +43,7 @@ If your devices are enrolled in an MDM or endpoint management solution, endpoint
   <Step title="Define your settings">
     Add your configuration as JSON. All [settings available in `settings.json`](/docs/en/settings-reference#all-settings) are supported except those restricted to OS-level policy delivery; see [Current limitations](#current-limitations) for that short list. This includes [hooks](/docs/en/hooks), [environment variables](/docs/en/env-vars), and [managed-only settings](/docs/en/managed-settings#managed-only-settings) like `allowManagedPermissionRulesOnly`.
 
-    This example enforces a permission deny list, prevents users from bypassing permissions, and restricts permission rules to those defined in managed settings:
+    This example enforces a permission deny list, prevents users from bypassing permissions, and restricts permission rules to those defined in managed settings. The `Bash(curl *)` rule matches `curl` [as Claude writes it](/docs/en/permissions#bash-rule-limits), not `/usr/bin/curl` or `sh -c 'curl …'`; for network enforcement that doesn't depend on the command text, add a [`sandbox` block with `allowManagedDomainsOnly`](/docs/en/sandboxing#configure-the-sandbox-for-your-organization).
 
     ```json theme={null}
     {
