@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260908T225828Z` | 2026-09-08 22:58 UTC | [Claude Code 2.1.265 Changelog Sync](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260908T225828Z) |
+| `archive-20260909T013200Z` | 2026-09-09 01:32 UTC | [Changelog update for 2.1.266 gateway fix](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260909T013200Z) |
+| `archive-20260908T225828Z` | 2026-09-08 22:59 UTC | [Claude Code 2.1.265 Changelog Sync](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260908T225828Z) |
 | `archive-20260908T201754Z` | 2026-09-08 20:18 UTC | [Skills Guide Reorg and Output Style Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260908T201754Z) |
 | `archive-20260908T165052Z` | 2026-09-08 16:52 UTC | [Settings Docs Retitled and Model Picker Rules Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260908T165052Z) |
 | `archive-20260906T063011Z` | 2026-09-06 06:30 UTC | [Claude Code 2.1.263 Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260906T063011Z) |
 | `archive-20260905T165643Z` | 2026-09-05 16:57 UTC | [File-Based Subagent Prompt Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260905T165643Z) |
-| `archive-20260905T061846Z` | 2026-09-05 06:20 UTC | [Skill Diagnostics, Output Controls, and Path Rules](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260905T061846Z) |
