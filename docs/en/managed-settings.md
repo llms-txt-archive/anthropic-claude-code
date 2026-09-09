@@ -90,7 +90,9 @@ A deployed policy reaches the developer's sessions as follows:
   * **Remote Cowork sessions**: these run on Anthropic-managed VMs, where Claude Code has no device policy to read.
 
   The [surface coverage](/docs/en/model-config#surface-coverage) table compares Cowork with the other surfaces.
-* **Running sessions**: a session picks up most changes on the schedule in the table without a restart. Claude Code reads [`forceRemoteSettingsRefresh`](/docs/en/settings-reference#forceremotesettingsrefresh) and [`requiredMinimumVersion`](/docs/en/settings-reference#requiredminimumversion) only at session start, arms a new or changed [`policyHelper`](/docs/en/settings-reference#policyhelper) entry at the next launch, and reads [some user-editable keys once at session start](/docs/en/settings#when-edits-take-effect).
+* **Running sessions**: most changes reach a running session on the schedule in the [delivery mechanism table](#choose-a-delivery-mechanism), without a restart.
+  * Changes to [`forceRemoteSettingsRefresh`](/docs/en/settings-reference#forceremotesettingsrefresh), [`requiredMinimumVersion`](/docs/en/settings-reference#requiredminimumversion), and [some user-editable keys](/docs/en/settings#when-edits-take-effect) take effect at the next session start.
+  * A new or changed [`policyHelper`](/docs/en/settings-reference#policyhelper) entry takes effect at the next launch, except that a helper shadowed at launch by server-managed settings runs as soon as a fetch reports those settings removed.
 * **Changes that need approval**: apart from the [updates that wait for the next launch](/docs/en/server-managed-settings#fetch-and-caching-behavior), a server-managed change to a setting that [needs approval](/docs/en/server-managed-settings#security-approval-dialogs), such as a hook or an `env` variable, waits for the developer to accept the dialog in an interactive session, and applies for the current run in a session an IDE extension or the Agent SDK hosts. Other server-managed changes apply on the next poll.
 * **Long-lived sessions**: a session left open for weeks can still lag a rollout. [`requiredMinimumVersion`](/docs/en/settings-reference#requiredminimumversion) blocks an outdated binary from starting and doesn't end a session that's already running.
 
@@ -175,13 +177,14 @@ To have Claude Code apply every admin source your organization delivers, set [`m
 
 Under `"merge"`, Claude Code adds a lower source's list entries, such as `permissions.allow` rules and hooks, to the policy, so turn it on only when every source ranked below your highest one is under an administrator's control.
 
-This table shows how Claude Code combines each kind of key under `"merge"`; the [`managedSourcesBehavior` entry](/docs/en/settings-reference#managedsourcesbehavior) names every key in the restriction allowlist and highest-source-only rows.
+This table shows how Claude Code combines each kind of key under `"merge"`. The [`managedSourcesBehavior` entry](/docs/en/settings-reference#managedsourcesbehavior) names every key in the restriction allowlist, values-taken-whole, and highest-source-only rows.
 
 | Kind of key                                   | How Claude Code combines it                                                                                                                         | Examples                                                                                                                    |
 | :-------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------- |
 | Lists                                         | Combines the entries from every source                                                                                                              | `permissions.allow`, `hooks`, `sandbox.network.allowedDomains`, `deniedMcpServers`                                          |
 | Locks                                         | Applies the strictest value any source sets; a looser value applies only from the highest-ranked source                                             | `allowManagedHooksOnly`, `permissions.disableBypassPermissionsMode`, `crossSessionInbound`                                  |
 | Restriction allowlists                        | Takes the list whole from the highest-ranked source that sets it, without adding entries from lower sources                                         | `availableModels`, `allowedMcpServers`, `strictKnownMarketplaces`, `allowedChannelPlugins`, and the `fallbackModel` chain   |
+| Values taken whole                            | Takes the value whole from the highest-ranked source that sets it, without combining entries or fields from lower sources                           | `sandbox.credentials.awsPairs`, `sandbox.ripgrep`                                                                           |
 | Provided MCP servers                          | Combines the server names from every source; when two sources set the same name, applies the higher-ranked source's whole entry                     | `managedMcpServers`                                                                                                         |
 | Keys read from the highest-ranked source only | Ignores the key in every lower source, even when the highest-ranked source leaves it unset                                                          | Credential helpers such as `apiKeyHelper`, login pins such as `forceLoginOrgUUID`, `modelPicker`, `permissions.defaultMode` |
 | `env`                                         | Merges per variable across admin sources under either setting, as [Keys read from every admin source](#keys-read-from-every-admin-source) describes |                                                                                                                             |
@@ -196,8 +199,6 @@ A [`policyHelper`](/docs/en/settings-reference#policyhelper) is an executable yo
 * **The emitted `managedSettings` object is the only managed settings for the session**, including for the [keys it otherwise reads from every admin source](#keys-read-from-every-admin-source), apart from [`forceRemoteSettingsRefresh`, which has its own startup rule](/docs/en/settings-reference#forceremotesettingsrefresh)
 
 For which helper runs fail, and what Claude Code does when one does, see [Helper failures](/docs/en/settings-reference#helper-failures).
-
-Claude Code selects the source at startup, and that selection decides whether a helper runs. The [`policyHelper`](/docs/en/settings-reference#policyhelper) entry says which sources can configure a helper.
 
 <span id="parent-settings-from-embedding-hosts" />
 

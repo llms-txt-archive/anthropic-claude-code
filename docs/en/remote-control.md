@@ -347,7 +347,13 @@ Claude Code skips mobile push notifications while you are typing in or focused o
 
 ### "Remote Control requires a claude.ai subscription"
 
-You're not authenticated with a claude.ai account. Run `claude auth login` and choose the claude.ai option. If `ANTHROPIC_API_KEY` is set in your environment, unset it first.
+You're not signed in with a claude.ai account, or another credential is taking precedence over your login. The message takes one of these forms:
+
+* Signed out, from `/remote-control` or `--remote-control`: `Remote Control requires a claude.ai subscription.`
+* Signed out, from `claude remote-control`: `You must be logged in to use Remote Control. Remote Control is only available with claude.ai subscriptions.`
+* Signed in, but an API key or token is in use: `Remote Control requires claude.ai subscription auth.` followed by the credential in use, such as `ANTHROPIC_API_KEY is set, so this session is using API-key auth`. An `apiKeyHelper` setting and `ANTHROPIC_AUTH_TOKEN` are named the same way.
+
+Run `claude auth login` and choose the claude.ai option. If the message names `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN`, remove it wherever it's set: your shell environment or the `env` block of a [settings file](/docs/en/settings-reference#env). If it names `apiKeyHelper`, remove that setting.
 
 Before v2.1.206, running `/remote-control` while signed out reported `Unknown command: /remote-control` instead of this message.
 

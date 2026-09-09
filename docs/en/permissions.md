@@ -83,7 +83,7 @@ Claude Code supports several permission modes that control how it approves tool 
 | `bypassPermissions` | Skips permission prompts, except for the [actions no mode auto-approves](/docs/en/permission-modes#actions-no-mode-auto-approves)                                                                                                                                                                                                                                                                           |
 
 <Warning>
-  `bypassPermissions` mode skips permission prompts, including for writes to [protected paths](/docs/en/permission-modes#protected-paths) such as `.git` and `.claude`. The [cross-session messaging safeguards](/docs/en/permission-modes#skip-all-checks-with-bypasspermissions-mode) still apply. Only use this mode in isolated environments like containers or VMs where Claude Code can't cause damage.
+  In `bypassPermissions` mode, Claude Code skips permission prompts, including for writes to [protected paths](/docs/en/permission-modes#protected-paths) such as `.git` and `.claude`. The [cross-session messaging safeguards](/docs/en/permission-modes#skip-all-checks-with-bypasspermissions-mode) still apply. Only use this mode in isolated environments like containers or VMs where Claude Code can't cause damage.
 </Warning>
 
 To prevent `bypassPermissions` or `auto` mode from being used, set `permissions.disableBypassPermissionsMode` or `permissions.disableAutoMode` to `"disable"` in any [settings file](/docs/en/settings#where-settings-live). These are most useful in [managed settings](#managed-settings) where they can't be overridden.
@@ -204,7 +204,7 @@ Allow rules accept tool-name globs only after a literal `mcp__<server>__` prefix
 
 A deny or ask rule whose tool name matches no known tool produces a startup warning to catch typos. Tool names containing `_` or `*` are exempt from the check.
 
-The label shown for a tool in the transcript and permission dialog can differ from its canonical name. For example, the tool labeled `Stop Task` in the transcript has the canonical name `TaskStop`. Permission rules and [hook matchers](/docs/en/hooks) match the canonical name only, so a rule written as `Stop Task` doesn't match. For deny and ask rules, the startup warning above catches the mismatch. Use the canonical names listed in the [tools reference](/docs/en/tools-reference).
+The label shown for a tool in the transcript and permission dialog can differ from its canonical name. For example, the tool labeled `Stop Task` in the transcript has the canonical name `TaskStop`. Permission rules and [hook matchers](/docs/en/hooks) don't match the label, so a rule written as `Stop Task` doesn't match. For deny and ask rules, the startup warning above catches the mismatch. Use the canonical names listed in the [tools reference](/docs/en/tools-reference).
 
 ## Tool-specific permission rules
 
@@ -266,7 +266,6 @@ A `cd` into a path inside your working directory or an [additional directory](#w
   * Different protocol: `curl https://github.com/...`
   * Redirects: `curl -L http://short.example.com/xyz`, which redirects to GitHub
   * Variables: `URL=http://github.com && curl $URL`
-  * Extra spaces: `curl  http://github.com`
 
   For more reliable URL filtering, consider:
 
@@ -489,11 +488,11 @@ Adding any `Cd` allow rule switches `/cd` to allowlist mode: the resolved target
 
 Path patterns share the `//`, `~/`, and `/` anchors from [Read and Edit rules](#read-and-edit), but matching is anchored to the whole directory path rather than gitignore-style. `*` matches exactly one path segment and `**` matches across segments. A trailing `/**` also matches its named root.
 
-| Rule                  | Matches                                   | Does not match               |
-| --------------------- | ----------------------------------------- | ---------------------------- |
-| `Cd(~/code/*)`        | `~/code/app`                              | `~/code/app/src`, `~/code`   |
-| `Cd(~/code/**)`       | `~/code` and any directory under it       | directories outside `~/code` |
-| `Cd(**/node_modules)` | any `node_modules` directory at any depth | `node_modules/pkg`           |
+| Rule                  | Matches                                                               | Does not match               |
+| --------------------- | --------------------------------------------------------------------- | ---------------------------- |
+| `Cd(~/code/*)`        | `~/code/app`                                                          | `~/code/app/src`, `~/code`   |
+| `Cd(~/code/**)`       | `~/code` and any directory under it                                   | directories outside `~/code` |
+| `Cd(**/node_modules)` | any `node_modules` directory at any depth under the current directory | `node_modules/pkg`           |
 
 ## Extend permissions with hooks
 
@@ -573,12 +572,7 @@ Permissions and [sandboxing](/docs/en/sandboxing) are complementary security lay
 * **Permissions** control which tools Claude Code can use and which files or domains it can access. They apply to Bash, Read, Edit, WebFetch, MCP, and every other tool, except that a deny or ask rule can't block [`EndConversation`](/docs/en/tools-reference#endconversation-tool-behavior) while any other tool remains.
 * **Sandboxing** provides OS-level enforcement that restricts the Bash tool's filesystem and network access. It applies only to Bash commands and their child processes.
 
-Use both for defense-in-depth:
-
-* Permission deny rules block Claude from even attempting to access restricted resources
-* Sandbox restrictions prevent Bash commands from reaching resources outside defined boundaries, even if a prompt injection bypasses Claude's decision-making
-* Filesystem restrictions in the sandbox combine the [`sandbox.filesystem`](/docs/en/sandboxing) settings with Read and Edit deny rules; both are merged into the final sandbox boundary
-* Network restrictions combine `WebFetch(domain:...)` permission rules with the sandbox's `allowedDomains` and `deniedDomains` lists
+Use both for defense-in-depth, since sandbox restrictions still apply even if a prompt injection bypasses Claude's decision-making. Paths and domains from both sandbox settings and permission rules are [merged into the final sandbox configuration](/docs/en/sandboxing#permission-rules).
 
 When you enable sandboxing and leave `autoAllowBashIfSandboxed` at its default of `true`, sandboxed Bash commands run without prompting even if your permissions include a bare `Bash` ask rule, or the [equivalent `Bash(*)` form](#match-all-uses-of-a-tool): the sandbox boundary substitutes for that whole-tool prompt.
 

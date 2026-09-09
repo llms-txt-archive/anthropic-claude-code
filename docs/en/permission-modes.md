@@ -125,7 +125,7 @@ The next session you start shows `⏸ manual mode on` in the status bar.
 
 ## Switch permission modes
 
-Each interface has its own control for switching permission modes during a session and its own way of choosing the permission mode new sessions start in. Asking Claude in chat to change the permission mode doesn't work. Select your interface to see its controls.
+Each interface has its own control for switching permission modes during a session and its own way of choosing the permission mode new sessions start in. Select your interface to see its controls.
 
 <Tabs>
   <Tab title="CLI">
