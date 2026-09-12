@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260911T233128Z` | 2026-09-11 23:31 UTC | [Clarified tool defaults, permissions, and plugin eval docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260911T233128Z) |
+| `archive-20260912T013329Z` | 2026-09-12 01:33 UTC | [Gateway Login Precedence Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260912T013329Z) |
+| `archive-20260911T233128Z` | 2026-09-11 23:32 UTC | [Clarified tool defaults, permissions, and plugin eval docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260911T233128Z) |
 | `archive-20260911T211743Z` | 2026-09-11 21:18 UTC | [Plugin Eval Docs and 2.1.269 Release Notes](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260911T211743Z) |
 | `archive-20260911T175443Z` | 2026-09-11 17:55 UTC | [Cloud Access and Permission Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260911T175443Z) |
 | `archive-20260911T143719Z` | 2026-09-11 14:38 UTC | [Checkpointing, clipboard, and subagent clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260911T143719Z) |
 | `archive-20260911T003315Z` | 2026-09-11 00:34 UTC | [Task Tools, Plugin Reloads, and WebFetch Deadlines](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260911T003315Z) |
-| `archive-20260910T215357Z` | 2026-09-10 21:54 UTC | [Claude Code 2.1.268 docs clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260910T215357Z) |
