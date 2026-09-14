@@ -40,7 +40,7 @@
 - [Slack의 Claude Code](https://code.claude.com/docs/ko/slack.md): Slack 워크스페이스에서 직접 코딩 작업을 위임합니다. Anthropic은 Team 및 Enterprise 워크스페이스를 위해 이 이전 버전을 Claude Tag로 대체하고 있으며, Pro 및 Max 플랜에서는 이것이 설정 경로로 유지됩니다.
 - [Claude Tag](https://code.claude.com/docs/ko/claude-tag.md): Claude Tag를 사용하여 팀의 Slack 채널에 Claude를 가져오고 claude.com에서 설정 및 사용 설명서를 찾습니다.
 
-##### 웹에서 Claude Code 사용하기
+##### 웹에서 Claude Code
 
 - [웹에서 Claude Code 시작하기](https://code.claude.com/docs/ko/web-quickstart.md): 브라우저나 휴대폰에서 클라우드에서 Claude Code를 실행합니다. GitHub 저장소를 연결하고, 작업을 제출하고, 로컬 설정 없이 PR을 검토합니다.
 - [웹에서 Claude Code 사용하기](https://code.claude.com/docs/ko/claude-code-on-the-web.md): 웹과 터미널 간에 `--cloud` 및 `--teleport`를 사용하여 세션을 이동하고, 세션을 관리 및 공유하며, 클라우드에서 pull request를 자동 수정합니다.
@@ -190,6 +190,7 @@
 #### 설정
 
 - [설정 파일 및 우선순위](https://code.claude.com/docs/ko/settings.md): Claude Code 설정을 변경하고, 키가 속할 범위를 선택하고, 변경을 확인하고, 키가 여러 위치에 설정되어 있을 때 Claude Code가 사용하는 값을 알아봅니다.
+- [모든 설정](https://code.claude.com/docs/ko/settings-reference.md): Claude Code settings.json의 모든 키에 대한 완전한 참조: 각 키의 위치, 유형 및 기본값, 붙여넣기 가능한 예제, 모든 키의 인덱스.
 - [예제 설정 파일](https://code.claude.com/docs/ko/settings-example.md): 개발자, 팀, 조직을 위한 현실적인 settings.json 파일: 하나를 복사하고 원하는 키를 유지한 후 값을 변경하세요.
 
 #### 권한 및 샌드박싱
