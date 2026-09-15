@@ -7,7 +7,7 @@ Every change to the upstream docs produces a git commit and a GitHub release, so
 | | |
 |---|---|
 | **Source** | [https://code.claude.com/docs/llms.txt](https://code.claude.com/docs/llms.txt) |
-| **Documents** | 206 Markdown files |
+| **Documents** | 207 Markdown files |
 | **Schedule** | Hourly at :42 UTC |
 
 ## How it works
@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260915T151627Z` | 2026-09-15 15:16 UTC | [Permission Clarifications and GitLab Marketplace Guidance](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260915T151627Z) |
+| `archive-20260915T222623Z` | 2026-09-15 22:26 UTC | [Agent SDK Config and Gateway Troubleshooting](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260915T222623Z) |
+| `archive-20260915T151627Z` | 2026-09-15 15:17 UTC | [Permission Clarifications and GitLab Marketplace Guidance](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260915T151627Z) |
 | `archive-20260915T052253Z` | 2026-09-15 05:24 UTC | [Three new weekly digests and major reference updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260915T052253Z) |
 | `archive-20260914T235923Z` | 2026-09-15 00:00 UTC | [Claude Code 2.1.271 archive refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260914T235923Z) |
 | `archive-20260914T210358Z` | 2026-09-14 21:04 UTC | [Permission, Allowlist, and Locale Index Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260914T210358Z) |
 | `archive-20260914T105836Z` | 2026-09-14 10:59 UTC | [Desktop docs clarify simulator setting type](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260914T105836Z) |
-| `archive-20260913T223615Z` | 2026-09-13 22:37 UTC | [Claude Code docs refresh for advisors, goals, skills, and VS Code](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260913T223615Z) |
