@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260914T210358Z` | 2026-09-14 21:03 UTC | [Permission, Allowlist, and Locale Index Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260914T210358Z) |
+| `archive-20260914T235923Z` | 2026-09-14 23:59 UTC | [Claude Code 2.1.271 archive refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260914T235923Z) |
+| `archive-20260914T210358Z` | 2026-09-14 21:04 UTC | [Permission, Allowlist, and Locale Index Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260914T210358Z) |
 | `archive-20260914T105836Z` | 2026-09-14 10:59 UTC | [Desktop docs clarify simulator setting type](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260914T105836Z) |
 | `archive-20260913T223615Z` | 2026-09-13 22:37 UTC | [Claude Code docs refresh for advisors, goals, skills, and VS Code](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260913T223615Z) |
 | `archive-20260913T194657Z` | 2026-09-13 19:47 UTC | [Agent SDK Clarifications and Cloud Workflow Updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260913T194657Z) |
 | `archive-20260912T213933Z` | 2026-09-12 21:40 UTC | [Claude Code 2.1.270 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260912T213933Z) |
-| `archive-20260912T063053Z` | 2026-09-12 06:32 UTC | [Expanded localized indexes and clearer admin reference docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260912T063053Z) |

@@ -40,7 +40,7 @@
 - [Slack의 Claude Code](https://code.claude.com/docs/ko/slack.md): Slack 워크스페이스에서 직접 코딩 작업을 위임합니다. Anthropic은 Team 및 Enterprise 워크스페이스를 위해 이 이전 버전을 Claude Tag로 대체하고 있으며, Pro 및 Max 플랜에서는 이것이 설정 경로로 유지됩니다.
 - [Claude Tag](https://code.claude.com/docs/ko/claude-tag.md): Claude Tag를 사용하여 팀의 Slack 채널에 Claude를 가져오고 claude.com에서 설정 및 사용 설명서를 찾습니다.
 
-##### 웹에서 Claude Code
+##### 웹에서 Claude Code 사용하기
 
 - [웹에서 Claude Code 시작하기](https://code.claude.com/docs/ko/web-quickstart.md): 브라우저나 휴대폰에서 클라우드에서 Claude Code를 실행합니다. GitHub 저장소를 연결하고, 작업을 제출하고, 로컬 설정 없이 PR을 검토합니다.
 - [웹에서 Claude Code 사용하기](https://code.claude.com/docs/ko/claude-code-on-the-web.md): 웹과 터미널 간에 `--cloud` 및 `--teleport`를 사용하여 세션을 이동하고, 세션을 관리 및 공유하며, 클라우드에서 pull request를 자동 수정합니다.
