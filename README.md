@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
+| `archive-20260916T214315Z` | 2026-09-16 21:43 UTC | [Claude.ai Sync and Prompt Handling Docs Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260916T214315Z) |
 | `archive-20260916T125002Z` | 2026-09-16 12:50 UTC | [Plugin loading and versioning clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260916T125002Z) |
 | `archive-20260916T064541Z` | 2026-09-16 06:46 UTC | [Subprocess Env Scrub Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260916T064541Z) |
 | `archive-20260916T004906Z` | 2026-09-16 00:50 UTC | [Cloud Session Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260916T004906Z) |
 | `archive-20260915T222623Z` | 2026-09-15 22:27 UTC | [Agent SDK Config and Gateway Troubleshooting](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260915T222623Z) |
 | `archive-20260915T151627Z` | 2026-09-15 15:17 UTC | [Permission Clarifications and GitLab Marketplace Guidance](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260915T151627Z) |
-| `archive-20260915T052253Z` | 2026-09-15 05:24 UTC | [Three new weekly digests and major reference updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260915T052253Z) |
