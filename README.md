@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260917T063853Z` | 2026-09-17 06:38 UTC | [Clarified marketplace, MCP, and telemetry docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260917T063853Z) |
+| `archive-20260917T171617Z` | 2026-09-17 17:16 UTC | [Projects Guidance and Cloud Session Scope Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260917T171617Z) |
+| `archive-20260917T063853Z` | 2026-09-17 06:39 UTC | [Clarified marketplace, MCP, and telemetry docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260917T063853Z) |
 | `archive-20260917T005255Z` | 2026-09-17 00:53 UTC | [Claude Code 2.1.274 Docs Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260917T005255Z) |
 | `archive-20260916T214315Z` | 2026-09-16 21:44 UTC | [Claude.ai Sync and Prompt Handling Docs Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260916T214315Z) |
 | `archive-20260916T125002Z` | 2026-09-16 12:50 UTC | [Plugin loading and versioning clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260916T125002Z) |
 | `archive-20260916T064541Z` | 2026-09-16 06:46 UTC | [Subprocess Env Scrub Docs Clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260916T064541Z) |
-| `archive-20260916T004906Z` | 2026-09-16 00:50 UTC | [Cloud Session Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260916T004906Z) |
