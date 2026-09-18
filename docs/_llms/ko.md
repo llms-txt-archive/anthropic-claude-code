@@ -22,7 +22,7 @@
 
 #### Claude Code 사용하기
 
-- [Claude가 프로젝트를 기억하는 방법](https://code.claude.com/docs/ko/memory.md): CLAUDE.md 파일로 Claude에 지속적인 지침을 제공하고, 자동 메모리를 통해 Claude가 자동으로 학습을 축적하도록 합니다.
+- [Claude가 프로젝트를 기억하는 방법](https://code.claude.com/docs/ko/memory.md): CLAUDE.md 또는 AGENTS.md 파일로 Claude에 지속적인 지침을 제공하고, 자동 메모리를 통해 Claude가 자동으로 학습을 축적하도록 합니다.
 - [세션 관리](https://code.claude.com/docs/ko/sessions.md): Claude Code 대화의 이름을 지정하고, 재개하고, 분기하고, 전환합니다. `--continue`, `--resume`, `--from-pr`, `/resume` 선택기, 세션 이름 지정, 대화 기록 내보내기 및 대화 기록 저장 위치를 다룹니다.
 - [일반적인 워크플로우](https://code.claude.com/docs/ko/common-workflows.md): Claude Code를 사용하여 코드베이스 탐색, 버그 수정, 리팩토링, 테스트 및 기타 일상적인 작업을 위한 단계별 가이드입니다.
 - [프롬프트 라이브러리](https://code.claude.com/docs/ko/prompt-library.md): Claude Code에 복사하여 붙여넣을 수 있는 프롬프트 모음으로, 작업과 역할별로 태그가 지정되어 있습니다.

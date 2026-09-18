@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
+| `archive-20260918T224945Z` | 2026-09-18 22:49 UTC | [AGENTS.md and Gateway Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260918T224945Z) |
 | `archive-20260918T195812Z` | 2026-09-18 19:58 UTC | [Claude Code 2.1.277 notes and version-gate cleanup](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260918T195812Z) |
 | `archive-20260918T164328Z` | 2026-09-18 16:45 UTC | [Hook and Output Limit Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260918T164328Z) |
 | `archive-20260918T063909Z` | 2026-09-18 06:40 UTC | [Claude.ai marketplace and plugin install docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260918T063909Z) |
 | `archive-20260918T012948Z` | 2026-09-18 01:31 UTC | [Output Styles, Cloud Sessions, and Workflow Controls](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260918T012948Z) |
 | `archive-20260917T230603Z` | 2026-09-17 23:07 UTC | [Claude Code 2.1.275 and Cloud Workflow Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260917T230603Z) |
-| `archive-20260917T203321Z` | 2026-09-17 20:34 UTC | [Claude Projects, MCP Startup, and Auth Docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260917T203321Z) |
