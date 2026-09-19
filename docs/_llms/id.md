@@ -116,7 +116,7 @@
 - [Troubleshoot installation and login](https://code.claude.com/docs/id/troubleshoot-install.md): Perbaiki command not found, PATH, permission, network, dan authentication errors saat menginstal atau masuk ke Claude Code.
 - [Troubleshooting](https://code.claude.com/docs/id/troubleshooting.md): Perbaiki penggunaan CPU atau memori yang tinggi, hang, thrashing auto-compact, dan masalah pencarian di Claude Code, dan temukan halaman yang tepat untuk masalah lainnya.
 - [Debug konfigurasi Anda](https://code.claude.com/docs/id/debug-your-config.md): Diagnosis mengapa CLAUDE.md, settings, hooks, server MCP, atau skills tidak berlaku. Gunakan /context, /doctor, /hooks, dan /mcp untuk melihat apa yang benar-benar dimuat.
-- [Referensi kesalahan](https://code.claude.com/docs/id/errors.md): Cari pesan kesalahan runtime Claude Code dengan penjelasan arti dan cara memperbaikinya.
+- [Referensi kesalahan](https://code.claude.com/docs/id/errors.md): Cari pesan kesalahan runtime Claude Code dengan arti masing-masing dan cara memperbaikinya.
 
 ### Administrasi
 
@@ -130,7 +130,7 @@
 - [Kontrol akses server MCP untuk organisasi Anda](https://code.claude.com/docs/id/managed-mcp.md): Batasi server MCP mana yang dapat ditambahkan atau dihubungkan pengguna, atau sediakan server untuk setiap pengguna, dengan file konfigurasi yang dikelola, pengaturan yang dikelola, daftar izin, dan daftar penolakan.
 - [Konfigurasi mode otomatis](https://code.claude.com/docs/id/auto-mode-config.md): Beri tahu pengklasifikasi mode otomatis repositori, bucket, dan domain mana yang dipercaya organisasi Anda. Atur konteks lingkungan, ganti aturan blokir dan izin default, dan periksa konfigurasi efektif Anda dengan subperintah CLI mode otomatis.
 
-#### Penyebaran
+#### Penerapan
 
 - [Ikhtisar penyebaran enterprise](https://code.claude.com/docs/id/third-party-integrations.md): Pelajari bagaimana Claude Code dapat terintegrasi dengan berbagai layanan pihak ketiga dan infrastruktur untuk memenuhi persyaratan penyebaran enterprise.
 - [Ketersediaan fitur](https://code.claude.com/docs/id/feature-availability.md): Bandingkan fitur Claude Code mana yang tersedia di seluruh paket langganan Anthropic, Anthropic Console, Amazon Bedrock, Claude Platform di AWS, Platform Agent Google Cloud, dan Microsoft Foundry.
