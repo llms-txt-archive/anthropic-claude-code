@@ -67,7 +67,7 @@
 - [Claude Code con GitHub Enterprise Server](https://code.claude.com/docs/it/github-enterprise-server.md): Connetti Claude Code alla tua istanza GitHub Enterprise Server auto-ospitata per sessioni cloud, revisione del codice e marketplace di plugin.
 - [Claude Code GitLab CI/CD](https://code.claude.com/docs/it/gitlab-ci-cd.md): Scopri come integrare Claude Code nel tuo flusso di lavoro di sviluppo con GitLab CI/CD
 
-### Sviluppa con Claude Code
+### Crea con Claude Code
 
 #### Agenti e lavoro parallelo
 
@@ -160,7 +160,7 @@
 - [Gateway LLM altri](https://code.claude.com/docs/it/llm-gateway.md): Instrada Claude Code attraverso un gateway LLM che la tua organizzazione già esegue. Copre il collegamento di Claude Code a un gateway, il rollout per la tua organizzazione e cosa Claude Code invia a un gateway.
 - [Connetti Claude Code a un gateway LLM](https://code.claude.com/docs/it/llm-gateway-connect.md): Indirizza Claude Code al gateway LLM della tua organizzazione. Verifica se il tuo amministratore lo ha già configurato, oppure imposta l'URL di base e le credenziali da solo, quindi verifica la connessione e risolvi gli errori del gateway.
 - [Distribuire un gateway LLM per la vostra organizzazione](https://code.claude.com/docs/it/llm-gateway-rollout.md): Distribuire un prodotto gateway per Claude Code: configurarlo per inoltrare ciò che Claude Code invia, emettere credenziali per sviluppatori, distribuire la configurazione tramite impostazioni gestite e verificare la distribuzione.
-- [Guida di compatibilità del gateway Claude Code](https://code.claude.com/docs/it/llm-gateway-protocol.md): Mantenere un gateway LLM compatibile con Claude Code: gli endpoint che chiama, le intestazioni e i campi del corpo da inoltrare, e cosa si interrompe quando vengono rimossi.
+- [Guida di compatibilità del gateway Claude Code](https://code.claude.com/docs/it/llm-gateway-protocol.md): Mantieni un gateway LLM compatibile con Claude Code: gli endpoint che chiama, le intestazioni e i campi del corpo da inoltrare, e cosa si interrompe quando vengono rimossi.
 
 #### Utilizzo e costi
 

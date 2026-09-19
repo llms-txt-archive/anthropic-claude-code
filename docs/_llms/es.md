@@ -160,7 +160,7 @@
 - [Otras puertas de enlace LLM](https://code.claude.com/docs/es/llm-gateway.md): Enrute Claude Code a través de una puerta de enlace LLM que su organización ya ejecuta. Cubre la conexión de Claude Code a una puerta de enlace, el despliegue de una para su organización, y qué envía Claude Code a una puerta de enlace.
 - [Conectar Claude Code a una puerta de enlace LLM](https://code.claude.com/docs/es/llm-gateway-connect.md): Apunte Claude Code a la puerta de enlace LLM de su organización. Compruebe si su administrador ya la configuró, o establezca la URL base y las credenciales usted mismo, luego verifique la conexión y corrija los errores de la puerta de enlace.
 - [Implementar una puerta de enlace LLM para su organización](https://code.claude.com/docs/es/llm-gateway-rollout.md): Implemente un producto de puerta de enlace para Claude Code: configúrelo para reenviar lo que Claude Code envía, emita credenciales de desarrollador, distribuya la configuración a través de ajustes administrados y verifique la implementación.
-- [Guía de compatibilidad de la puerta de enlace Claude Code](https://code.claude.com/docs/es/llm-gateway-protocol.md): Mantener una puerta de enlace LLM compatible con Claude Code: los puntos finales que llama, los encabezados y campos de cuerpo a reenviar, y qué se rompe cuando se eliminan.
+- [Guía de compatibilidad de Claude Code gateway](https://code.claude.com/docs/es/llm-gateway-protocol.md): Mantenga un gateway LLM compatible con Claude Code: los endpoints que llama, los encabezados y campos de cuerpo a reenviar, y qué se rompe cuando se eliminan.
 
 #### Uso y costos
 

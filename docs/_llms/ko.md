@@ -160,7 +160,7 @@
 - [다른 LLM gateway](https://code.claude.com/docs/ko/llm-gateway.md): 조직이 이미 실행 중인 LLM gateway를 통해 Claude Code를 라우팅합니다. Claude Code를 gateway에 연결하고, 조직을 위해 gateway를 배포하고, Claude Code가 gateway에 전송하는 내용을 다룹니다.
 - [Claude Code를 LLM 게이트웨이에 연결](https://code.claude.com/docs/ko/llm-gateway-connect.md): 조직의 LLM 게이트웨이에 Claude Code를 연결합니다. 관리자가 이미 구성했는지 확인하거나, 기본 URL과 자격 증명을 직접 설정한 후 연결을 확인하고 게이트웨이 오류를 해결합니다.
 - [조직을 위한 LLM 게이트웨이 배포](https://code.claude.com/docs/ko/llm-gateway-rollout.md): Claude Code용 게이트웨이 제품 배포: Claude Code가 전송하는 내용을 전달하도록 구성하고, 개발자 자격증명을 발급하며, 관리되는 설정을 통해 구성을 배포하고, 롤아웃을 확인합니다.
-- [Claude Code 게이트웨이 호환성 가이드](https://code.claude.com/docs/ko/llm-gateway-protocol.md): Claude Code와 호환되는 LLM 게이트웨이 유지: 호출하는 엔드포인트, 전달할 헤더 및 본문 필드, 그리고 제거될 때 손상되는 기능.
+- [Claude Code 게이트웨이 호환성 가이드](https://code.claude.com/docs/ko/llm-gateway-protocol.md): Claude Code와 호환되는 LLM 게이트웨이 유지: 호출하는 엔드포인트, 전달해야 할 헤더 및 본문 필드, 그리고 제거될 때 중단되는 기능.
 
 #### 사용량 및 비용
 

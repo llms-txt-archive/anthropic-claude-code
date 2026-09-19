@@ -160,7 +160,7 @@
 - [Andere LLM-Gateways](https://code.claude.com/docs/de/llm-gateway.md): Leiten Sie Claude Code über ein LLM-Gateway weiter, das Ihre Organisation bereits betreibt. Behandelt die Verbindung von Claude Code mit einem Gateway, die Bereitstellung für Ihre Organisation und was Claude Code an ein Gateway sendet.
 - [Claude Code mit einem LLM-Gateway verbinden](https://code.claude.com/docs/de/llm-gateway-connect.md): Richten Sie Claude Code auf das LLM-Gateway Ihrer Organisation aus. Überprüfen Sie, ob Ihr Administrator es bereits konfiguriert hat, oder legen Sie die Basis-URL und die Anmeldedaten selbst fest, überprüfen Sie dann die Verbindung und beheben Sie Gateway-Fehler.
 - [Stellen Sie ein LLM-Gateway für Ihre Organisation bereit](https://code.claude.com/docs/de/llm-gateway-rollout.md): Stellen Sie ein Gateway-Produkt für Claude Code bereit: Konfigurieren Sie es so, dass es das weiterleitet, was Claude Code sendet, geben Sie Entwickleranmeldedaten aus, verteilen Sie die Konfiguration über verwaltete Einstellungen, und überprüfen Sie den Rollout.
-- [Claude Code Gateway-Kompatibilitätsleitfaden](https://code.claude.com/docs/de/llm-gateway-protocol.md): Halten Sie ein LLM-Gateway mit Claude Code kompatibel: die Endpunkte, die es aufruft, die Header und Body-Felder zum Weiterleiten, und was bricht, wenn sie entfernt werden.
+- [Claude Code Gateway-Kompatibilitätsleitfaden](https://code.claude.com/docs/de/llm-gateway-protocol.md): Halten Sie ein LLM-Gateway mit Claude Code kompatibel: die Endpunkte, die es aufruft, die Header und Body-Felder, die weitergeleitet werden müssen, und was bricht, wenn sie entfernt werden.
 
 #### Nutzung und Kosten
 

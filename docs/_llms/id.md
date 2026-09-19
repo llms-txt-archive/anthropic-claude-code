@@ -130,7 +130,7 @@
 - [Kontrol akses server MCP untuk organisasi Anda](https://code.claude.com/docs/id/managed-mcp.md): Batasi server MCP mana yang dapat ditambahkan atau dihubungkan pengguna, atau sediakan server untuk setiap pengguna, dengan file konfigurasi yang dikelola, pengaturan yang dikelola, daftar izin, dan daftar penolakan.
 - [Konfigurasi mode otomatis](https://code.claude.com/docs/id/auto-mode-config.md): Beri tahu pengklasifikasi mode otomatis repositori, bucket, dan domain mana yang dipercaya organisasi Anda. Atur konteks lingkungan, ganti aturan blokir dan izin default, dan periksa konfigurasi efektif Anda dengan subperintah CLI mode otomatis.
 
-#### Penerapan
+#### Penyebaran
 
 - [Ikhtisar penyebaran enterprise](https://code.claude.com/docs/id/third-party-integrations.md): Pelajari bagaimana Claude Code dapat terintegrasi dengan berbagai layanan pihak ketiga dan infrastruktur untuk memenuhi persyaratan penyebaran enterprise.
 - [Ketersediaan fitur](https://code.claude.com/docs/id/feature-availability.md): Bandingkan fitur Claude Code mana yang tersedia di seluruh paket langganan Anthropic, Anthropic Console, Amazon Bedrock, Claude Platform di AWS, Platform Agent Google Cloud, dan Microsoft Foundry.
@@ -160,7 +160,7 @@
 - [Gateway LLM lainnya](https://code.claude.com/docs/id/llm-gateway.md): Arahkan Claude Code melalui gateway LLM yang sudah dijalankan organisasi Anda. Mencakup menghubungkan Claude Code ke gateway, meluncurkannya untuk organisasi Anda, dan apa yang Claude Code kirimkan ke gateway.
 - [Hubungkan Claude Code ke gateway LLM](https://code.claude.com/docs/id/llm-gateway-connect.md): Arahkan Claude Code ke gateway LLM organisasi Anda. Periksa apakah admin Anda sudah mengonfigurasinya, atau atur URL dasar dan kredensial sendiri, kemudian verifikasi koneksi dan perbaiki kesalahan gateway.
 - [Luncurkan gateway LLM untuk organisasi Anda](https://code.claude.com/docs/id/llm-gateway-rollout.md): Terapkan produk gateway untuk Claude Code: konfigurasikan untuk meneruskan apa yang dikirim Claude Code, keluarkan kredensial pengembang, distribusikan konfigurasi melalui pengaturan terkelola, dan verifikasi peluncuran.
-- [Panduan kompatibilitas gateway Claude Code](https://code.claude.com/docs/id/llm-gateway-protocol.md): Jaga gateway LLM tetap kompatibel dengan Claude Code: endpoint yang dipanggilnya, header dan field body yang harus diteruskan, dan apa yang rusak ketika dihapus.
+- [Panduan kompatibilitas gateway Claude Code](https://code.claude.com/docs/id/llm-gateway-protocol.md): Jaga gateway LLM tetap kompatibel dengan Claude Code: endpoint yang dipanggilnya, header dan field body yang harus diteruskan, dan apa yang rusak saat dihapus.
 
 #### Penggunaan dan biaya
 
