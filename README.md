@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260919T063732Z` | 2026-09-19 06:37 UTC | [Auto mode classifier docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260919T063732Z) |
+| `archive-20260920T214936Z` | 2026-09-20 21:49 UTC | [Design Artifact Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260920T214936Z) |
+| `archive-20260919T063732Z` | 2026-09-19 06:38 UTC | [Auto mode classifier docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260919T063732Z) |
 | `archive-20260919T013608Z` | 2026-09-19 01:37 UTC | [Gateway Networking and Cloud Workflow Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260919T013608Z) |
 | `archive-20260918T224945Z` | 2026-09-18 22:50 UTC | [AGENTS.md and Gateway Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260918T224945Z) |
 | `archive-20260918T195812Z` | 2026-09-18 19:58 UTC | [Claude Code 2.1.277 notes and version-gate cleanup](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260918T195812Z) |
 | `archive-20260918T164328Z` | 2026-09-18 16:45 UTC | [Hook and Output Limit Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260918T164328Z) |
-| `archive-20260918T063909Z` | 2026-09-18 06:40 UTC | [Claude.ai marketplace and plugin install docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260918T063909Z) |
