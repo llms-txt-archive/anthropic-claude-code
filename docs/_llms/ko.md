@@ -186,7 +186,7 @@
 - [커뮤니케이션 키트](https://code.claude.com/docs/ko/communications-kit.md): 엔지니어링 조직에 Claude Code를 배포할 때 사용할 수 있는 출시 공지, 드립 캠페인 메시지, FAQ 응답입니다.
 - [Champion kit](https://code.claude.com/docs/ko/champion-kit.md): Claude Code를 내부적으로 옹호하는 엔지니어를 위한 플레이북: 공유할 내용, 질문에 답하는 방법, 팀 내 도입 확대 방법.
 
-### 설정
+### 구성
 
 #### 설정
 
