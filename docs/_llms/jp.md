@@ -258,7 +258,7 @@
 - [Claude Agent SDK への移行](https://code.claude.com/docs/ja/agent-sdk/migration-guide.md): Claude Code TypeScript および Python SDK を Claude Agent SDK に移行するためのガイド
 - [Agent SDK のトラブルシューティング](https://code.claude.com/docs/ja/agent-sdk/troubleshooting.md): Agent SDK エラーを表示されたメッセージで修正します。TypeScript と Python SDK の各エラーについて、原因と対処方法を説明します。
 
-#### エージェントを構築
+#### エージェントを構築する
 
 - [エージェントを設定する](https://code.claude.com/docs/ja/agent-sdk/configuration.md): Agent SDK セッションを設定する：options オブジェクトを構成し、モデル、環境、制限を設定し、各機能オプションのページを見つけます。
 - [例](https://code.claude.com/docs/ja/agent-sdk/examples.md): 構築したいものに合致する完全で実行可能な Agent SDK プロジェクト、または Claude Cookbook のガイド付きレシピを見つけてください。
@@ -284,7 +284,7 @@
 - [多くのツールにスケーリングするツール検索](https://code.claude.com/docs/ja/agent-sdk/tool-search.md): 必要なものだけをオンデマンドで検出して読み込むことで、エージェントを数千のツールにスケーリングします。
 - [SDK のサブエージェント](https://code.claude.com/docs/ja/agent-sdk/subagents.md): コンテキストを分離し、タスクを並列実行し、Claude Agent SDK アプリケーションで特化した指示を適用するサブエージェントを定義および呼び出します。
 
-#### 動作をカスタマイズ
+#### 動作をカスタマイズする
 
 - [システムプロンプトの変更](https://code.claude.com/docs/ja/agent-sdk/modifying-system-prompts.md): `claude_code` プリセットとカスタムシステムプロンプトの間で選択し、CLAUDE.md、出力スタイル、append、または完全にカスタムなプロンプトで動作をカスタマイズします。
 - [Agent Skills でエージェントを拡張する](https://code.claude.com/docs/ja/agent-sdk/skills.md): Claude Agent SDK セッションで Claude が呼び出せる Skills を制御し、名前でコマンドをディスパッチし、セッションが検出する Skills を作成します
@@ -299,7 +299,7 @@
 - [OpenTelemetry を使用した可観測性](https://code.claude.com/docs/ja/agent-sdk/observability.md): Agent SDK からトレース、メトリクス、イベントを OpenTelemetry を使用して可観測性バックエンドにエクスポートします。
 - [Todo を追跡する](https://code.claude.com/docs/ja/agent-sdk/todo-tracking.md): Agent SDK セッションで todo を追跡し、構造化されたツール呼び出しから Claude の進捗をアプリケーションでレンダリングします
 
-#### デプロイ
+#### デプロイメント
 
 - [Agent SDK のホスティング](https://code.claude.com/docs/ja/agent-sdk/hosting.md): Agent SDK を本番環境にデプロイする：サブプロセスアーキテクチャ、セッション永続化、スケーリング、可観測性、Docker、Kubernetes、サンドボックスプロバイダー向けのマルチテナント分離。
 - [AI エージェントの安全なデプロイ](https://code.claude.com/docs/ja/agent-sdk/secure-deployment.md): 分離、認証情報管理、ネットワーク制御を使用して Claude Code と Agent SDK のデプロイを保護するためのガイド
