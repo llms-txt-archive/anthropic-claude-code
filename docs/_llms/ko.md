@@ -146,7 +146,7 @@
 
 - [게이트웨이를 통해 Claude Code 실행](https://code.claude.com/docs/ko/gateways.md): Claude Code를 자체 호스팅 게이트웨이를 통해 라우팅하여 중앙 집중식 자격 증명, 사용량 추적 및 비용 제어를 수행합니다. 아키텍처, Anthropic의 Claude 앱 게이트웨이 및 다른 게이트웨이 제품 사용을 다룹니다.
 
-##### Claude apps gateway
+##### Claude 앱 게이트웨이
 
 - [Amazon Bedrock, AWS의 Claude Platform, Google Cloud 및 Microsoft Foundry용 Claude 앱 게이트웨이](https://code.claude.com/docs/ko/claude-apps-gateway.md): SSO 로그인, 그룹별 모델 액세스, OTLP 텔레메트리를 갖춘 자체 호스팅 게이트웨이를 통해 Amazon Bedrock, AWS의 Claude Platform, Google Cloud 또는 Microsoft Foundry에서 Claude Code를 실행합니다.
 - [Claude 앱 게이트웨이 구성](https://code.claude.com/docs/ko/claude-apps-gateway-config.md): 모든 gateway.yaml 옵션에 대한 참조: 리스너 및 TLS, OIDC, 세션, Postgres 저장소, Amazon Bedrock, Claude Platform on AWS, Google Cloud의 Agent Platform, Microsoft Foundry 업스트림, 모델 라우팅, 관리형 정책 및 텔레메트리.
