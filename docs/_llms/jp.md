@@ -41,7 +41,7 @@
 - [Slack での Claude Code](https://code.claude.com/docs/ja/slack.md): Slack ワークスペースから直接コーディングタスクを委任する。Anthropic は Team および Enterprise ワークスペース向けにこの以前のバージョンを Claude Tag に置き換えています。Pro および Max プランではセットアップパスのままです。
 - [Claude Tag](https://code.claude.com/docs/ja/claude-tag.md): Claude Tag を使用して Claude をチームの Slack チャネルに導入し、claude.com で設定と使用方法のドキュメントを確認できます。
 
-##### Claude Code クラウド版
+##### クラウド内の Claude Code
 
 - [Claude Code をクラウドで始める](https://code.claude.com/docs/ja/web-quickstart.md): ブラウザまたはスマートフォンからクラウドで Claude Code を実行します。GitHub リポジトリを接続し、タスクを送信し、ローカルセットアップなしで PR をレビューします。
 - [クラウドで Claude Code を使用する](https://code.claude.com/docs/ja/claude-code-on-the-web.md): ブラウザ、携帯電話、デスクトップアプリ、またはターミナルからクラウドで Claude Code セッションを実行し、--cloud と --teleport で移動し、プルリクエストを自動修正します。
