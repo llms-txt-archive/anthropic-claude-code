@@ -41,7 +41,7 @@
 - [Slack 中的 Claude Code](https://code.claude.com/docs/zh-TW/slack.md): 直接從您的 Slack 工作區委派編碼任務。Anthropic 正在為 Team 和 Enterprise 工作區停用此較早版本，改用 Claude Tag；它仍然是 Pro 和 Max 方案上的設定路徑。
 - [Claude Tag](https://code.claude.com/docs/zh-TW/claude-tag.md): 透過 Claude Tag 將 Claude 帶入您的團隊 Slack 頻道，並在 claude.com 上找到其設定和使用文件。
 
-##### 雲端 Claude Code
+##### Claude Code 雲端版
 
 - [在雲端開始使用 Claude Code](https://code.claude.com/docs/zh-TW/web-quickstart.md): 在雲端從瀏覽器或手機執行 Claude Code。連接 GitHub 儲存庫、提交任務，並在無需本地設定的情況下檢查 PR。
 - [在雲端使用 Claude Code](https://code.claude.com/docs/zh-TW/claude-code-on-the-web.md): 從您的瀏覽器、手機、桌面應用程式或終端在雲端執行 Claude Code 工作階段，使用 --cloud 和 --teleport 移動工作階段，以及自動修復拉取請求。
@@ -220,7 +220,7 @@
 - [模型配置](https://code.claude.com/docs/zh-TW/model-config.md): 了解 Claude Code 模型配置，包括模型別名如 `opusplan`
 - [使用快速模式加快回應速度](https://code.claude.com/docs/zh-TW/fast-mode.md): 在 Claude Code 中切換快速模式，以獲得更快的 Opus 回應。
 - [使用顧問工具升級困難決策](https://code.claude.com/docs/zh-TW/advisor.md): 將您的主要模型與更強大的顧問模型配對，Claude 在任務期間的關鍵時刻會諮詢該模型。
-- [輸出樣式](https://code.claude.com/docs/zh-TW/output-styles.md): 將 Claude Code 適配用於軟體工程以外的用途
+- [輸出樣式](https://code.claude.com/docs/zh-TW/output-styles.md): 使用內建輸出樣式（例如簡潔或詳細說明）改變 Claude Code 的角色、語氣和回應格式，或撰寫自訂樣式。
 
 #### 介面
 
@@ -258,7 +258,7 @@
 - [遷移至 Claude Agent SDK](https://code.claude.com/docs/zh-TW/agent-sdk/migration-guide.md): 將 Claude Code TypeScript 和 Python SDK 遷移至 Claude Agent SDK 的指南
 - [排除 Agent SDK 的故障](https://code.claude.com/docs/zh-TW/agent-sdk/troubleshooting.md): 根據您看到的確切錯誤訊息修復 Agent SDK 錯誤，包括 TypeScript 和 Python SDK 中每個錯誤的原因和修復方法。
 
-#### 建立代理程式
+#### 建立代理
 
 - [設定您的代理](https://code.claude.com/docs/zh-TW/agent-sdk/configuration.md): 設定 Agent SDK 工作階段：組合選項物件、設定模型、環境和限制，並找到每個功能選項的頁面。
 - [範例](https://code.claude.com/docs/zh-TW/agent-sdk/examples.md): 尋找完整、可執行的 Agent SDK 專案或 Claude Cookbook 中的引導式配方，以符合您想要建置的內容。

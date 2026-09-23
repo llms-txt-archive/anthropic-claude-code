@@ -94,7 +94,7 @@
 - [创建插件](https://code.claude.com/docs/zh-CN/plugins.md): 创建自定义插件以使用 skills、agents、hooks 和 MCP servers 扩展 Claude Code。
 - [使用 evals 测试插件](https://code.claude.com/docs/zh-CN/plugin-evals.md): 为您的 Claude Code 插件编写 eval 用例，使用 claude plugin eval 运行它们，对结果进行评分，与无插件基线进行比较，并在 CI 中基于分数进行门控。
 
-#### 制品
+#### 制品库
 
 - [将会话输出作为 artifacts 共享](https://code.claude.com/docs/zh-CN/artifacts.md): Artifacts 将 Claude Code 的工作转化为 claude.ai 上的实时交互式页面，您可以将其保持私密、与您的组织共享或发布到公开链接。
 
@@ -220,7 +220,7 @@
 - [模型配置](https://code.claude.com/docs/zh-CN/model-config.md): 配置 Claude Code 使用的模型、工作量级别、扩展上下文和自动压缩窗口
 - [使用快速模式加快响应速度](https://code.claude.com/docs/zh-CN/fast-mode.md): 通过切换快速模式在 Claude Code 中获得更快的 Opus 响应。
 - [使用顾问工具升级困难决策](https://code.claude.com/docs/zh-CN/advisor.md): 将您的主模型与更强大的顾问模型配对，Claude 在任务期间的关键时刻咨询该模型。
-- [输出样式](https://code.claude.com/docs/zh-CN/output-styles.md): 将 Claude Code 适配用于软件工程之外的用途
+- [输出样式](https://code.claude.com/docs/zh-CN/output-styles.md): 通过内置输出样式（如简洁或解释性）或自定义样式来改变 Claude Code 的角色、语气和响应格式。
 
 #### 界面
 
