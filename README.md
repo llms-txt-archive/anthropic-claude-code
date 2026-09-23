@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260923T005556Z` | 2026-09-23 00:55 UTC | [Prompt Caching Clarified and Localized Docs Refined](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260923T005556Z) |
+| `archive-20260923T063913Z` | 2026-09-23 06:39 UTC | [Marketplace auth and workflow updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260923T063913Z) |
+| `archive-20260923T005556Z` | 2026-09-23 00:56 UTC | [Prompt Caching Clarified and Localized Docs Refined](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260923T005556Z) |
 | `archive-20260922T222453Z` | 2026-09-22 22:25 UTC | [Expanded Output Styles Guidance](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260922T222453Z) |
 | `archive-20260922T191025Z` | 2026-09-22 19:11 UTC | [Claude Code 2.1.280 Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260922T191025Z) |
 | `archive-20260922T151027Z` | 2026-09-22 15:11 UTC | [Claude Code docs clarity and version wording refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260922T151027Z) |
 | `archive-20260922T052243Z` | 2026-09-22 05:23 UTC | [Session costs, pasted text, and VS Code docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260922T052243Z) |
-| `archive-20260922T001705Z` | 2026-09-22 00:18 UTC | [Gateway, telemetry, and editor docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260922T001705Z) |
