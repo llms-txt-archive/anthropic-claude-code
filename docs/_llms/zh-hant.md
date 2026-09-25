@@ -162,7 +162,7 @@
 - [為您的組織推出 LLM 閘道](https://code.claude.com/docs/zh-TW/llm-gateway-rollout.md): 為 Claude Code 部署閘道產品：配置它以轉發 Claude Code 發送的內容、發放開發者認證、透過受管設定分發配置，並驗證推出。
 - [Claude Code 閘道相容性指南](https://code.claude.com/docs/zh-TW/llm-gateway-protocol.md): 保持 LLM 閘道與 Claude Code 相容：它呼叫的端點、必須轉發的標頭和本體欄位，以及移除它們時會中斷的功能。
 
-#### 使用量和成本
+#### 使用量與成本
 
 - [監控](https://code.claude.com/docs/zh-TW/monitoring-usage.md): 了解如何為 Claude Code 啟用和配置 OpenTelemetry。
 - [有效管理成本](https://code.claude.com/docs/zh-TW/costs.md): 追蹤 token 使用情況、設定團隊支出限制，並透過上下文管理、模型選擇、延伸思考設定和預處理 hooks 來降低 Claude Code 成本。
@@ -256,7 +256,7 @@
 - [Agent SDK 概述](https://code.claude.com/docs/zh-TW/agent-sdk/overview.md): 使用 Claude Code 作為程式庫構建生產級 AI 代理
 - [快速開始](https://code.claude.com/docs/zh-TW/agent-sdk/quickstart.md): 使用 Python 或 TypeScript Agent SDK 開始構建能夠自主工作的 AI 代理
 - [遷移至 Claude Agent SDK](https://code.claude.com/docs/zh-TW/agent-sdk/migration-guide.md): 將 Claude Code TypeScript 和 Python SDK 遷移至 Claude Agent SDK 的指南
-- [排除 Agent SDK 的故障](https://code.claude.com/docs/zh-TW/agent-sdk/troubleshooting.md): 根據您看到的確切錯誤訊息修復 Agent SDK 錯誤，包括 TypeScript 和 Python SDK 中每個錯誤的原因和修復方法。
+- [排除 Agent SDK 的故障](https://code.claude.com/docs/zh-TW/agent-sdk/troubleshooting.md): 當 Claude Code CLI 無法啟動、CLI 程序退出或成功結果到達但沒有結構化輸出時，修復 Agent SDK 錯誤。
 
 #### 建立代理程式
 

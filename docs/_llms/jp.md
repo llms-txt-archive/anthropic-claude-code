@@ -256,7 +256,7 @@
 - [Agent SDK の概要](https://code.claude.com/docs/ja/agent-sdk/overview.md): Claude Code をライブラリとして使用して、本番環境対応の AI エージェントを構築します
 - [クイックスタート](https://code.claude.com/docs/ja/agent-sdk/quickstart.md): Python または TypeScript Agent SDK を使用して、自律的に動作する AI エージェントを構築する方法を学びます
 - [Claude Agent SDK への移行](https://code.claude.com/docs/ja/agent-sdk/migration-guide.md): Claude Code TypeScript および Python SDK を Claude Agent SDK に移行するためのガイド
-- [Agent SDK のトラブルシューティング](https://code.claude.com/docs/ja/agent-sdk/troubleshooting.md): Agent SDK エラーを表示されたメッセージで修正します。TypeScript と Python SDK の各エラーについて、原因と対処方法を説明します。
+- [Agent SDK のトラブルシューティング](https://code.claude.com/docs/ja/agent-sdk/troubleshooting.md): Claude Code CLI が起動に失敗した場合、CLI プロセスが終了した場合、または構造化出力なしで成功結果が返された場合の Agent SDK エラーを修正します。
 
 #### エージェントを構築
 
