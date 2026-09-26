@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260926T052906Z` | 2026-09-26 05:29 UTC | [Local Threads and Permission Guardrails](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260926T052906Z) |
+| `archive-20260926T184314Z` | 2026-09-26 18:43 UTC | [Cross-Session Messaging Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260926T184314Z) |
+| `archive-20260926T052906Z` | 2026-09-26 05:30 UTC | [Local Threads and Permission Guardrails](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260926T052906Z) |
 | `archive-20260926T000912Z` | 2026-09-26 00:10 UTC | [SDK, Model Controls, and Remote Access Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260926T000912Z) |
 | `archive-20260925T204521Z` | 2026-09-25 20:46 UTC | [Anthropic directory publishing docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260925T204521Z) |
 | `archive-20260925T173239Z` | 2026-09-25 17:33 UTC | [Localized plugin docs expansion and Chinese index rename](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260925T173239Z) |
 | `archive-20260925T063623Z` | 2026-09-25 06:37 UTC | [Gateway load testing docs and platform support clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260925T063623Z) |
-| `archive-20260925T005002Z` | 2026-09-25 00:51 UTC | [Plugin Docs Reorganized](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260925T005002Z) |
