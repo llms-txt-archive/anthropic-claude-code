@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260929T193817Z` | 2026-09-29 19:38 UTC | [Cloud telemetry and session controls refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260929T193817Z) |
+| `archive-20260929T231217Z` | 2026-09-29 23:12 UTC | [Deployment and model-switch docs clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260929T231217Z) |
+| `archive-20260929T193817Z` | 2026-09-29 19:40 UTC | [Cloud telemetry and session controls refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260929T193817Z) |
 | `archive-20260928T204824Z` | 2026-09-28 20:50 UTC | [Sonnet 5.5, system reminders, and workflow docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260928T204824Z) |
 | `archive-20260927T175622Z` | 2026-09-27 17:57 UTC | [Claude Code plugin and hook docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260927T175622Z) |
 | `archive-20260926T184314Z` | 2026-09-26 18:44 UTC | [Cross-Session Messaging Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260926T184314Z) |
 | `archive-20260926T052906Z` | 2026-09-26 05:30 UTC | [Local Threads and Permission Guardrails](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260926T052906Z) |
-| `archive-20260926T000912Z` | 2026-09-26 00:10 UTC | [SDK, Model Controls, and Remote Access Docs Refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260926T000912Z) |

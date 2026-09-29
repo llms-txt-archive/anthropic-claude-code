@@ -44,7 +44,7 @@
 ##### Claude Code 云端版
 
 - [在云中开始使用 Claude Code](https://code.claude.com/docs/zh-CN/web-quickstart.md): 从浏览器或手机在云中运行 Claude Code。连接 GitHub 仓库、提交任务，并在无需本地设置的情况下审查 PR。
-- [在云端使用 Claude Code](https://code.claude.com/docs/zh-CN/claude-code-on-the-web.md): 从浏览器、手机、桌面应用或终端在云端运行 Claude Code 会话，使用 --cloud 和 --teleport 移动会话，以及自动修复拉取请求。
+- [在云端使用 Claude Code](https://code.claude.com/docs/zh-CN/claude-code-on-the-web.md): 从浏览器、手机、桌面应用或终端在云端运行 Claude Code 会话，使用 `--cloud` 和 `--teleport` 移动会话，以及自动修复拉取请求。
 - [使用例程自动化工作](https://code.claude.com/docs/zh-CN/routines.md): 让 Claude Code 自动运行。定义在计划上运行、通过 API 调用触发或对来自云基础设施的 GitHub 事件做出反应的例程。
 - [使用 Ultrareview 查找错误](https://code.claude.com/docs/zh-CN/ultrareview.md): 使用 /code-review ultra 在云中运行深度多代理代码审查，在合并前查找和验证错误。
 
@@ -88,7 +88,7 @@
 
 - [使用 skills 扩展 Claude](https://code.claude.com/docs/zh-CN/skills.md): 创建、管理和共享 skills 以在 Claude Code 中扩展 Claude 的功能。包括自定义命令和捆绑的 skills。
 
-#### 制品库
+#### 制品
 
 - [将会话输出作为 artifacts 共享](https://code.claude.com/docs/zh-CN/artifacts.md): Artifacts 将 Claude Code 的工作转化为 claude.ai 上的实时交互式页面，您可以将其保持私密、与您的组织共享或发布到公开链接。
 

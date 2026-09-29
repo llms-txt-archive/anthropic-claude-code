@@ -44,7 +44,7 @@
 ##### 雲端 Claude Code
 
 - [在雲端開始使用 Claude Code](https://code.claude.com/docs/zh-TW/web-quickstart.md): 在雲端從瀏覽器或手機執行 Claude Code。連接 GitHub 儲存庫、提交任務，並在無需本地設定的情況下檢查 PR。
-- [在雲端使用 Claude Code](https://code.claude.com/docs/zh-TW/claude-code-on-the-web.md): 從您的瀏覽器、手機、桌面應用程式或終端在雲端執行 Claude Code 工作階段，使用 --cloud 和 --teleport 移動工作階段，以及自動修復拉取請求。
+- [在雲端使用 Claude Code](https://code.claude.com/docs/zh-TW/claude-code-on-the-web.md): 從您的瀏覽器、手機、桌面應用程式或終端在雲端執行 Claude Code 工作階段，使用 `--cloud` 和 `--teleport` 移動工作階段，以及自動修復拉取請求。
 - [使用例行程序自動化工作](https://code.claude.com/docs/zh-TW/routines.md): 讓 Claude Code 自動運行。定義在排程上運行、在 API 呼叫時觸發或對來自雲端基礎設施的 GitHub 事件做出反應的例行程序。
 - [使用 Ultrareview 尋找錯誤](https://code.claude.com/docs/zh-TW/ultrareview.md): 使用 /code-review ultra 在雲端執行深度多代理程式碼審查，在合併前尋找並驗證錯誤。
 
@@ -288,7 +288,7 @@
 - [遷移至 Claude Agent SDK](https://code.claude.com/docs/zh-TW/agent-sdk/migration-guide.md): 將 Claude Code TypeScript 和 Python SDK 遷移至 Claude Agent SDK 的指南
 - [排除 Agent SDK 的故障](https://code.claude.com/docs/zh-TW/agent-sdk/troubleshooting.md): 當 Claude Code CLI 無法啟動、CLI 程序退出或成功結果到達但沒有結構化輸出時，修復 Agent SDK 錯誤。
 
-#### 建立代理程式
+#### 建立代理
 
 - [設定您的代理](https://code.claude.com/docs/zh-TW/agent-sdk/configuration.md): 設定 Agent SDK 工作階段：組合選項物件、設定模型、環境和限制，並找到每個功能選項的頁面。
 - [範例](https://code.claude.com/docs/zh-TW/agent-sdk/examples.md): 尋找完整、可執行的 Agent SDK 專案或 Claude Cookbook 中的引導式配方，以符合您想要建置的內容。

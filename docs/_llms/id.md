@@ -44,7 +44,7 @@
 ##### Claude Code di cloud
 
 - [Mulai dengan Claude Code di cloud](https://code.claude.com/docs/id/web-quickstart.md): Jalankan Claude Code di cloud dari browser atau ponsel Anda. Hubungkan repositori GitHub, kirimkan tugas, dan tinjau PR tanpa setup lokal.
-- [Gunakan Claude Code di cloud](https://code.claude.com/docs/id/claude-code-on-the-web.md): Jalankan sesi Claude Code di cloud dari browser, ponsel, aplikasi desktop, atau terminal Anda, pindahkan dengan --cloud dan --teleport, dan auto-fix pull request.
+- [Gunakan Claude Code di cloud](https://code.claude.com/docs/id/claude-code-on-the-web.md): Jalankan sesi Claude Code di cloud dari browser, ponsel, aplikasi desktop, atau terminal Anda, pindahkan dengan `--cloud` dan `--teleport`, dan auto-fix pull request.
 - [Otomatisasi pekerjaan dengan rutinitas](https://code.claude.com/docs/id/routines.md): Letakkan Claude Code pada autopilot. Tentukan rutinitas yang berjalan sesuai jadwal, dipicu oleh panggilan API, atau bereaksi terhadap peristiwa GitHub dari infrastruktur cloud.
 - [Temukan bug dengan ultrareview](https://code.claude.com/docs/id/ultrareview.md): Jalankan tinjauan kode multi-agen yang mendalam di cloud dengan /code-review ultra untuk menemukan dan memverifikasi bug sebelum Anda merge.
 

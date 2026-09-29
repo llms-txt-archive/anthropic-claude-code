@@ -44,7 +44,7 @@
 ##### Claude Code в облаке
 
 - [Начало работы с Claude Code в облаке](https://code.claude.com/docs/ru/web-quickstart.md): Запустите Claude Code в облаке из браузера или мобильного приложения. Подключите репозиторий GitHub, отправьте задачу и просмотрите PR без локальной настройки.
-- [Использование Claude Code в облаке](https://code.claude.com/docs/ru/claude-code-on-the-web.md): Запускайте сессии Claude Code в облаке из браузера, телефона, настольного приложения или терминала, перемещайте их с помощью --cloud и --teleport, а также автоматически исправляйте pull requests.
+- [Использование Claude Code в облаке](https://code.claude.com/docs/ru/claude-code-on-the-web.md): Запускайте сессии Claude Code в облаке из браузера, телефона, настольного приложения или терминала, перемещайте их с помощью `--cloud` и `--teleport`, а также автоматически исправляйте pull requests.
 - [Автоматизация работы с помощью рутин](https://code.claude.com/docs/ru/routines.md): Переведите Claude Code на автопилот. Определите рутины, которые запускаются по расписанию, срабатывают при вызовах API или реагируют на события GitHub из облачной инфраструктуры.
 - [Поиск ошибок с помощью ultrareview](https://code.claude.com/docs/ru/ultrareview.md): Запустите глубокий многоагентный анализ кода в облаке с помощью /code-review ultra, чтобы найти и проверить ошибки перед слиянием.
 
