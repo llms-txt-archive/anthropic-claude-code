@@ -60,7 +60,7 @@
 ##### Revisione del codice e CI/CD
 
 - [Rileva problemi di sicurezza mentre Claude scrive il codice](https://code.claude.com/docs/it/security-guidance.md): Installa il plugin security-guidance per far sì che Claude riveda le proprie modifiche al codice per individuare vulnerabilità e correggerle nella stessa sessione.
-- [Scansiona il tuo codebase per le vulnerabilità](https://code.claude.com/docs/it/claude-security.md): Installa il plugin Claude Security per scansionare il tuo codebase alla ricerca di vulnerabilità in una sessione Claude Code e trasforma i risultati in patch che esamini e applichi.
+- [Scansiona il tuo codebase per le vulnerabilità](https://code.claude.com/docs/it/claude-security.md): Installa il Claude Security plugin per scansionare il tuo codebase alla ricerca di vulnerabilità in una sessione Claude Code e trasforma i risultati in patch che esamini e applichi.
 - [Code Review](https://code.claude.com/docs/it/code-review.md): Configura revisioni automatiche dei PR che rilevano errori logici, vulnerabilità di sicurezza e regressioni utilizzando l'analisi multi-agente dell'intero codebase
 - [Claude Code GitHub Actions](https://code.claude.com/docs/it/github-actions.md): Esegui Claude Code nei flussi di lavoro di GitHub Actions per rispondere alle menzioni @claude, automatizzare attività e trasformare issue in pull request
 - [Usa Claude Code GitHub Actions con i provider cloud](https://code.claude.com/docs/it/github-actions-cloud-providers.md): Esegui Claude Code GitHub Actions tramite Amazon Bedrock, Google Cloud's Agent Platform o Microsoft Foundry invece dell'API Claude

@@ -60,7 +60,7 @@
 ##### 程式碼審查與 CI/CD
 
 - [在 Claude 編寫程式碼時捕捉安全問題](https://code.claude.com/docs/zh-TW/security-guidance.md): 安裝 security-guidance 外掛程式，讓 Claude 檢查自己的程式碼變更是否存在漏洞，並在同一個工作階段中修復它們。
-- [掃描程式碼庫以尋找漏洞](https://code.claude.com/docs/zh-TW/claude-security.md): 安裝 Claude Security plugin 以在 Claude Code 工作階段中掃描程式碼庫以尋找漏洞，並將發現的問題轉換為您可以檢查和應用的修補程式。
+- [掃描程式碼庫以尋找漏洞](https://code.claude.com/docs/zh-TW/claude-security.md): 安裝 Claude Security plugin 以在 Claude Code 工作階段中掃描程式碼庫以尋找漏洞，並將發現的問題轉換為您可以檢視和應用的修補程式。
 - [Code Review](https://code.claude.com/docs/zh-TW/code-review.md): 設定自動化 PR 審查，使用多代理分析您的完整程式碼庫來捕捉邏輯錯誤、安全漏洞和迴歸
 - [Claude Code GitHub Actions](https://code.claude.com/docs/zh-TW/github-actions.md): 在 GitHub Actions 工作流程中執行 Claude Code，以回應 @claude 提及、自動化任務，並將議題轉換為 pull request
 - [使用 Claude Code GitHub Actions 搭配雲端提供者](https://code.claude.com/docs/zh-TW/github-actions-cloud-providers.md): 透過 Amazon Bedrock、Google Cloud 的 Agent Platform 或 Microsoft Foundry 執行 Claude Code GitHub Actions，而不是使用 Claude API
@@ -200,7 +200,7 @@
 - [為您的組織推出 LLM 閘道](https://code.claude.com/docs/zh-TW/llm-gateway-rollout.md): 為 Claude Code 部署閘道產品：配置它以轉發 Claude Code 發送的內容、發放開發者認證、透過受管設定分發配置，並驗證推出。
 - [Claude Code 閘道相容性指南](https://code.claude.com/docs/zh-TW/llm-gateway-protocol.md): 保持 LLM 閘道與 Claude Code 相容：它呼叫的端點、必須轉發的標頭和本體欄位，以及移除它們時會中斷的功能。
 
-#### 使用量與成本
+#### 使用量和成本
 
 - [監控](https://code.claude.com/docs/zh-TW/monitoring-usage.md): 了解如何為 Claude Code 啟用和配置 OpenTelemetry。
 - [有效管理成本](https://code.claude.com/docs/zh-TW/costs.md): 追蹤 token 使用情況、設定團隊支出限制，並透過上下文管理、模型選擇、延伸思考設定和預處理 hooks 來降低 Claude Code 成本。
