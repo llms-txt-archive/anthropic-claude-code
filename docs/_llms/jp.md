@@ -168,7 +168,7 @@
 - [組織の MCP サーバーアクセスを制御する](https://code.claude.com/docs/ja/managed-mcp.md): 管理対象設定ファイル、管理対象設定、許可リスト、拒否リストを使用して、ユーザーが追加または接続できる MCP サーバーを制限するか、すべてのユーザーにサーバーを提供します。
 - [オートモードの設定](https://code.claude.com/docs/ja/auto-mode-config.md): オートモード分類器に、組織が信頼するリポジトリ、バケット、ドメインを指定します。環境コンテキストを設定し、デフォルトのブロックおよび許可ルールをオーバーライドし、オートモード CLI サブコマンドで有効な設定を検査します。
 
-#### デプロイ
+#### デプロイメント
 
 - [エンタープライズデプロイメント概要](https://code.claude.com/docs/ja/third-party-integrations.md): Claude Code が様々なサードパーティサービスとインフラストラクチャと統合して、エンタープライズデプロイメント要件を満たす方法について学びます。
 - [機能の利用可能性](https://code.claude.com/docs/ja/feature-availability.md): Anthropic のサブスクリプションプラン、Anthropic Console、Amazon Bedrock、Claude Platform on AWS、Google Cloud の Agent Platform、Microsoft Foundry 全体で利用可能な Claude Code 機能を比較します。
