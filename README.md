@@ -18,7 +18,7 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20260930T090022Z` | 2026-09-30 09:00 UTC | [Projects, plugins, and `/claude-api` docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260930T090022Z) |
+| `archive-20260930T160532Z` | 2026-09-30 16:05 UTC | [Localized index copy refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260930T160532Z) |
 | `archive-20260930T022313Z` | 2026-09-30 02:24 UTC | [Managed MCP Chrome controls and artifact sharing updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260930T022313Z) |
 | `archive-20260929T231217Z` | 2026-09-29 23:15 UTC | [Deployment and model-switch docs clarified](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260929T231217Z) |
 | `archive-20260929T193817Z` | 2026-09-29 19:40 UTC | [Cloud telemetry and session controls refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260929T193817Z) |
