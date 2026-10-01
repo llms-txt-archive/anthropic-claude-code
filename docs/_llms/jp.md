@@ -48,7 +48,7 @@
 - [ルーティンで作業を自動化する](https://code.claude.com/docs/ja/routines.md): Claude Code を自動操縦に設定します。スケジュールで実行するルーティンを定義したり、API 呼び出しでトリガーしたり、Anthropic が管理するクラウドインフラストラクチャから GitHub イベントに反応させたりできます。
 - [ultrareview でバグを見つける](https://code.claude.com/docs/ja/ultrareview.md): /code-review ultra でクラウド上で深い複数エージェント型のコードレビューを実行し、マージ前にバグを見つけて検証します。
 
-##### Claude Code デスクトップ版
+##### Claude Code（デスクトップ版）
 
 - [デスクトップアプリを始める](https://code.claude.com/docs/ja/desktop-quickstart.md): Claude デスクトップアプリをインストールして、Code タブを開き、コンピューター上のプロジェクトフォルダーで最初の Claude Code セッションを開始します。
 - [Desktop application](https://code.claude.com/docs/ja/desktop.md): Claude Code Desktop をさらに活用する：Git 分離による並列セッション、ドラッグアンドドロップペインレイアウト、統合ターミナルとファイルエディタ、サイドチャット、コンピュータ使用、電話から Dispatch セッションを送信、ビジュアル diff レビュー、アプリプレビュー、PR 監視、コネクタ、エンタープライズ設定。
