@@ -7,7 +7,7 @@ Every change to the upstream docs produces a git commit and a GitHub release, so
 | | |
 |---|---|
 | **Source** | [https://code.claude.com/docs/llms.txt](https://code.claude.com/docs/llms.txt) |
-| **Documents** | 221 Markdown files |
+| **Documents** | 230 Markdown files |
 | **Schedule** | Hourly at :42 UTC |
 
 ## How it works
@@ -18,7 +18,7 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20261001T074801Z` | 2026-10-01 07:48 UTC | [Provider restrictions, model fallback, and SDK reference updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261001T074801Z) |
+| `archive-20261001T203151Z` | 2026-10-01 20:31 UTC | [Claude Mods docs and policy updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261001T203151Z) |
 | `archive-20261001T005024Z` | 2026-10-01 00:52 UTC | [Desktop launch, live resume, and plugin setup docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261001T005024Z) |
 | `archive-20260930T210028Z` | 2026-09-30 21:02 UTC | [Bedrock gateway and background task docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260930T210028Z) |
 | `archive-20260930T160532Z` | 2026-09-30 16:06 UTC | [Localized index copy refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260930T160532Z) |

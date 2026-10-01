@@ -134,6 +134,22 @@
 - [Misurare il costo e l'utilizzo dei plugin](https://code.claude.com/docs/it/plugins/measure.md): Misurare il costo in token di un plugin Claude Code, scoprire se le persone lo usano ancora e scegliere gli eventi di telemetria per domande sui plugin a livello organizzativo.
 - [Consiglia il tuo plugin dalla tua CLI](https://code.claude.com/docs/it/plugins/cli-hints.md): Invita gli utenti di Claude Code a installare il tuo plugin del marketplace ufficiale emettendo un tag claude-code-hint dalla tua CLI o SDK.
 
+#### Mod
+
+- [Panoramica dei mod](https://code.claude.com/docs/it/plugins/mods/overview.md): Aggiungi riquadri, comandi e regole di chiamata di strumenti a Claude Code con un mod. Scopri cosa può fare un mod, come crearne o installarne uno e dove vengono eseguiti i mod.
+- [Creare un mod](https://code.claude.com/docs/it/plugins/mods/create.md): Fai scrivere a Claude un mod di Claude Code da una descrizione, oppure scrivi tu stesso uno che conta le chiamate ai tool e aggiunge un comando. Impara il ciclo di ricaricamento e convalida.
+
+##### Compila
+
+- [Disegnare nell'interfaccia con un mod](https://code.claude.com/docs/it/plugins/mods/interface.md): Disegnare riquadri, una banda sopra il prompt, pulsanti e campi di testo da un mod di Claude Code, gestire pressioni e input, e mantenere lo stato tra i ridisegni e le sessioni.
+- [Reagire agli eventi con un mod](https://code.claude.com/docs/it/plugins/mods/events.md): Gestire gli eventi di Claude Code da un mod: osservare, riscrivere o rispondere alle chiamate di strumenti, ai prompt e ai turni, filtrare quali eventi un hook gestisce e pianificare per altri mod.
+- [Usa l'API mods](https://code.claude.com/docs/it/plugins/mods/api.md): Chiama l'API mods da un mod Claude Code per aggiungere comandi e strumenti, chiamare un modello, eseguire lavoro su un timer, inviare messaggi ad altre sessioni e accedere a file e rete.
+
+##### Testare e risolvere i problemi
+
+- [Testare un mod](https://code.claude.com/docs/it/plugins/mods/test.md): Scrivi test automatizzati per un mod Claude Code che generano eventi, simulano le risposte di Claude Code e premono pulsanti, senza sessione, accesso o rete.
+- [Risolvere i problemi di un mod](https://code.claude.com/docs/it/plugins/mods/troubleshoot.md): Scopri perché un mod Claude Code non fa nulla: abbina il sintomo o il messaggio alla sua causa, cerca i messaggi di rifiuto e leggi il debug log.
+
 #### Eseguire un marketplace
 
 - [Creare un marketplace](https://code.claude.com/docs/it/plugins/create-marketplace.md): Crea un marketplace di plugin da un file marketplace.json e testalo localmente prima di ospitarlo.
@@ -143,6 +159,7 @@
 #### Gestisci i plugin per la tua organizzazione
 
 - [Gestire i plugin Claude Code per la tua organizzazione](https://code.claude.com/docs/it/plugins/org.md): Controlla quali plugin Claude Code installa e consente su ogni macchina della tua organizzazione attraverso impostazioni gestite.
+- [Gestire i mod per la vostra organizzazione](https://code.claude.com/docs/it/plugins/mods/admin.md): Controllare i mod di Claude Code con impostazioni gestite: bloccare i mod installati dagli utenti, consentire solo i vostri, esaminare cosa può fare un mod e applicare la politica con il vostro mod.
 
 #### Risoluzione dei problemi
 
