@@ -135,6 +135,22 @@
 - [플러그인 비용 및 사용량 측정](https://code.claude.com/docs/ko/plugins/measure.md): Claude Code 플러그인의 토큰 비용을 측정하고, 사람들이 여전히 사용하는지 확인하며, 조직 전체 플러그인 질문을 위한 텔레메트리 이벤트를 선택합니다.
 - [CLI에서 플러그인 추천하기](https://code.claude.com/docs/ko/plugins/cli-hints.md): CLI 또는 SDK에서 claude-code-hint 태그를 내보내 Claude Code 사용자에게 공식 마켓플레이스 플러그인 설치를 유도합니다.
 
+#### 모드
+
+- [Mods 개요](https://code.claude.com/docs/ko/plugins/mods/overview.md): mod를 사용하여 Claude Code에 창, 명령, 도구 호출 규칙을 추가합니다. mod가 할 수 있는 것, mod를 만들거나 설치하는 방법, mod가 실행되는 위치를 확인합니다.
+- [모드 만들기](https://code.claude.com/docs/ko/plugins/mods/create.md): Claude가 설명으로부터 Claude Code 모드를 작성하도록 하거나, 도구 호출을 세고 명령을 추가하는 모드를 직접 작성하세요. 다시 로드 및 검증 루프를 배웁니다.
+
+##### 빌드
+
+- [모드로 인터페이스에 그리기](https://code.claude.com/docs/ko/plugins/mods/interface.md): Claude Code 모드에서 창, 프롬프트 위의 밴드, 버튼, 텍스트 필드를 그리고, 누름과 입력을 처리하며, 다시 그릴 때와 세션 간에 상태를 유지합니다.
+- [이벤트에 모드로 반응하기](https://code.claude.com/docs/ko/plugins/mods/events.md): 모드에서 Claude Code 이벤트 처리: 도구 호출, 프롬프트, 턴 관찰, 재작성 또는 응답, 훅이 처리하는 이벤트 필터링, 다른 모드 계획
+- [mods API 사용하기](https://code.claude.com/docs/ko/plugins/mods/api.md): Claude Code mod에서 mods API를 호출하여 명령어와 도구를 추가하고, 모델을 호출하고, 타이머에서 작업을 실행하고, 다른 세션에 메시지를 보내고, 파일 및 네트워크에 접근합니다.
+
+##### 테스트 및 문제 해결
+
+- [모드 테스트](https://code.claude.com/docs/ko/plugins/mods/test.md): 이벤트를 발생시키고, Claude Code의 답변을 스텁하고, 버튼을 누르는 Claude Code 모드에 대한 자동화된 테스트를 작성합니다. 세션, 로그인, 네트워크가 필요하지 않습니다.
+- [mod 문제 해결](https://code.claude.com/docs/ko/plugins/mods/troubleshoot.md): Claude Code mod이 작동하지 않는 이유를 파악합니다: 증상이나 메시지를 원인과 일치시키고, 거부 메시지를 조회하며, 디버그 로그를 읽습니다.
+
 #### 마켓플레이스 실행
 
 - [마켓플레이스 만들기](https://code.claude.com/docs/ko/plugins/create-marketplace.md): marketplace.json 파일에서 플러그인 마켓플레이스를 구축하고 호스팅하기 전에 로컬에서 테스트합니다.
@@ -144,6 +160,7 @@
 #### 조직의 플러그인 관리
 
 - [조직을 위한 Claude Code 플러그인 관리](https://code.claude.com/docs/ko/plugins/org.md): 관리되는 설정을 통해 조직의 모든 머신에 Claude Code가 설치하고 허용하는 플러그인을 제어합니다.
+- [조직의 mod 관리](https://code.claude.com/docs/ko/plugins/mods/admin.md): 관리되는 설정으로 Claude Code mod를 제어합니다: 사용자가 설치한 mod 중지, 자신의 mod만 허용, mod가 수행할 수 있는 작업 검토, 자신의 mod로 정책 적용.
 
 #### 문제 해결
 

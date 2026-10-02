@@ -135,6 +135,22 @@
 - [Kosten und Nutzung von Plugins messen](https://code.claude.com/docs/de/plugins/measure.md): Messen Sie die Token-Kosten eines Claude Code-Plugins, finden Sie heraus, ob es noch verwendet wird, und wählen Sie die Telemetrie-Events für organisationsweite Plugin-Fragen aus.
 - [Empfehlen Sie Ihr Plugin über Ihre CLI](https://code.claude.com/docs/de/plugins/cli-hints.md): Fordern Sie Claude Code-Benutzer auf, Ihr offizielles Marketplace-Plugin zu installieren, indem Sie ein claude-code-hint-Tag von Ihrer CLI oder SDK ausgeben.
 
+#### Mods
+
+- [Mods – Übersicht](https://code.claude.com/docs/de/plugins/mods/overview.md): Fügen Sie Bereiche, Befehle und Tool-Call-Regeln zu Claude Code mit einem Mod hinzu. Sehen Sie, was ein Mod kann, wie Sie einen erstellen oder installieren, und wo Mods ausgeführt werden.
+- [Erstelle einen Mod](https://code.claude.com/docs/de/plugins/mods/create.md): Lasse Claude einen Claude Code Mod aus einer Beschreibung schreiben, oder schreibe selbst einen, der Werkzeugaufrufe zählt und einen Befehl hinzufügt. Lerne die Reload- und Validierungsschleife.
+
+##### Erstellen
+
+- [Mit einem Mod in der Benutzeroberfläche zeichnen](https://code.claude.com/docs/de/plugins/mods/interface.md): Zeichnen Sie Panes, ein Band über der Eingabeaufforderung, Schaltflächen und Textfelder aus einem Claude Code Mod, verarbeiten Sie Drücke und Eingaben, und behalten Sie den Status zwischen Neuzeichnungen und Sitzungen bei.
+- [Mit einem Mod auf Ereignisse reagieren](https://code.claude.com/docs/de/plugins/mods/events.md): Behandeln Sie Claude Code-Ereignisse von einem Mod aus: beobachten, schreiben Sie um oder beantworten Sie Tool-Aufrufe, Eingabeaufforderungen und Turns, filtern Sie, welche Ereignisse ein Hook behandelt, und planen Sie für andere Mods.
+- [Verwenden Sie die mods API](https://code.claude.com/docs/de/plugins/mods/api.md): Rufen Sie die mods API aus einem Claude Code Mod auf, um Befehle und Tools hinzuzufügen, ein Modell aufzurufen, Arbeiten auf einem Timer auszuführen, Nachrichten an andere Sitzungen zu senden und auf Dateien und das Netzwerk zuzugreifen.
+
+##### Testen und Fehlerbehebung
+
+- [Einen Mod testen](https://code.claude.com/docs/de/plugins/mods/test.md): Schreiben Sie automatisierte Tests für einen Claude Code Mod, der Ereignisse auslöst, Antworten von Claude Code simuliert und Schaltflächen drückt, ohne Sitzung, Anmeldung oder Netzwerk.
+- [Fehlerbehebung für ein Mod](https://code.claude.com/docs/de/plugins/mods/troubleshoot.md): Finden Sie heraus, warum ein Claude Code Mod nichts tut: Ordnen Sie das Symptom oder die Meldung seiner Ursache zu, schauen Sie sich Ablehnungsmeldungen an, und lesen Sie das Debug-Protokoll.
+
 #### Marketplace ausführen
 
 - [Einen Marketplace erstellen](https://code.claude.com/docs/de/plugins/create-marketplace.md): Erstellen Sie einen Plugin-Marketplace aus einer marketplace.json-Datei und testen Sie ihn lokal, bevor Sie ihn hosten.
@@ -144,6 +160,7 @@
 #### Plugins für Ihre Organisation verwalten
 
 - [Verwalten Sie Claude Code-Plugins für Ihre Organisation](https://code.claude.com/docs/de/plugins/org.md): Kontrollieren Sie, welche Plugins Claude Code auf jedem Computer in Ihrer Organisation installiert und zulässt, durch verwaltete Einstellungen.
+- [Mods für Ihre Organisation verwalten](https://code.claude.com/docs/de/plugins/mods/admin.md): Kontrollieren Sie Claude Code Mods mit verwalteten Einstellungen: Deaktivieren Sie von Benutzern installierte Mods, erlauben Sie nur Ihre eigenen, überprüfen Sie, was ein Mod tun kann, und erzwingen Sie eine Richtlinie mit Ihrem eigenen Mod.
 
 #### Fehlerbehebung
 

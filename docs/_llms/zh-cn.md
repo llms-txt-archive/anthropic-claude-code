@@ -135,6 +135,22 @@
 - [测量插件成本和使用情况](https://code.claude.com/docs/zh-CN/plugins/measure.md): 测量 Claude Code 插件的令牌成本，了解人们是否仍在使用它，并为组织范围的插件问题选择遥测事件。
 - [从您的 CLI 推荐您的插件](https://code.claude.com/docs/zh-CN/plugins/cli-hints.md): 通过从您的 CLI 或 SDK 发出 claude-code-hint 标签，提示 Claude Code 用户安装您的官方市场插件。
 
+#### 模组
+
+- [Mods 概览](https://code.claude.com/docs/zh-CN/plugins/mods/overview.md): 使用 mod 向 Claude Code 添加窗格、命令和工具调用规则。了解 mod 可以做什么、如何创建或安装 mod，以及 mod 在哪里运行。
+- [创建一个 mod](https://code.claude.com/docs/zh-CN/plugins/mods/create.md): 让 Claude 从描述中编写一个 Claude Code mod，或者自己编写一个来计算工具调用并添加命令。学习重新加载和验证循环。
+
+##### 构建
+
+- [使用 mod 在界面中绘制](https://code.claude.com/docs/zh-CN/plugins/mods/interface.md): 从 Claude Code mod 中绘制窗格、提示符上方的条带、按钮和文本字段，处理按键和输入，并在重绘和会话之间保持状态。
+- [使用 mod 响应事件](https://code.claude.com/docs/zh-CN/plugins/mods/events.md): 从 mod 处理 Claude Code 事件：观察、重写或回答工具调用、提示和轮次，过滤 hook 处理的事件，并为其他 mod 做计划。
+- [使用 mods API](https://code.claude.com/docs/zh-CN/plugins/mods/api.md): 从 Claude Code mod 调用 mods API 来添加命令和工具、调用模型、在计时器上运行工作、向其他会话发送消息，以及访问文件和网络。
+
+##### 测试和故障排除
+
+- [测试 mod](https://code.claude.com/docs/zh-CN/plugins/mods/test.md): 为 Claude Code mod 编写自动化测试，该测试可以触发事件、存根 Claude Code 的答案、按下按钮，无需会话、登录或网络。
+- [排查 mod 问题](https://code.claude.com/docs/zh-CN/plugins/mods/troubleshoot.md): 了解为什么 Claude Code mod 不起作用：将症状或消息与其原因匹配，查找拒绝消息，并阅读调试日志。
+
 #### 运行 marketplace
 
 - [创建一个 marketplace](https://code.claude.com/docs/zh-CN/plugins/create-marketplace.md): 从 marketplace.json 文件构建一个 plugin marketplace，并在托管之前在本地测试它。
@@ -144,6 +160,7 @@
 #### 管理组织的插件
 
 - [为您的组织管理 Claude Code plugins](https://code.claude.com/docs/zh-CN/plugins/org.md): 通过托管设置控制 Claude Code 在组织中每台机器上安装和允许的 plugins。
+- [为您的组织管理 mods](https://code.claude.com/docs/zh-CN/plugins/mods/admin.md): 使用托管设置控制 Claude Code mods：停止用户安装的 mods、仅允许您自己的 mods、查看 mod 可以执行的操作，以及使用您自己的 mod 强制执行策略。
 
 #### 故障排除
 

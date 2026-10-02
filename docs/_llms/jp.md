@@ -135,6 +135,22 @@
 - [プラグインのコストと使用状況を測定する](https://code.claude.com/docs/ja/plugins/measure.md): Claude Code プラグインのトークンコスト、人々がまだそれを使用しているかどうかを確認し、組織全体のプラグイン質問のテレメトリイベントを選択します。
 - [CLI から プラグインを推奨する](https://code.claude.com/docs/ja/plugins/cli-hints.md): Claude Code ユーザーに対して、CLI または SDK から claude-code-hint タグを出力することで、公式マーケットプレイスのプラグインをインストールするよう促します。
 
+#### Mods
+
+- [Mods の概要](https://code.claude.com/docs/ja/plugins/mods/overview.md): mod を使用して Claude Code にペイン、コマンド、ツール呼び出しルールを追加します。mod でできることや、mod の作成方法、インストール方法、mod が実行される場所を確認してください。
+- [mod を作成する](https://code.claude.com/docs/ja/plugins/mods/create.md): Claude に説明から Claude Code mod を書かせるか、ツール呼び出しをカウントしてコマンドを追加する mod を自分で書きます。リロードと検証ループについて学びます。
+
+##### ビルド
+
+- [モッドでインターフェースに描画する](https://code.claude.com/docs/ja/plugins/mods/interface.md): Claude Code モッドからペイン、プロンプト上部のバンド、ボタン、テキストフィールドを描画し、押下と入力を処理し、再描画とセッション間で状態を保持します。
+- [イベントに mod で反応する](https://code.claude.com/docs/ja/plugins/mods/events.md): mod から Claude Code イベントを処理する：観察、書き換え、またはツール呼び出し、プロンプト、ターンに答える、フック が処理するイベントをフィルタリングする、および他の mod を計画する。
+- [mods API を使用する](https://code.claude.com/docs/ja/plugins/mods/api.md): Claude Code mod から mods API を呼び出して、コマンドとツールを追加し、モデルを呼び出し、タイマーで作業を実行し、他のセッションにメッセージを送信し、ファイルとネットワークにアクセスします。
+
+##### テストとトラブルシューティング
+
+- [モッドをテストする](https://code.claude.com/docs/ja/plugins/mods/test.md): イベントを発生させ、Claude Code の回答をスタブし、ボタンを押すモッドの自動テストを書きます。セッション、サインイン、ネットワークは不要です。
+- [mod のトラブルシューティング](https://code.claude.com/docs/ja/plugins/mods/troubleshoot.md): Claude Code mod が何もしない理由を調べます。症状またはメッセージを原因と照合し、拒否メッセージを確認し、デバッグログを読みます。
+
 #### マーケットプレイスを実行する
 
 - [マーケットプレイスを作成する](https://code.claude.com/docs/ja/plugins/create-marketplace.md): marketplace.json ファイルからプラグインマーケットプレイスを構築し、ホストする前にローカルでテストします。
@@ -144,6 +160,7 @@
 #### 組織向けプラグインを管理する
 
 - [組織向けの Claude Code プラグインを管理する](https://code.claude.com/docs/ja/plugins/org.md): マネージド設定を通じて、組織内のすべてのマシンに Claude Code がインストールして許可するプラグインを制御します。
+- [組織向けの mod を管理する](https://code.claude.com/docs/ja/plugins/mods/admin.md): 管理設定で Claude Code の mod を制御します。ユーザーがインストールした mod を停止し、自分たちの mod のみを許可し、mod が実行できることを確認し、独自の mod でポリシーを実施します。
 
 #### トラブルシューティング
 

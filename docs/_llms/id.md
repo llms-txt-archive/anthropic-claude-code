@@ -134,6 +134,22 @@
 - [Ukur biaya dan penggunaan plugin](https://code.claude.com/docs/id/plugins/measure.md): Ukur biaya token plugin Claude Code, cari tahu apakah orang masih menggunakannya, dan pilih peristiwa telemetri untuk pertanyaan plugin di seluruh organisasi.
 - [Rekomendasikan plugin Anda dari CLI Anda](https://code.claude.com/docs/id/plugins/cli-hints.md): Minta pengguna Claude Code untuk memasang plugin marketplace resmi Anda dengan mengeluarkan tag claude-code-hint dari CLI atau SDK Anda.
 
+#### Mod
+
+- [Ikhtisar Mods](https://code.claude.com/docs/id/plugins/mods/overview.md): Tambahkan pane, perintah, dan aturan pemanggilan alat ke Claude Code dengan mod. Lihat apa yang dapat dilakukan mod, cara membuat atau memasang mod, dan tempat mod berjalan.
+- [Buat sebuah mod](https://code.claude.com/docs/id/plugins/mods/create.md): Biarkan Claude menulis mod Claude Code dari deskripsi, atau tulis sendiri yang menghitung panggilan alat dan menambahkan perintah. Pelajari loop reload dan validate.
+
+##### Bangun
+
+- [Menggambar di antarmuka dengan mod](https://code.claude.com/docs/id/plugins/mods/interface.md): Menggambar panel, pita di atas prompt, tombol, dan bidang teks dari mod Claude Code, menangani penekanan dan input, serta menjaga status antara redraw dan sesi.
+- [Bereaksi terhadap peristiwa dengan mod](https://code.claude.com/docs/id/plugins/mods/events.md): Tangani peristiwa Claude Code dari mod: amati, tulis ulang, atau jawab panggilan alat, prompt, dan giliran, saring peristiwa mana yang ditangani hook, dan rencanakan untuk mod lain.
+- [Gunakan mods API](https://code.claude.com/docs/id/plugins/mods/api.md): Panggil mods API dari mod Claude Code untuk menambahkan perintah dan alat, memanggil model, menjalankan pekerjaan pada timer, mengirim pesan ke sesi lain, dan mengakses file serta jaringan.
+
+##### Uji dan Troubleshooting
+
+- [Uji coba mod](https://code.claude.com/docs/id/plugins/mods/test.md): Tulis tes otomatis untuk mod Claude Code yang menaikkan peristiwa, stub jawaban Claude Code, dan tekan tombol, tanpa sesi, masuk, atau jaringan.
+- [Troubleshoot a mod](https://code.claude.com/docs/id/plugins/mods/troubleshoot.md): Cari tahu mengapa Claude Code mod tidak melakukan apa pun: cocokkan gejala atau pesan dengan penyebabnya, cari pesan penolakan, dan baca log debug.
+
 #### Jalankan marketplace
 
 - [Buat marketplace](https://code.claude.com/docs/id/plugins/create-marketplace.md): Bangun marketplace plugin dari file marketplace.json dan uji secara lokal sebelum Anda menghosting-nya.
@@ -143,6 +159,7 @@
 #### Kelola plugin untuk organisasi Anda
 
 - [Kelola plugin Claude Code untuk organisasi Anda](https://code.claude.com/docs/id/plugins/org.md): Kontrol plugin mana yang Claude Code instal dan izinkan di seluruh organisasi Anda melalui pengaturan terkelola.
+- [Kelola mod untuk organisasi Anda](https://code.claude.com/docs/id/plugins/mods/admin.md): Kontrol mod Claude Code dengan pengaturan terkelola: hentikan mod yang dipasang pengguna, izinkan hanya milik Anda sendiri, tinjau apa yang dapat dilakukan mod, dan terapkan kebijakan dengan mod Anda sendiri.
 
 #### Pemecahan Masalah
 
@@ -167,7 +184,7 @@
 - [Kontrol akses server MCP untuk organisasi Anda](https://code.claude.com/docs/id/managed-mcp.md): Batasi server MCP mana yang dapat ditambahkan atau dihubungkan pengguna, atau sediakan server untuk setiap pengguna, dengan file konfigurasi yang dikelola, pengaturan yang dikelola, daftar izin, dan daftar penolakan.
 - [Konfigurasi mode otomatis](https://code.claude.com/docs/id/auto-mode-config.md): Beri tahu pengklasifikasi mode otomatis repositori, bucket, dan domain mana yang dipercaya organisasi Anda. Atur konteks lingkungan, ganti aturan blokir dan izin default, dan periksa konfigurasi efektif Anda dengan subperintah CLI mode otomatis.
 
-#### Penyebaran
+#### Penerapan
 
 - [Ikhtisar penyebaran enterprise](https://code.claude.com/docs/id/third-party-integrations.md): Pelajari bagaimana Claude Code dapat terintegrasi dengan berbagai layanan pihak ketiga dan infrastruktur untuk memenuhi persyaratan penyebaran enterprise.
 - [Ketersediaan fitur](https://code.claude.com/docs/id/feature-availability.md): Bandingkan fitur Claude Code mana yang tersedia di seluruh paket langganan Anthropic, Anthropic Console, Amazon Bedrock, Claude Platform di AWS, Platform Agent Google Cloud, dan Microsoft Foundry.

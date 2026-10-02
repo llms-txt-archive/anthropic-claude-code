@@ -135,6 +135,22 @@
 - [測量外掛程式成本和使用情況](https://code.claude.com/docs/zh-TW/plugins/measure.md): 測量 Claude Code 外掛程式的權杖成本，了解人們是否仍在使用它，並為組織範圍的外掛程式問題選擇遙測事件。
 - [從您的 CLI 推薦您的外掛程式](https://code.claude.com/docs/zh-TW/plugins/cli-hints.md): 透過從您的 CLI 或 SDK 發出 claude-code-hint 標籤，提示 Claude Code 使用者安裝您的官方市場外掛程式。
 
+#### 模組
+
+- [Mods 概述](https://code.claude.com/docs/zh-TW/plugins/mods/overview.md): 使用 mod 為 Claude Code 新增窗格、命令和工具呼叫規則。了解 mod 的功能、如何建立或安裝 mod，以及 mod 的執行位置。
+- [建立 mod](https://code.claude.com/docs/zh-TW/plugins/mods/create.md): 讓 Claude 從描述中寫出 Claude Code mod，或自己寫一個來計算工具呼叫並新增命令。學習重新載入和驗證迴圈。
+
+##### 建置
+
+- [使用 mod 在介面中繪製](https://code.claude.com/docs/zh-TW/plugins/mods/interface.md): 從 Claude Code mod 繪製窗格、提示上方的帶狀區域、按鈕和文字欄位，處理按下和輸入，並在重新繪製和工作階段之間保持狀態。
+- [使用 mod 回應事件](https://code.claude.com/docs/zh-TW/plugins/mods/events.md): 從 mod 處理 Claude Code 事件：觀察、重寫或回答工具呼叫、提示和回合，篩選 hook 處理哪些事件，並為其他 mod 進行規劃。
+- [使用 mods API](https://code.claude.com/docs/zh-TW/plugins/mods/api.md): 從 Claude Code mod 呼叫 mods API 以新增命令和工具、呼叫模型、在計時器上執行工作、向其他工作階段傳送訊息，以及存取檔案和網路。
+
+##### 測試和疑難排解
+
+- [測試 mod](https://code.claude.com/docs/zh-TW/plugins/mods/test.md): 為 Claude Code mod 編寫自動化測試，該測試會觸發事件、存根 Claude Code 的答案並按下按鈕，無需工作階段、登入或網路。
+- [排除 mod 的故障](https://code.claude.com/docs/zh-TW/plugins/mods/troubleshoot.md): 找出 Claude Code mod 為什麼沒有作用：將症狀或訊息與其原因相符，查詢拒絕訊息，並閱讀偵錯日誌。
+
 #### 執行 marketplace
 
 - [建立 marketplace](https://code.claude.com/docs/zh-TW/plugins/create-marketplace.md): 從 marketplace.json 檔案建立 plugin marketplace，並在託管前在本機測試。
@@ -144,6 +160,7 @@
 #### 管理您組織的外掛程式
 
 - [為您的組織管理 Claude Code 外掛程式](https://code.claude.com/docs/zh-TW/plugins/org.md): 透過受管設定控制 Claude Code 在組織中每台機器上安裝和允許的外掛程式。
+- [為您的組織管理 mods](https://code.claude.com/docs/zh-TW/plugins/mods/admin.md): 使用受管設定控制 Claude Code mods：停止使用者安裝的 mods、僅允許您自己的 mods、檢查 mod 可以執行的操作，以及使用您自己的 mod 強制執行政策。
 
 #### 疑難排解
 
@@ -200,7 +217,7 @@
 - [為您的組織推出 LLM 閘道](https://code.claude.com/docs/zh-TW/llm-gateway-rollout.md): 為 Claude Code 部署閘道產品：配置它以轉發 Claude Code 發送的內容、發放開發者認證、透過受管設定分發配置，並驗證推出。
 - [Claude Code 閘道相容性指南](https://code.claude.com/docs/zh-TW/llm-gateway-protocol.md): 保持 LLM 閘道與 Claude Code 相容：它呼叫的端點、必須轉發的標頭和本體欄位，以及移除它們時會中斷的功能。
 
-#### 使用量與成本
+#### 使用量和成本
 
 - [監控](https://code.claude.com/docs/zh-TW/monitoring-usage.md): 了解如何為 Claude Code 啟用和配置 OpenTelemetry。
 - [有效管理成本](https://code.claude.com/docs/zh-TW/costs.md): 追蹤 token 使用情況、設定團隊支出限制，並透過上下文管理、模型選擇、延伸思考設定和預處理 hooks 來降低 Claude Code 成本。
