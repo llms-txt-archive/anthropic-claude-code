@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20261002T223505Z` | 2026-10-02 22:35 UTC | [Claude Code 2.1.288 notes and sandboxing refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261002T223505Z) |
+| `archive-20261003T012644Z` | 2026-10-03 01:26 UTC | [Gateway auth, purge rename, and review-limit docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261003T012644Z) |
+| `archive-20261002T223505Z` | 2026-10-02 22:37 UTC | [Claude Code 2.1.288 notes and sandboxing refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261002T223505Z) |
 | `archive-20261002T001351Z` | 2026-10-02 00:16 UTC | [Mods Gallery and Workflow Clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261002T001351Z) |
 | `archive-20261001T203151Z` | 2026-10-01 20:34 UTC | [Claude Mods docs and policy updates](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261001T203151Z) |
 | `archive-20261001T005024Z` | 2026-10-01 00:52 UTC | [Desktop launch, live resume, and plugin setup docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261001T005024Z) |
 | `archive-20260930T210028Z` | 2026-09-30 21:02 UTC | [Bedrock gateway and background task docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260930T210028Z) |
-| `archive-20260930T160532Z` | 2026-09-30 16:06 UTC | [Localized index copy refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20260930T160532Z) |
