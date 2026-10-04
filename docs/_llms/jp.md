@@ -364,6 +364,7 @@
 #### 新機能
 
 - [新機能](https://code.claude.com/docs/ja/whats-new/index.md): Claude Code の注目すべき機能を毎週紹介するダイジェスト。コードスニペット、デモ、およびそれらが重要である理由についての説明が含まれています。
+- [Week 37 · 2026年9月7日～11日](https://code.claude.com/docs/ja/whats-new/2026-w37.md): claude plugin eval でプラグインをテストし、Claude Code Desktop のペインを独立したウィンドウにポップアウトします。
 - [Week 36 · 8月31日～9月4日、2026年](https://code.claude.com/docs/ja/whats-new/2026-w36.md): Claude Fable 5.1に切り替え、Desktop でコンピュータ使用をバックグラウンドで実行し、ライブ /diff パネルで Claude の編集を確認します。
 - [第 35 週・2026 年 8 月 24～28 日](https://code.claude.com/docs/ja/whats-new/2026-w35.md): Claude Code デスクトップアプリでターミナルセッションを再開し、Claude が作成したフィードバックレポートを確認し、制限モードでセッションを開始します。
 - [Week 34 · 8月17～21日、2026年](https://code.claude.com/docs/ja/whats-new/2026-w34.md): /design スキルでドラフト可能な UI アートボードを作成し、Concise 出力スタイルを設定し、スマートフォンからマシン上で Claude Code セッションを開始します。
