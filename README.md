@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20261004T223133Z` | 2026-10-04 22:31 UTC | [Shortcut docs clarified for background subagent control](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261004T223133Z) |
+| `archive-20261005T011649Z` | 2026-10-05 01:16 UTC | [Clarified MCP limits, streaming, and SDK usage docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261005T011649Z) |
+| `archive-20261004T223133Z` | 2026-10-04 22:32 UTC | [Shortcut docs clarified for background subagent control](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261004T223133Z) |
 | `archive-20261004T184747Z` | 2026-10-04 18:48 UTC | [Claude Code docs navigation refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261004T184747Z) |
 | `archive-20261004T153000Z` | 2026-10-04 15:30 UTC | [Japanese index adds Week 37 what's new entry](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261004T153000Z) |
 | `archive-20261004T100519Z` | 2026-10-04 10:07 UTC | [Cloud setup and gateway policy clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261004T100519Z) |
 | `archive-20261004T025143Z` | 2026-10-04 02:52 UTC | [Claude Code 2.1.289 Changelog Update](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261004T025143Z) |
-| `archive-20261003T231948Z` | 2026-10-03 23:20 UTC | [Claude Code review and VS Code docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261003T231948Z) |
