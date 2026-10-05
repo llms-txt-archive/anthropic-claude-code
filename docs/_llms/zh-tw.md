@@ -4,7 +4,7 @@
 
 ## Traditional Chinese
 
-### 快速入門
+### 開始使用
 
 #### 快速入門
 
@@ -153,7 +153,7 @@
 - [測試 mod](https://code.claude.com/docs/zh-TW/plugins/mods/test.md): 為 Claude Code mod 編寫自動化測試，該測試會觸發事件、存根 Claude Code 的答案並按下按鈕，無需工作階段、登入或網路。
 - [排除 mod 的故障](https://code.claude.com/docs/zh-TW/plugins/mods/troubleshoot.md): 找出 Claude Code mod 為什麼沒有作用：將症狀或訊息與其原因相符，查詢拒絕訊息，並閱讀偵錯日誌。
 
-#### 營運市集
+#### 經營市集
 
 - [建立 marketplace](https://code.claude.com/docs/zh-TW/plugins/create-marketplace.md): 從 marketplace.json 檔案建立 plugin marketplace，並在託管前在本機測試。
 - [託管和維護市集](https://code.claude.com/docs/zh-TW/plugins/host-marketplace.md): 發佈一個外掛程式市集，讓使用者可以透過 /plugin marketplace add 新增它、安裝其外掛程式，並在您推送變更後持續接收更新。
@@ -230,6 +230,7 @@
 - [安全性](https://code.claude.com/docs/zh-TW/security.md): 了解 Claude Code 的安全防護措施和安全使用的最佳實踐。
 - [資料使用](https://code.claude.com/docs/zh-TW/data-usage.md): 了解 Anthropic 對 Claude 資料使用政策
 - [零資料保留](https://code.claude.com/docs/zh-TW/zero-data-retention.md): 了解 Claude for Enterprise 合格帳戶可用的 Claude Code 零資料保留 (ZDR)，包括範圍、停用的功能，以及如何要求啟用。
+- [為 HIPAA-ready 組織設定 Claude Code（本機模式）](https://code.claude.com/docs/zh-TW/hipaa-setup.md): 準備開發人員的電腦，以在 HIPAA 設定下執行 Claude Code（本機模式）。涵蓋版本、網路存取、受管設定及本機資料。
 
 #### 採用
 
@@ -255,7 +256,7 @@
 
 - [設定雲端環境](https://code.claude.com/docs/zh-TW/cloud-environments.md): 為 Claude Code 雲端工作階段設定雲端環境：網路存取層級、環境變數、設定指令碼和環境快取。
 
-##### 自架環境
+##### 自行託管環境
 
 - [自託管環境](https://code.claude.com/docs/zh-TW/self-hosted-environments.md): 在您控制的基礎設施上執行 Claude Code 雲端工作階段：設定自託管環境、部署執行器，並將工作階段路由到您自己的運算資源。
 - [自託管環境快速入門](https://code.claude.com/docs/zh-TW/self-hosted-environments-quickstart.md): 設定您的第一個自託管環境：安裝 Claude Code、建立環境、啟動執行器，並將工作階段路由到該環境。
@@ -281,9 +282,9 @@
 - [自訂您的狀態列](https://code.claude.com/docs/zh-TW/statusline.md): 設定自訂狀態列以監控 Claude Code 中的 context window 使用情況、成本和 git 狀態
 - [自訂鍵盤快捷鍵](https://code.claude.com/docs/zh-TW/keybindings.md): 使用快捷鍵配置檔案在 Claude Code 中自訂鍵盤快捷鍵。
 
-### 參考
+### 參考資料
 
-#### 參考資料
+#### 參考
 
 - [CLI 參考](https://code.claude.com/docs/zh-TW/cli-reference.md): Claude Code 命令列介面的完整參考，包括命令和旗標。
 - [Commands](https://code.claude.com/docs/zh-TW/commands.md): Claude Code 中可用命令的完整參考，包括內建命令和捆綁的 skills。
@@ -307,7 +308,7 @@
 - [遷移至 Claude Agent SDK](https://code.claude.com/docs/zh-TW/agent-sdk/migration-guide.md): 將 Claude Code TypeScript 和 Python SDK 遷移至 Claude Agent SDK 的指南
 - [排除 Agent SDK 的故障](https://code.claude.com/docs/zh-TW/agent-sdk/troubleshooting.md): 當 Claude Code CLI 無法啟動、CLI 程序退出或成功結果到達但沒有結構化輸出時，修復 Agent SDK 錯誤。
 
-#### 建立 agent
+#### 打造 agent
 
 - [設定您的代理](https://code.claude.com/docs/zh-TW/agent-sdk/configuration.md): 設定 Agent SDK 工作階段：組合選項物件、設定模型、環境和限制，並找到每個功能選項的頁面。
 - [範例](https://code.claude.com/docs/zh-TW/agent-sdk/examples.md): 尋找完整、可執行的 Agent SDK 專案或 Claude Cookbook 中的引導式配方，以符合您想要建置的內容。
@@ -326,7 +327,7 @@
 - [即時串流回應](https://code.claude.com/docs/zh-TW/agent-sdk/streaming-output.md): 當文字和工具呼叫串流進來時，從 Agent SDK 取得即時回應
 - [從代理獲取結構化輸出](https://code.claude.com/docs/zh-TW/agent-sdk/structured-outputs.md): 使用 JSON Schema、Zod 或 Pydantic 從代理工作流程返回驗證的 JSON。在多輪工具使用後獲得類型安全的結構化資料。
 
-#### 使用工具擴充
+#### 使用工具擴充功能
 
 - [為 Claude 提供自訂工具](https://code.claude.com/docs/zh-TW/agent-sdk/custom-tools.md): 使用 Claude Agent SDK 的同程序 MCP 伺服器定義自訂工具，讓 Claude 可以呼叫您的函數、存取您的 API，並執行特定領域的操作。
 - [使用 MCP 連接外部工具](https://code.claude.com/docs/zh-TW/agent-sdk/mcp.md): 配置 MCP 伺服器以擴展您的代理程式的外部工具。涵蓋傳輸類型、大型工具集的工具搜尋、身份驗證和錯誤處理。

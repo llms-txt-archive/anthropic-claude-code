@@ -12,7 +12,7 @@
 - [Schnellstart](https://code.claude.com/docs/de/quickstart.md): Willkommen bei Claude Code!
 - [Changelog](https://code.claude.com/docs/de/changelog.md)
 
-#### Grundlegende Konzepte
+#### Grundkonzepte
 
 - [So funktioniert Claude Code](https://code.claude.com/docs/de/how-claude-code-works.md): Verstehen Sie die agentengesteuerte Schleife, integrierte Tools und wie Claude Code mit Ihrem Projekt interagiert.
 - [Claude Code erweitern](https://code.claude.com/docs/de/features-overview.md): Verstehen Sie, wann Sie CLAUDE.md, Skills, Subagents, Hooks, MCP und Plugins verwenden.
@@ -69,7 +69,7 @@
 
 ### Mit Claude Code entwickeln
 
-#### Agenten und paralleles Arbeiten
+#### Agenten und parallele Arbeit
 
 - [Agenten parallel ausführen](https://code.claude.com/docs/de/agents.md): Vergleichen Sie die Möglichkeiten, wie Claude Code mehrere Aufgaben gleichzeitig bewältigen kann: Subagenten, Agent-Ansicht, Agent-Teams, dynamische Workflows und Projekte.
 - [Benutzerdefinierte Subagenten erstellen](https://code.claude.com/docs/de/sub-agents.md): Erstellen und verwenden Sie spezialisierte KI-Subagenten in Claude Code für aufgabenspezifische Workflows und verbesserte Kontextverwaltung.
@@ -230,6 +230,7 @@
 - [Sicherheit](https://code.claude.com/docs/de/security.md): Erfahren Sie mehr über die Sicherheitsvorkehrungen von Claude Code und Best Practices für sichere Nutzung.
 - [Datennutzung](https://code.claude.com/docs/de/data-usage.md): Erfahren Sie mehr über die Datennutzungsrichtlinien von Anthropic für Claude
 - [Null-Datenspeicherung](https://code.claude.com/docs/de/zero-data-retention.md): Erfahren Sie mehr über Null-Datenspeicherung (ZDR) für Claude Code, verfügbar für qualifizierte Konten auf Claude for Enterprise, einschließlich Umfang, deaktivierter Funktionen und wie Sie die Aktivierung anfordern.
+- [Claude Code (local mode) für eine HIPAA-fähige Organisation einrichten](https://code.claude.com/docs/de/hipaa-setup.md): Bereiten Sie die Computer von Entwicklern darauf vor, Claude Code (local mode) unter der HIPAA-Konfiguration auszuführen. Behandelt Versionen, Netzwerkzugriff, verwaltete Einstellungen und lokale Daten.
 
 #### Einführung
 
@@ -255,7 +256,7 @@
 
 - [Cloud-Umgebungen konfigurieren](https://code.claude.com/docs/de/cloud-environments.md): Konfigurieren Sie Cloud-Umgebungen für Claude Code Cloud-Sitzungen: Netzwerkzugriffsstufen, Umgebungsvariablen, Setup-Skripte und Umgebungs-Caching.
 
-##### Selbstgehostete Umgebungen
+##### Selbst gehostete Umgebungen
 
 - [Selbst gehostete Umgebungen](https://code.claude.com/docs/de/self-hosted-environments.md): Führen Sie Claude Code Cloud-Sitzungen auf einer Infrastruktur aus, die Sie kontrollieren: Richten Sie eine selbst gehostete Umgebung ein, stellen Sie Runner bereit und leiten Sie Sitzungen zu Ihrem eigenen Compute weiter.
 - [Schnellstart für selbstgehostete Umgebungen](https://code.claude.com/docs/de/self-hosted-environments-quickstart.md): Richten Sie Ihre erste selbstgehostete Umgebung ein: Installieren Sie Claude Code, erstellen Sie die Umgebung, starten Sie einen Runner und leiten Sie eine Sitzung dorthin weiter.
@@ -272,7 +273,7 @@
 - [Schwierige Entscheidungen mit dem Advisor-Tool eskalieren](https://code.claude.com/docs/de/advisor.md): Kombinieren Sie Ihr Hauptmodell mit einem stärkeren Advisor-Modell, das Claude an wichtigen Momenten während einer Aufgabe konsultiert.
 - [Ausgabestile](https://code.claude.com/docs/de/output-styles.md): Ändern Sie Claudes Rolle, Ton und Antwortformat mit einem integrierten Ausgabestil wie „Prägnant" oder „Erklärend", oder schreiben Sie einen benutzerdefinierten Stil.
 
-#### Oberfläche
+#### Schnittstelle
 
 - [Konfigurieren Sie Ihr Terminal für Claude Code](https://code.claude.com/docs/de/terminal-config.md): Beheben Sie Shift+Enter für Zeilenumbrüche, erhalten Sie einen Terminal-Gong, wenn Claude fertig ist, konfigurieren Sie tmux, passen Sie das Farbschema an, und aktivieren Sie den Vim-Modus in der Claude Code CLI.
 - [Vollbildrendering](https://code.claude.com/docs/de/fullscreen.md): Aktivieren Sie einen sanfteren, flimmerfreien Rendering-Modus mit Mausunterstützung und stabiler Speichernutzung in langen Gesprächen.
@@ -312,7 +313,7 @@
 - [Konfigurieren Sie Ihren Agent](https://code.claude.com/docs/de/agent-sdk/configuration.md): Konfigurieren Sie Agent SDK-Sitzungen: stellen Sie das Optionsobjekt zusammen, legen Sie das Modell, die Umgebung und Limits fest, und finden Sie die Seite jeder Funktionsoption.
 - [Beispiele](https://code.claude.com/docs/de/agent-sdk/examples.md): Finden Sie ein vollständiges, ausführbares Agent SDK-Projekt oder ein geführtes Rezept aus dem Claude Cookbook, das zu dem passt, was Sie erstellen möchten.
 
-#### Grundlegende Konzepte
+#### Kernkonzepte
 
 - [So funktioniert die Agent-Schleife](https://code.claude.com/docs/de/agent-sdk/agent-loop.md): Verstehen Sie den Nachrichtenlebenszyklus, die Werkzeugausführung, das Kontextfenster und die Architektur, die Ihre SDK-Agenten antreibt.
 - [Claude Code-Funktionen im SDK verwenden](https://code.claude.com/docs/de/agent-sdk/claude-code-features.md): Laden Sie Projektanweisungen, Skills, Hooks und andere Claude Code-Funktionen in Ihre SDK-Agenten.

@@ -125,7 +125,7 @@
 - [Code intelligence plugins](https://code.claude.com/docs/it/plugins/code-intelligence.md): Installa un plugin di language server in modo che Claude veda gli errori di tipo dopo le modifiche e navighi il codice per simbolo, e rispondi alla finestra di dialogo di raccomandazione del plugin LSP.
 - [Sicurezza e affidabilità dei plugin](https://code.claude.com/docs/it/plugins/security.md): Decidi se fidarti di un plugin prima di installarlo, da ciò che un plugin può fare sulla tua macchina a come esaminarlo e rimuoverlo.
 
-#### Creare plugin
+#### Crea plugin
 
 - [Creare un plugin Claude Code](https://code.claude.com/docs/it/plugins/create.md): Crea il tuo primo plugin Claude Code da una directory vuota, testalo senza un marketplace e converti una configurazione .claude/ esistente.
 - [Aggiungi componenti a un plugin](https://code.claude.com/docs/it/plugins/components.md): Aggiungi skills, hooks, server MCP e ogni altro tipo di componente a un plugin Claude Code, con un esempio che convalida per ciascuno.
@@ -141,7 +141,7 @@
 - [Creare un mod](https://code.claude.com/docs/it/plugins/mods/create.md): Chiedi a Claude di scrivere un mod di Claude Code a partire da una descrizione, oppure scrivine uno tu che conta le chiamate agli strumenti e aggiunge un comando. Impara il ciclo di ricaricamento e convalida.
 - [Riferimento dei mod](https://code.claude.com/docs/it/plugins/mods/reference.md): Riferimento completo per i mod di Claude Code: struttura del modulo degli hook, eventi, metodi dell'API dei mod, punti di rendering, elementi per superficie, limiti e impostazioni.
 
-##### Sviluppa
+##### Sviluppo
 
 - [Disegna nell'interfaccia con un mod](https://code.claude.com/docs/it/plugins/mods/interface.md): Disegna riquadri, una fascia sopra il prompt, pulsanti e campi di testo da un mod di Claude Code, gestisci pressioni e input e mantieni lo stato tra i ridisegni e le sessioni.
 - [Galleria dell'interfaccia per i mod](https://code.claude.com/docs/it/plugins/mods/gallery.md): Scopri gli elementi dell'interfaccia che un mod di Claude Code può disegnare, come testo, pulsanti, campi, Markdown, codice e diff, con codice di esempio e screenshot del terminale.
@@ -187,7 +187,7 @@
 - [Controllare l'accesso ai server MCP per la vostra organizzazione](https://code.claude.com/docs/it/managed-mcp.md): Limitare quali server MCP gli utenti possono aggiungere o connettere, o fornire server a ogni utente, con file di configurazione gestiti, impostazioni gestite, allowlist e denylists.
 - [Configurare la modalità auto](https://code.claude.com/docs/it/auto-mode-config.md): Comunica al classificatore della modalità auto quali repository, bucket e domini la tua organizzazione ritiene affidabili. Imposta il contesto dell'ambiente, sostituisci le regole di blocco e autorizzazione predefinite e ispeziona la tua configurazione effettiva con i sottocomandi CLI della modalità…
 
-#### Deploy
+#### Distribuzione
 
 - [Panoramica della distribuzione aziendale](https://code.claude.com/docs/it/third-party-integrations.md): Scopri come Claude Code può integrarsi con vari servizi di terze parti e infrastrutture per soddisfare i requisiti di distribuzione aziendale.
 - [Disponibilità delle funzionalità](https://code.claude.com/docs/it/feature-availability.md): Confronta quali funzionalità di Claude Code sono disponibili nei piani di abbonamento Anthropic, nella Console Anthropic, in Amazon Bedrock, su Claude Platform on AWS, in Google Cloud's Agent Platform e in Microsoft Foundry.
@@ -230,6 +230,7 @@
 - [Sicurezza](https://code.claude.com/docs/it/security.md): Scopri le misure di sicurezza di Claude Code e le migliori pratiche per un utilizzo sicuro.
 - [Utilizzo dei dati](https://code.claude.com/docs/it/data-usage.md): Scopri le politiche di utilizzo dei dati di Anthropic per Claude
 - [Zero data retention](https://code.claude.com/docs/it/zero-data-retention.md): Scopri Zero Data Retention (ZDR) per Claude Code, disponibile per account qualificati su Claude for Enterprise, inclusi ambito, funzionalità disabilitate e come richiedere l'abilitazione.
+- [Configurare Claude Code (local mode) per un'organizzazione HIPAA-ready](https://code.claude.com/docs/it/hipaa-setup.md): Prepara i computer degli sviluppatori per eseguire Claude Code (local mode) con la configurazione HIPAA. Tratta versioni, accesso di rete, impostazioni gestite e dati locali.
 
 #### Adozione
 
@@ -326,7 +327,7 @@
 - [Trasmettere risposte in tempo reale](https://code.claude.com/docs/it/agent-sdk/streaming-output.md): Ricevere risposte in tempo reale dall'Agent SDK mentre il testo e le chiamate di strumenti vengono trasmessi
 - [Ottenere output strutturati dagli agenti](https://code.claude.com/docs/it/agent-sdk/structured-outputs.md): Restituire JSON convalidato dai flussi di lavoro degli agenti utilizzando JSON Schema, Zod o Pydantic. Ottenere dati strutturati e type-safe dopo l'uso di strumenti multi-turno.
 
-#### Estendi con strumenti
+#### Estendi con gli strumenti
 
 - [Fornisci a Claude strumenti personalizzati](https://code.claude.com/docs/it/agent-sdk/custom-tools.md): Definisci strumenti personalizzati con il server MCP in-process dell'Agent SDK di Claude in modo che Claude possa chiamare le tue funzioni, accedere alle tue API ed eseguire operazioni specifiche del dominio.
 - [Connettiti a strumenti esterni con MCP](https://code.claude.com/docs/it/agent-sdk/mcp.md): Configura i server MCP per estendere il tuo agente con strumenti esterni. Copre i tipi di trasporto, la ricerca di strumenti per set di strumenti di grandi dimensioni, l'autenticazione e la gestione degli errori.

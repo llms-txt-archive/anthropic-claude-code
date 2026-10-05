@@ -159,7 +159,7 @@
 - [마켓플레이스 호스팅 및 유지 관리](https://code.claude.com/docs/ko/plugins/host-marketplace.md): 사용자가 접근할 수 있는 플러그인 마켓플레이스를 게시하고, 비공개 마켓플레이스에 대한 액세스를 부여하며, 설치를 중단하지 않고 업데이트 및 이름 변경을 릴리스합니다.
 - [조직을 위한 플러그인 추천](https://code.claude.com/docs/ko/plugins/relevance.md): 마켓플레이스 플러그인 항목에 관련성 블록을 추가하여 사용자의 작업이 일치할 때 Claude Code가 플러그인을 제안하도록 하고, 관리 설정에서 마켓플레이스를 허용 목록에 추가합니다.
 
-#### 조직의 플러그인 관리
+#### 조직 플러그인 관리
 
 - [조직을 위한 Claude Code 플러그인 관리](https://code.claude.com/docs/ko/plugins/org.md): 관리되는 설정을 통해 조직의 모든 머신에 Claude Code가 설치하고 허용하는 플러그인을 제어합니다.
 - [조직의 mod 관리](https://code.claude.com/docs/ko/plugins/mods/admin.md): 관리형 설정으로 Claude Code mod를 제어합니다. 사용자가 설치한 mod를 차단하고, 자체 mod만 허용하고, mod가 수행할 수 있는 작업을 검토하고, 자체 mod로 정책을 적용합니다.
@@ -169,7 +169,7 @@
 - [플러그인 문제 해결](https://code.claude.com/docs/ko/plugins/troubleshooting.md): Claude Code에서 플러그인 오류를 수정합니다. /plugin이 실행되는 단계부터 설치 및 조직 정책까지 단계별로 그룹화된 정확한 메시지를 찾습니다.
 - [플러그인 로딩 참조](https://code.claude.com/docs/ko/plugins/loading.md): Claude Code가 각 플러그인을 어디에서 로드하는지, 어떤 설정 파일이 로드 여부를 결정하는지, 그리고 업데이트가 아무것도 변경하지 않은 이유를 추적합니다.
 
-#### 참조
+#### 레퍼런스
 
 - [플러그인 매니페스트 참조](https://code.claude.com/docs/ko/plugins/manifest-reference.md): plugin.json의 완전한 참조: 모든 필드의 타입과 기본값, 허용되는 경로 형식, userConfig 및 환경 변수 스키마.
 - [마켓플레이스 참조](https://code.claude.com/docs/ko/plugins/marketplace-reference.md): marketplace.json 필드, 플러그인 항목, 플러그인 및 마켓플레이스 소스 객체의 완전한 참조와 각각이 유효한 위치입니다.
@@ -230,6 +230,7 @@
 - [보안](https://code.claude.com/docs/ko/security.md): Claude Code의 보안 보호 기능과 안전한 사용을 위한 모범 사례에 대해 알아봅니다.
 - [데이터 사용](https://code.claude.com/docs/ko/data-usage.md): Anthropic의 Claude 데이터 사용 정책에 대해 알아봅니다
 - [Zero data retention](https://code.claude.com/docs/ko/zero-data-retention.md): Claude for Enterprise에서 Claude Code의 Zero Data Retention(ZDR)에 대해 알아보세요. 범위, 비활성화된 기능, 활성화 요청 방법을 포함합니다.
+- [HIPAA 대응 조직을 위한 Claude Code(로컬 모드) 설정](https://code.claude.com/docs/ko/hipaa-setup.md): HIPAA 구성에서 Claude Code(로컬 모드)를 실행할 수 있도록 개발자 컴퓨터를 준비합니다. 버전, 네트워크 액세스, 관리형 설정, 로컬 데이터를 다룹니다.
 
 #### 도입
 
@@ -281,9 +282,9 @@
 - [상태 표시줄 사용자 정의](https://code.claude.com/docs/ko/statusline.md): Claude Code에서 컨텍스트 윈도우 사용량, 비용 및 git 상태를 모니터링하기 위해 사용자 정의 상태 표시줄 구성
 - [키보드 단축키 사용자 정의](https://code.claude.com/docs/ko/keybindings.md): keybindings 구성 파일을 사용하여 Claude Code에서 키보드 단축키를 사용자 정의합니다.
 
-### 참조
+### 레퍼런스
 
-#### 레퍼런스
+#### 참조
 
 - [CLI 참조](https://code.claude.com/docs/ko/cli-reference.md): Claude Code 명령줄 인터페이스의 완전한 참조로, 명령어와 플래그를 포함합니다.
 - [명령](https://code.claude.com/docs/ko/commands.md): 기본 제공 명령과 번들 스킬을 포함하여 Claude Code에서 사용할 수 있는 명령에 대한 전체 참조입니다.
@@ -361,7 +362,7 @@
 
 ### 새로운 기능
 
-#### 새로운 소식
+#### 새로운 기능
 
 - [새로운 기능](https://code.claude.com/docs/ko/whats-new/index.md): Claude Code 기능의 주간 요약으로, 코드 스니펫, 데모, 그리고 그 중요성에 대한 맥락을 포함합니다.
 - [주간 37 · 2026년 9월 7–11일](https://code.claude.com/docs/ko/whats-new/2026-w37.md): claude plugin eval로 플러그인을 테스트하고 Claude Code Desktop 창을 별도의 윈도우로 팝아웃합니다.

@@ -12,7 +12,7 @@
 - [Guia de Início Rápido](https://code.claude.com/docs/pt/quickstart.md): Bem-vindo ao Claude Code!
 - [Changelog](https://code.claude.com/docs/pt/changelog.md)
 
-#### Conceitos principais
+#### Conceitos fundamentais
 
 - [Como Claude Code funciona](https://code.claude.com/docs/pt/how-claude-code-works.md): Entenda o loop agentic, as ferramentas integradas e como Claude Code interage com seu projeto.
 - [Estender Claude Code](https://code.claude.com/docs/pt/features-overview.md): Entenda quando usar CLAUDE.md, Skills, subagents, hooks, MCP e plugins.
@@ -67,7 +67,7 @@
 - [Claude Code com GitHub Enterprise Server](https://code.claude.com/docs/pt/github-enterprise-server.md): Conecte Claude Code à sua instância auto-hospedada do GitHub Enterprise Server para sessões na nuvem, revisão de código e marketplaces de plugins.
 - [Claude Code GitLab CI/CD](https://code.claude.com/docs/pt/gitlab-ci-cd.md): Saiba como integrar Claude Code no seu fluxo de trabalho de desenvolvimento com GitLab CI/CD
 
-### Desenvolva com Claude Code
+### Desenvolva com o Claude Code
 
 #### Agentes e trabalho paralelo
 
@@ -141,7 +141,7 @@
 - [Criar um mod](https://code.claude.com/docs/pt/plugins/mods/create.md): Peça ao Claude para escrever um mod do Claude Code a partir de uma descrição, ou escreva um você mesmo que conte chamadas de ferramentas e adicione um comando. Aprenda o loop de recarga e validação.
 - [Referência de mods](https://code.claude.com/docs/pt/plugins/mods/reference.md): Referência completa para mods do Claude Code: estrutura do módulo de hooks, eventos, métodos da API de mods, pontos de renderização, elementos por superfície, limites e configurações.
 
-##### Build
+##### Desenvolver
 
 - [Desenhar na interface com um mod](https://code.claude.com/docs/pt/plugins/mods/interface.md): Desenhe painéis, uma faixa acima do prompt, botões e campos de texto a partir de um mod Claude Code, manipule pressionamentos e entrada, e mantenha o estado entre redesenhos e sessões.
 - [Galeria de interface para mods](https://code.claude.com/docs/pt/plugins/mods/gallery.md): Veja os elementos de interface que um mod do Claude Code pode desenhar, como texto, botões, campos, Markdown, código e diffs, com código de exemplo e capturas de tela do terminal.
@@ -159,7 +159,7 @@
 - [Hospedar e manter um marketplace](https://code.claude.com/docs/pt/plugins/host-marketplace.md): Publique um marketplace de plugins onde os usuários possam acessá-lo, conceda acesso a um privado e lance atualizações e renomeações sem quebrar as instalações.
 - [Recomendar plugins para sua organização](https://code.claude.com/docs/pt/plugins/relevance.md): Adicione um bloco de relevância às entradas de plugins do marketplace para que o Claude Code os sugira quando o trabalho de um usuário corresponder, e adicione o marketplace à allowlist nas configurações gerenciadas.
 
-#### Gerencie plugins para sua organização
+#### Gerencie plugins da sua organização
 
 - [Gerenciar plugins do Claude Code para sua organização](https://code.claude.com/docs/pt/plugins/org.md): Controle quais plugins o Claude Code instala e permite em toda a sua organização através de configurações gerenciadas.
 - [Gerenciar mods para sua organização](https://code.claude.com/docs/pt/plugins/mods/admin.md): Controle mods do Claude Code com configurações gerenciadas: interrompa mods instalados pelo usuário, permita apenas os seus, revise o que um mod pode fazer e aplique política com seu próprio mod.
@@ -203,7 +203,7 @@
 
 - [Executar Claude Code através de um gateway](https://code.claude.com/docs/pt/gateways.md): Rotear Claude Code através de um gateway auto-hospedado para credenciais centralizadas, rastreamento de uso e controles de custo. Abrange a arquitetura, o gateway de aplicativos Claude da Anthropic e o uso de outros produtos de gateway.
 
-##### Gateway de apps do Claude
+##### Gateway de aplicativos do Claude
 
 - [Gateway de aplicativos Claude para Amazon Bedrock, Claude Platform on AWS, Google Cloud e Microsoft Foundry](https://code.claude.com/docs/pt/claude-apps-gateway.md): Execute Claude Code através do Amazon Bedrock, Claude Platform on AWS, Google Cloud ou Microsoft Foundry atrás de um gateway auto-hospedado com sign-in SSO, acesso a modelos por grupo e telemetria OTLP.
 - [Configuração do gateway de aplicativos Claude](https://code.claude.com/docs/pt/claude-apps-gateway-config.md): Referência para cada opção de gateway.yaml: listener e TLS, OIDC, sessão, armazenamento Postgres, Amazon Bedrock, Claude Platform on AWS, Agent Platform do Google Cloud e upstreams Microsoft Foundry, roteamento de modelos, políticas gerenciadas e telemetria.
@@ -230,6 +230,7 @@
 - [Segurança](https://code.claude.com/docs/pt/security.md): Aprenda sobre as proteções de segurança do Claude Code e as melhores práticas para uso seguro.
 - [Uso de dados](https://code.claude.com/docs/pt/data-usage.md): Saiba mais sobre as políticas de uso de dados da Anthropic para Claude
 - [Retenção zero de dados](https://code.claude.com/docs/pt/zero-data-retention.md): Saiba mais sobre Retenção Zero de Dados (ZDR) para Claude Code, disponível para contas qualificadas no Claude for Enterprise, incluindo escopo, recursos desabilitados e como solicitar ativação.
+- [Configurar o Claude Code (modo local) para uma organização preparada para HIPAA](https://code.claude.com/docs/pt/hipaa-setup.md): Prepare os computadores dos desenvolvedores para executar o Claude Code (modo local) sob a configuração HIPAA. Abrange versões, acesso à rede, configurações gerenciadas e dados locais.
 
 #### Adoção
 

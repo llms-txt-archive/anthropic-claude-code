@@ -153,7 +153,7 @@
 - [Uji coba mod](https://code.claude.com/docs/id/plugins/mods/test.md): Tulis tes otomatis untuk mod Claude Code yang menaikkan peristiwa, stub jawaban Claude Code, dan tekan tombol, tanpa sesi, masuk, atau jaringan.
 - [Troubleshoot a mod](https://code.claude.com/docs/id/plugins/mods/troubleshoot.md): Cari tahu mengapa Claude Code mod tidak melakukan apa pun: cocokkan gejala atau pesan dengan penyebabnya, cari pesan penolakan, dan baca log debug.
 
-#### Menjalankan marketplace
+#### Kelola marketplace
 
 - [Buat marketplace](https://code.claude.com/docs/id/plugins/create-marketplace.md): Bangun marketplace plugin dari file marketplace.json dan uji secara lokal sebelum Anda menghosting-nya.
 - [Host dan kelola marketplace](https://code.claude.com/docs/id/plugins/host-marketplace.md): Publikasikan marketplace plugin tempat pengguna dapat mengaksesnya, berikan akses ke marketplace pribadi, dan rilis pembaruan serta perubahan nama tanpa merusak instalasi.
@@ -230,6 +230,7 @@
 - [Keamanan](https://code.claude.com/docs/id/security.md): Pelajari tentang perlindungan keamanan Claude Code dan praktik terbaik untuk penggunaan yang aman.
 - [Penggunaan data](https://code.claude.com/docs/id/data-usage.md): Pelajari kebijakan penggunaan data Anthropic untuk Claude
 - [Retensi data nol](https://code.claude.com/docs/id/zero-data-retention.md): Pelajari tentang Zero Data Retention (ZDR) untuk Claude Code, tersedia untuk akun yang memenuhi syarat di Claude for Enterprise, termasuk cakupan, fitur yang dinonaktifkan, dan cara meminta pengaktifan.
+- [Menyiapkan Claude Code (mode lokal) untuk organisasi yang siap HIPAA](https://code.claude.com/docs/id/hipaa-setup.md): Siapkan komputer developer untuk menjalankan Claude Code (mode lokal) di bawah konfigurasi HIPAA. Mencakup versi, akses jaringan, pengaturan terkelola, dan data lokal.
 
 #### Adopsi
 

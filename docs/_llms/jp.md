@@ -28,7 +28,7 @@
 - [プロンプトライブラリ](https://code.claude.com/docs/ja/prompt-library.md): Claude Code 用のコピー＆ペーストプロンプト。タスクと役割でタグ付けされています。
 - [Claude Code のベストプラクティス](https://code.claude.com/docs/ja/best-practices.md): 環境設定から並列セッションでのスケーリングまで、Claude Code を最大限に活用するためのヒントとパターン。
 
-#### プラットフォームと統合
+#### プラットフォームと連携
 
 - [プラットフォームと統合](https://code.claude.com/docs/ja/platforms.md): Claude Code を実行する場所を選択し、何に接続するかを決定します。CLI、Desktop、VS Code、JetBrains、Web、モバイル、および Chrome、Slack、CI/CD などの統合を比較します。
 - [任意のデバイスからローカルセッションを続行する Remote Control](https://code.claude.com/docs/ja/remote-control.md): Remote Control を使用して、電話、タブレット、または任意のブラウザから Claude Code のローカルセッションを続行します。claude.ai/code と Claude モバイルアプリで動作します。
@@ -230,6 +230,7 @@
 - [セキュリティ](https://code.claude.com/docs/ja/security.md): Claude Code のセキュリティ対策とセキュアな使用方法のベストプラクティスについて学びます。
 - [データ使用](https://code.claude.com/docs/ja/data-usage.md): Anthropic の Claude のデータ使用ポリシーについて学習します
 - [ゼロデータ保持](https://code.claude.com/docs/ja/zero-data-retention.md): Claude for Enterprise での Claude Code のゼロデータ保持（ZDR）について、スコープ、無効化される機能、有効化のリクエスト方法を学びます。
+- [HIPAA 対応組織向けに Claude Code（ローカルモード）をセットアップする](https://code.claude.com/docs/ja/hipaa-setup.md): HIPAA 設定の下で Claude Code（ローカルモード）を実行できるよう、開発者のコンピューターを準備します。バージョン、ネットワークアクセス、管理設定、ローカルデータについて説明します。
 
 #### 導入
 
@@ -251,7 +252,7 @@
 - [サンドボックス化された Bash ツールを設定する](https://code.claude.com/docs/ja/sandboxing.md): 組み込みのサンドボックスを使用して、Claude Code のシェルコマンドがアクセスできるファイルとネットワークホストを制限します。サンドボックスをオンにし、境界を設定し、それによって生じる問題を解決します。
 - [サンドボックス環境を選択する](https://code.claude.com/docs/ja/sandbox-environments.md): Claude Code のサンドボックスオプションを比較します。組み込みのサンドボックス化された Bash ツール、サンドボックスランタイム、dev コンテナ、Docker、VM があります。脅威モデルに適した分離を選択してください。
 
-#### environments
+#### 環境
 
 - [クラウド環境を設定する](https://code.claude.com/docs/ja/cloud-environments.md): Claude Code クラウドセッション用のクラウド環境を設定します。ネットワークアクセスレベル、環境変数、セットアップスクリプト、環境キャッシュを構成できます。
 
@@ -312,7 +313,7 @@
 - [エージェントを設定する](https://code.claude.com/docs/ja/agent-sdk/configuration.md): Agent SDK セッションを設定する：options オブジェクトを構成し、モデル、環境、制限を設定し、各機能オプションのページを見つけます。
 - [例](https://code.claude.com/docs/ja/agent-sdk/examples.md): 構築したいものに合致する完全で実行可能な Agent SDK プロジェクト、または Claude Cookbook のガイド付きレシピを見つけてください。
 
-#### 主要な概念
+#### 基本概念
 
 - [エージェントループの仕組み](https://code.claude.com/docs/ja/agent-sdk/agent-loop.md): メッセージライフサイクル、ツール実行、コンテキストウィンドウ、および SDK エージェントを支えるアーキテクチャを理解します。
 - [SDK で Claude Code 機能を使用する](https://code.claude.com/docs/ja/agent-sdk/claude-code-features.md): プロジェクト指示、スキル、フック、その他の Claude Code 機能を SDK エージェントに読み込みます。
@@ -339,7 +340,7 @@
 - [Agent Skills でエージェントを拡張する](https://code.claude.com/docs/ja/agent-sdk/skills.md): Claude Agent SDK セッションで Claude が呼び出せる Skills を制御し、名前でコマンドをディスパッチし、セッションが検出する Skills を作成します
 - [SDK のプラグイン](https://code.claude.com/docs/ja/agent-sdk/plugins.md): Agent SDK を通じてカスタムプラグインを読み込み、スキル、エージェント、フック、MCP サーバーで Claude Code を拡張します
 
-#### 制御と可観測性
+#### 制御とオブザーバビリティ
 
 - [権限の設定](https://code.claude.com/docs/ja/agent-sdk/permissions.md): 権限モード、hooks、および宣言的な許可/拒否ルールを使用して、エージェントがツールをどのように使用するかを制御します。
 - [フックを使用してエージェントの動作をインターセプトして制御する](https://code.claude.com/docs/ja/agent-sdk/hooks.md): フックを使用して、エージェント実行の重要なポイントでエージェントの動作をインターセプトしてカスタマイズします
@@ -359,7 +360,7 @@
 - [TypeScript SDK V2 セッション API（削除済み）](https://code.claude.com/docs/ja/agent-sdk/typescript-v2-preview.md): マルチターン会話向けのセッションベースの send/stream パターンを備えた、削除済みの V2 TypeScript Agent SDK セッション API のリファレンス。
 - [Agent SDK リファレンス - Python](https://code.claude.com/docs/ja/agent-sdk/python.md): Python Agent SDK の完全な API リファレンス。すべての関数、型、クラスを含みます。
 
-### 新着情報
+### 最新情報
 
 #### 新機能
 

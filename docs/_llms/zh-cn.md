@@ -4,7 +4,7 @@
 
 ## Simplified Chinese
 
-### 入门
+### 快速入门
 
 #### 快速入门
 
@@ -230,6 +230,7 @@
 - [安全性](https://code.claude.com/docs/zh-CN/security.md): 了解 Claude Code 的安全防护措施和安全使用的最佳实践。
 - [数据使用](https://code.claude.com/docs/zh-CN/data-usage.md): 了解 Anthropic 对 Claude 数据使用的政策
 - [零数据保留](https://code.claude.com/docs/zh-CN/zero-data-retention.md): 了解 Claude for Enterprise 上 Claude Code 的零数据保留 (ZDR)，包括范围、禁用功能以及如何请求启用。
+- [为符合 HIPAA 要求的组织设置 Claude Code（本地模式）](https://code.claude.com/docs/zh-CN/hipaa-setup.md): 为开发人员的计算机做好准备，以便在 HIPAA 配置下运行 Claude Code（本地模式）。涵盖版本、网络访问、托管设置和本地数据。
 
 #### 采用
 
@@ -326,7 +327,7 @@
 - [实时流式传输响应](https://code.claude.com/docs/zh-CN/agent-sdk/streaming-output.md): 当文本和工具调用流入时，从 Agent SDK 获取实时响应
 - [从代理获取结构化输出](https://code.claude.com/docs/zh-CN/agent-sdk/structured-outputs.md): 使用 JSON Schema、Zod 或 Pydantic 从代理工作流返回验证的 JSON。在多轮工具使用后获取类型安全的结构化数据。
 
-#### 使用工具扩展
+#### 使用工具进行扩展
 
 - [为 Claude 提供自定义工具](https://code.claude.com/docs/zh-CN/agent-sdk/custom-tools.md): 使用 Claude Agent SDK 的进程内 MCP 服务器定义自定义工具，以便 Claude 可以调用您的函数、访问您的 API 并执行特定领域的操作。
 - [使用 MCP 连接外部工具](https://code.claude.com/docs/zh-CN/agent-sdk/mcp.md): 配置 MCP 服务器以扩展您的代理的外部工具。涵盖传输类型、大型工具集的工具搜索、身份验证和错误处理。
@@ -359,9 +360,9 @@
 - [TypeScript SDK V2 session API（已移除）](https://code.claude.com/docs/zh-CN/agent-sdk/typescript-v2-preview.md): 已移除的 V2 TypeScript Agent SDK session API 参考，具有用于多轮对话的基于会话的 send/stream 模式。
 - [Agent SDK 参考 - Python](https://code.claude.com/docs/zh-CN/agent-sdk/python.md): Python Agent SDK 的完整 API 参考，包括所有函数、类型和类。
 
-### 新功能
+### 最新动态
 
-#### 最新动态
+#### 新功能
 
 - [最新动态](https://code.claude.com/docs/zh-CN/whats-new/index.md): Claude Code 功能的每周摘要，包含代码片段、演示和背景信息，说明为什么这些功能很重要。
 - [第37周 · 2026年9月7日–11日](https://code.claude.com/docs/zh-CN/whats-new/2026-w37.md): 使用 claude plugin eval 测试您的插件，并将 Claude Code Desktop 窗格弹出到各自的窗口中。

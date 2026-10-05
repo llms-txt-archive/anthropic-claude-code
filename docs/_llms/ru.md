@@ -12,7 +12,7 @@
 - [Быстрый старт](https://code.claude.com/docs/ru/quickstart.md): Добро пожаловать в Claude Code!
 - [Журнал изменений](https://code.claude.com/docs/ru/changelog.md)
 
-#### Основные концепции
+#### Основные понятия
 
 - [Как работает Claude Code](https://code.claude.com/docs/ru/how-claude-code-works.md): Поймите агентивный цикл, встроенные инструменты и то, как Claude Code взаимодействует с вашим проектом.
 - [Расширение Claude Code](https://code.claude.com/docs/ru/features-overview.md): Узнайте, когда использовать CLAUDE.md, Skills, subagents, hooks, MCP и plugins.
@@ -230,6 +230,7 @@
 - [Безопасность](https://code.claude.com/docs/ru/security.md): Узнайте о защитных механизмах Claude Code и лучших практиках безопасного использования.
 - [Использование данных](https://code.claude.com/docs/ru/data-usage.md): Узнайте о политике использования данных Anthropic для Claude
 - [Нулевое хранение данных](https://code.claude.com/docs/ru/zero-data-retention.md): Узнайте о нулевом хранении данных (ZDR) для Claude Code, доступном для квалифицированных учетных записей на Claude for Enterprise, включая область применения, отключенные функции и способы запроса активации.
+- [Настройка Claude Code (local mode) для организации с HIPAA-конфигурацией](https://code.claude.com/docs/ru/hipaa-setup.md): Подготовьте компьютеры разработчиков к работе Claude Code (local mode) с HIPAA-конфигурацией. Рассматриваются версии, сетевой доступ, управляемые настройки и локальные данные.
 
 #### Внедрение
 
@@ -339,7 +340,7 @@
 - [Расширьте агентов с помощью skills](https://code.claude.com/docs/ru/agent-sdk/skills.md): Управляйте тем, какие skills может вызывать Claude в сеансах Claude Agent SDK, отправляйте команды по имени и создавайте skills, которые обнаруживают ваши сеансы
 - [Plugins в SDK](https://code.claude.com/docs/ru/agent-sdk/plugins.md): Загружайте пользовательские plugins для расширения Claude Code с помощью skills, agents, hooks и MCP серверов через Agent SDK
 
-#### Управление и наблюдаемость
+#### Контроль и наблюдаемость
 
 - [Настройка разрешений](https://code.claude.com/docs/ru/agent-sdk/permissions.md): Контролируйте, как ваш агент использует инструменты, с помощью режимов разрешений, hooks и декларативных правил разрешения/запрета.
 - [Перехватывайте и контролируйте поведение агента с помощью hooks](https://code.claude.com/docs/ru/agent-sdk/hooks.md): Перехватывайте и настраивайте поведение агента в ключевых точках выполнения с помощью hooks

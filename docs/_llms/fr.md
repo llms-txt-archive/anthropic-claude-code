@@ -230,6 +230,7 @@
 - [Sécurité](https://code.claude.com/docs/fr/security.md): Découvrez les protections de sécurité de Claude Code et les meilleures pratiques pour une utilisation sûre.
 - [Utilisation des données](https://code.claude.com/docs/fr/data-usage.md): Découvrez les politiques d'utilisation des données d'Anthropic pour Claude
 - [Zéro conservation des données](https://code.claude.com/docs/fr/zero-data-retention.md): Découvrez la conservation zéro des données (ZDR) pour Claude Code, disponible pour les comptes qualifiés sur Claude for Enterprise, y compris la portée, les fonctionnalités désactivées et comment demander l'activation.
+- [Configurer Claude Code (mode local) pour une organisation compatible HIPAA](https://code.claude.com/docs/fr/hipaa-setup.md): Préparez les ordinateurs des développeurs pour exécuter Claude Code (mode local) sous la configuration HIPAA. Couvre les versions, l'accès réseau, les paramètres gérés et les données locales.
 
 #### Adoption
 
@@ -353,7 +354,7 @@
 - [Héberger l'Agent SDK](https://code.claude.com/docs/fr/agent-sdk/hosting.md): Déployez l'Agent SDK en production : architecture de sous-processus, persistance des sessions, mise à l'échelle, observabilité et isolation multi-locataire pour Docker, Kubernetes et fournisseurs de sandbox.
 - [Déployer des agents IA de manière sécurisée](https://code.claude.com/docs/fr/agent-sdk/secure-deployment.md): Un guide pour sécuriser les déploiements de Claude Code et du SDK Agent avec l'isolation, la gestion des identifiants et les contrôles réseau
 
-#### Références du SDK
+#### Références SDK
 
 - [Référence du SDK Agent - TypeScript](https://code.claude.com/docs/fr/agent-sdk/typescript.md): Référence API complète du SDK Agent TypeScript, incluant toutes les fonctions, types et interfaces.
 - [API de session TypeScript SDK V2 (supprimée)](https://code.claude.com/docs/fr/agent-sdk/typescript-v2-preview.md): Référence pour l'API de session supprimée V2 du SDK Agent TypeScript, avec des modèles send/stream basés sur les sessions pour les conversations multi-tours.

@@ -20,7 +20,7 @@
 - [Explorar la ventana de contexto](https://code.claude.com/docs/es/context-window.md): Una simulación interactiva de cómo se llena la ventana de contexto de Claude Code durante una sesión. Vea qué se carga automáticamente, cuánto cuesta cada lectura de archivo y cuándo se activan las reglas y hooks.
 - [Cómo Claude Code utiliza el almacenamiento en caché de prompts](https://code.claude.com/docs/es/prompt-caching.md): Claude Code gestiona automáticamente el almacenamiento en caché de prompts. Vea por qué un cambio de modelo desencadena un turno lento sin caché, qué cuesta `/compact`, por qué las ediciones de CLAUDE.md no se aplican a mitad de sesión, y cómo verificar su tasa de aciertos de caché.
 
-#### Usa Claude Code
+#### Usar Claude Code
 
 - [Cómo Claude recuerda su proyecto](https://code.claude.com/docs/es/memory.md): Proporcione a Claude instrucciones persistentes con archivos CLAUDE.md o AGENTS.md, y permita que Claude acumule aprendizajes automáticamente con auto memory.
 - [Gestionar sesiones](https://code.claude.com/docs/es/sessions.md): Nombre, reanude, ramifique y cambie entre conversaciones de Claude Code. Cubre `--continue`, `--resume`, `--from-pr`, el selector `/resume`, nombres de sesión, exportación de transcripciones y dónde se almacenan las transcripciones.
@@ -153,13 +153,13 @@
 - [Probar un mod](https://code.claude.com/docs/es/plugins/mods/test.md): Escribe pruebas automatizadas para un mod de Claude Code que disparan eventos, simulan las respuestas de Claude Code y presionan botones, sin sesión, inicio de sesión ni red.
 - [Solucionar problemas de un mod](https://code.claude.com/docs/es/plugins/mods/troubleshoot.md): Descubre por qué un mod de Claude Code no hace nada: relaciona el síntoma o mensaje con su causa, consulta los mensajes de rechazo y lee el registro de depuración.
 
-#### Gestiona un marketplace
+#### Administra un marketplace
 
 - [Crear un marketplace](https://code.claude.com/docs/es/plugins/create-marketplace.md): Cree un marketplace de plugins a partir de un archivo marketplace.json y pruébelo localmente antes de alojarlo.
 - [Alojar y mantener un marketplace](https://code.claude.com/docs/es/plugins/host-marketplace.md): Publique un marketplace de plugins donde los usuarios puedan acceder a él, otorgue acceso a uno privado y lance actualizaciones y cambios de nombre sin romper las instalaciones.
 - [Recomendar plugins para su organización](https://code.claude.com/docs/es/plugins/relevance.md): Agregue un bloque de relevancia a las entradas de plugins del marketplace para que Claude Code los sugiera cuando el trabajo de un usuario coincida, y permita el marketplace en la configuración administrada.
 
-#### Administra los plugins de tu organización
+#### Administra plugins para tu organización
 
 - [Administrar plugins de Claude Code para su organización](https://code.claude.com/docs/es/plugins/org.md): Controle qué plugins instala Claude Code y permite en todas las máquinas de su organización mediante configuración administrada.
 - [Administra los mods de tu organización](https://code.claude.com/docs/es/plugins/mods/admin.md): Controla los mods de Claude Code con la configuración administrada: detén los mods instalados por los usuarios, permite solo los tuyos, revisa lo que puede hacer un mod y aplica políticas con tu propio mod.
@@ -230,6 +230,7 @@
 - [Seguridad](https://code.claude.com/docs/es/security.md): Aprenda sobre las medidas de seguridad de Claude Code y las mejores prácticas para un uso seguro.
 - [Uso de datos](https://code.claude.com/docs/es/data-usage.md): Conozca las políticas de uso de datos de Anthropic para Claude
 - [Retención cero de datos](https://code.claude.com/docs/es/zero-data-retention.md): Obtenga información sobre la Retención Cero de Datos (ZDR) para Claude Code, disponible para cuentas calificadas en Claude for Enterprise, incluido el alcance, las características deshabilitadas y cómo solicitar la habilitación.
+- [Configura Claude Code (local mode) para una organización preparada para HIPAA](https://code.claude.com/docs/es/hipaa-setup.md): Prepara las computadoras de los desarrolladores para ejecutar Claude Code (local mode) con la configuración de HIPAA. Abarca versiones, acceso de red, configuración administrada y datos locales.
 
 #### Adopción
 
@@ -326,7 +327,7 @@
 - [Transmitir respuestas en tiempo real](https://code.claude.com/docs/es/agent-sdk/streaming-output.md): Obtener respuestas en tiempo real del Agent SDK mientras el texto y las llamadas de herramientas se transmiten
 - [Obtener salida estructurada de agentes](https://code.claude.com/docs/es/agent-sdk/structured-outputs.md): Devuelve JSON validado desde flujos de trabajo de agentes usando JSON Schema, Zod o Pydantic. Obtén datos estructurados seguros en tipos después del uso de herramientas de múltiples turnos.
 
-#### Amplía con herramientas
+#### Extiende con herramientas
 
 - [Dale a Claude herramientas personalizadas](https://code.claude.com/docs/es/agent-sdk/custom-tools.md): Define herramientas personalizadas con el servidor MCP en proceso del SDK del Agente Claude para que Claude pueda llamar a sus funciones, acceder a sus APIs y realizar operaciones específicas del dominio.
 - [Conectar con herramientas externas usando MCP](https://code.claude.com/docs/es/agent-sdk/mcp.md): Configure servidores MCP para extender su agente con herramientas externas. Cubre tipos de transporte, búsqueda de herramientas para conjuntos grandes de herramientas, autenticación y manejo de errores.
