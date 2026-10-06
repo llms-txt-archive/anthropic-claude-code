@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20261006T172453Z` | 2026-10-06 17:24 UTC | [Clarified HIPAA setup eligibility guidance](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261006T172453Z) |
+| `archive-20261006T215350Z` | 2026-10-06 21:53 UTC | [Claude Code 2.1.292 docs and rollout guidance](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261006T215350Z) |
+| `archive-20261006T172453Z` | 2026-10-06 17:25 UTC | [Clarified HIPAA setup eligibility guidance](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261006T172453Z) |
 | `archive-20261006T104648Z` | 2026-10-06 10:48 UTC | [2.1.291 fixes and Slack scope clarifications](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261006T104648Z) |
 | `archive-20261006T031955Z` | 2026-10-06 03:22 UTC | [Desktop, Slack, and background session docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261006T031955Z) |
 | `archive-20261005T225501Z` | 2026-10-05 22:57 UTC | [HIPAA-ready local mode and Agent SDK docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261005T225501Z) |
 | `archive-20261005T162600Z` | 2026-10-05 16:27 UTC | [Reasoning safeguards and HIPAA docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261005T162600Z) |
-| `archive-20261005T011649Z` | 2026-10-05 01:18 UTC | [Clarified MCP limits, streaming, and SDK usage docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261005T011649Z) |

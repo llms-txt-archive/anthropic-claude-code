@@ -337,7 +337,7 @@
 #### Настройка поведения
 
 - [Изменение системных подсказок](https://code.claude.com/docs/ru/agent-sdk/modifying-system-prompts.md): Выберите между предустановкой `claude_code` и пользовательской системной подсказкой, и настройте поведение с помощью CLAUDE.md, стилей вывода, append или полностью пользовательской подсказки.
-- [Расширьте агентов с помощью skills](https://code.claude.com/docs/ru/agent-sdk/skills.md): Управляйте тем, какие skills может вызывать Claude в сеансах Claude Agent SDK, отправляйте команды по имени и создавайте skills, которые обнаруживают ваши сеансы
+- [Расширение агентов с помощью скиллов](https://code.claude.com/docs/ru/agent-sdk/skills.md): Управляйте тем, какие скиллы Claude может вызывать в сессиях Claude Agent SDK, вызывайте команды по имени и создавайте скиллы, которые обнаруживаются вашими сессиями
 - [Plugins в SDK](https://code.claude.com/docs/ru/agent-sdk/plugins.md): Загружайте пользовательские plugins для расширения Claude Code с помощью skills, agents, hooks и MCP серверов через Agent SDK
 
 #### Контроль и наблюдаемость

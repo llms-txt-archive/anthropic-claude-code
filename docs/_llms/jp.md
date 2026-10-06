@@ -173,7 +173,7 @@
 
 - [プラグインマニフェストリファレンス](https://code.claude.com/docs/ja/plugins/manifest-reference.md): plugin.json の完全なリファレンス：すべてのフィールドとその型、デフォルト値、受け入れられるパス形式、userConfig と環境変数スキーマ。
 - [マーケットプレイスリファレンス](https://code.claude.com/docs/ja/plugins/marketplace-reference.md): marketplace.json フィールド、プラグインエントリ、プラグインおよびマーケットプレイスソースオブジェクトの完全なリファレンス。各フィールドの有効な場所を含みます。
-- [プラグインコマンドリファレンス](https://code.claude.com/docs/ja/plugins/cli-reference.md): claude プラグインシェルコマンド、セッション内の /plugin と /reload-plugins、および 1 つのセッションのためにプラグインをロードするフラグの完全なリファレンス。
+- [プラグインコマンドリファレンス](https://code.claude.com/docs/ja/plugins/cli-reference.md): claude プラグインシェルコマンド、セッション内の /plugin と /reload-plugins、および 1 つのセッションのためにプラグインをロードするフラグのリファレンス。
 
 ### 管理
 

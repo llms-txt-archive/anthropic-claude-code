@@ -173,7 +173,7 @@
 
 - [Plugin-Manifest-Referenz](https://code.claude.com/docs/de/plugins/manifest-reference.md): Vollständige Referenz für plugin.json: jedes Feld mit seinem Typ und Standard, akzeptierte Pfadformen und die userConfig- und Umgebungsvariablenschemas.
 - [Marketplace-Referenz](https://code.claude.com/docs/de/plugins/marketplace-reference.md): Vollständige Referenz für marketplace.json-Felder, Plugin-Einträge und die Plugin- und Marketplace-Quellobjekte mit Angabe ihrer Gültigkeitsbereiche.
-- [Referenz für Plugin-Befehle](https://code.claude.com/docs/de/plugins/cli-reference.md): Vollständige Referenz für die Claude-Plugin-Shell-Befehle, /plugin und /reload-plugins in einer Sitzung, und die Flags, die ein Plugin für eine Sitzung laden.
+- [Referenz für Plugin-Befehle](https://code.claude.com/docs/de/plugins/cli-reference.md): Referenz für die Claude-Plugin-Shell-Befehle, /plugin und /reload-plugins in einer Sitzung, und die Flags, die ein Plugin für eine Sitzung laden.
 
 ### Verwaltung
 

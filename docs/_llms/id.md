@@ -173,7 +173,7 @@
 
 - [Referensi manifest plugin](https://code.claude.com/docs/id/plugins/manifest-reference.md): Referensi lengkap untuk plugin.json: setiap field dengan tipenya dan default, bentuk path yang diterima, dan skema userConfig serta variabel lingkungan.
 - [Referensi Marketplace](https://code.claude.com/docs/id/plugins/marketplace-reference.md): Referensi lengkap untuk field marketplace.json, entri plugin, dan objek sumber plugin dan marketplace, dengan tempat masing-masing valid.
-- [Referensi perintah plugin](https://code.claude.com/docs/id/plugins/cli-reference.md): Referensi lengkap untuk perintah shell plugin claude, /plugin dan /reload-plugins dalam sesi, dan flag yang memuat plugin untuk satu sesi.
+- [Referensi perintah plugin](https://code.claude.com/docs/id/plugins/cli-reference.md): Referensi untuk perintah shell plugin claude, /plugin dan /reload-plugins dalam sesi, dan flag yang memuat plugin untuk satu sesi.
 
 ### Administrasi
 

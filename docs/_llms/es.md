@@ -173,7 +173,7 @@
 
 - [Referencia del manifiesto de plugins](https://code.claude.com/docs/es/plugins/manifest-reference.md): Referencia completa de plugin.json: cada campo con su tipo y valor predeterminado, formas de ruta aceptadas, y los esquemas de userConfig y variables de entorno.
 - [Referencia de Marketplace](https://code.claude.com/docs/es/plugins/marketplace-reference.md): Referencia completa de los campos marketplace.json, entradas de plugins y los objetos de origen de plugin y marketplace, con dónde es válido cada uno.
-- [Referencia de comandos de plugins](https://code.claude.com/docs/es/plugins/cli-reference.md): Referencia completa de los comandos de shell de plugins de Claude, /plugin y /reload-plugins en una sesión, y las banderas que cargan un plugin para una sesión.
+- [Referencia de comandos de plugins](https://code.claude.com/docs/es/plugins/cli-reference.md): Referencia de los comandos de shell claude plugin, /plugin y /reload-plugins en una sesión, y las banderas que cargan un plugin para una sesión.
 
 ### Administración
 

@@ -173,7 +173,7 @@
 
 - [Plugin manifest 参考](https://code.claude.com/docs/zh-CN/plugins/manifest-reference.md): plugin.json 的完整参考：每个字段的类型和默认值、接受的路径形式，以及 userConfig 和环境变量模式。
 - [Marketplace 参考](https://code.claude.com/docs/zh-CN/plugins/marketplace-reference.md): marketplace.json 字段、插件条目和插件及 marketplace 源对象的完整参考，包括每个字段的有效位置。
-- [Plugin 命令参考](https://code.claude.com/docs/zh-CN/plugins/cli-reference.md): claude plugin shell 命令、会话中的 /plugin 和 /reload-plugins 的完整参考，以及在一个会话中加载 plugin 的标志。
+- [插件命令参考](https://code.claude.com/docs/zh-CN/plugins/cli-reference.md): claude plugin shell 命令、会话中的 /plugin 和 /reload-plugins 的参考，以及在一个会话中加载插件的标志。
 
 ### 管理
 
