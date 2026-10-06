@@ -38,7 +38,7 @@
 - [Claude に CLI からコンピュータを使用させる](https://code.claude.com/docs/ja/computer-use.md): Claude Code CLI でコンピュータ使用を有効にして、Claude がアプリを開いたり、クリックしたり、入力したり、macOS でスクリーンを表示したりできるようにします。ネイティブアプリをテストし、ビジュアルの問題をデバッグし、ターミナルを離れることなく GUI のみのツールを自動化します。
 - [VS Code で Claude Code を使用する](https://code.claude.com/docs/ja/vs-code.md): Claude Code 拡張機能を VS Code にインストールして設定します。インラインの差分表示、@-メンション、プラン確認、キーボードショートカットを使用した AI コーディング支援を取得します。
 - [JetBrains IDEs](https://code.claude.com/docs/ja/jetbrains.md): Claude Code を IntelliJ、PyCharm、WebStorm など JetBrains IDEs で使用する
-- [Slack での Claude Code](https://code.claude.com/docs/ja/slack.md): Slack ワークスペースから直接コーディングタスクを委任する。Anthropic は Team および Enterprise ワークスペース向けにこの以前のバージョンを Claude Tag に置き換えています。Pro および Max プランではセットアップパスのままです。
+- [Slack での Claude Code](https://code.claude.com/docs/ja/slack.md): Slack からコーディングタスクを委任します。この以前のバージョンは、Claude Tag に接続されていないワークスペースで、Pro および Max アカウントからのチャンネルメンションにのみ応答します。
 - [Claude Tag](https://code.claude.com/docs/ja/claude-tag.md): Claude Tag を使用して Claude をチームの Slack チャネルに導入し、claude.com で設定と使用方法のドキュメントを確認できます。
 
 ##### クラウド上の Claude Code

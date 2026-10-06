@@ -38,7 +38,7 @@
 - [Biarkan Claude menggunakan komputer Anda dari CLI](https://code.claude.com/docs/id/computer-use.md): Aktifkan computer use di Claude Code CLI sehingga Claude dapat membuka aplikasi, mengklik, mengetik, dan melihat layar Anda di macOS. Uji aplikasi native, debug masalah visual, dan otomatisasi alat GUI-only tanpa meninggalkan terminal Anda.
 - [Gunakan Claude Code di VS Code](https://code.claude.com/docs/id/vs-code.md): Instal dan konfigurasi ekstensi Claude Code untuk VS Code. Dapatkan bantuan pengkodean AI dengan diff inline, @-mentions, review rencana, dan pintasan keyboard.
 - [JetBrains IDEs](https://code.claude.com/docs/id/jetbrains.md): Gunakan Claude Code dengan JetBrains IDEs termasuk IntelliJ, PyCharm, WebStorm, dan lainnya
-- [Claude Code di Slack](https://code.claude.com/docs/id/slack.md): Delegasikan tugas coding langsung dari workspace Slack Anda. Anthropic sedang menghentikan versi awal ini untuk workspace Team dan Enterprise demi Claude Tag; versi ini tetap menjadi jalur setup pada paket Pro dan Max.
+- [Claude Code di Slack](https://code.claude.com/docs/id/slack.md): Delegasikan tugas coding dari Slack. Versi awal ini hanya menjawab mention di channel dari akun Pro dan Max di workspace yang tidak terhubung ke Claude Tag.
 - [Claude Tag](https://code.claude.com/docs/id/claude-tag.md): Bawa Claude ke saluran Slack tim Anda dengan Claude Tag dan temukan dokumentasi setup dan penggunaan di claude.com.
 
 ##### Claude Code di cloud

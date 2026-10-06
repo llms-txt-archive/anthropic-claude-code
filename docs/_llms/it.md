@@ -38,7 +38,7 @@
 - [Consenti a Claude di usare il tuo computer dalla CLI](https://code.claude.com/docs/it/computer-use.md): Abilita computer use in Claude Code CLI affinché Claude possa aprire app, fare clic, digitare e vedere il tuo schermo su macOS. Testa app native, esegui il debug di problemi visivi e automatizza strumenti solo GUI senza lasciare il tuo terminale.
 - [Usa Claude Code in VS Code](https://code.claude.com/docs/it/vs-code.md): Installa e configura l'estensione Claude Code per VS Code. Ottieni assistenza di codifica con IA con diff inline, @-mention, revisione del piano e scorciatoie da tastiera.
 - [JetBrains IDEs](https://code.claude.com/docs/it/jetbrains.md): Usa Claude Code con JetBrains IDEs inclusi IntelliJ, PyCharm, WebStorm e altri
-- [Claude Code in Slack](https://code.claude.com/docs/it/slack.md): Delega i compiti di codifica direttamente dal tuo workspace Slack. Anthropic sta ritirando questa versione precedente per i workspace Team ed Enterprise a favore di Claude Tag; rimane il percorso di configurazione per i piani Pro e Max.
+- [Claude Code in Slack](https://code.claude.com/docs/it/slack.md): Delega i compiti di codifica da Slack. Questa versione precedente risponde alle menzioni nei canali solo da account Pro e Max in workspace non connessi a Claude Tag.
 - [Claude Tag](https://code.claude.com/docs/it/claude-tag.md): Porta Claude nei canali Slack del tuo team con Claude Tag e trova la documentazione di configurazione e utilizzo su claude.com.
 
 ##### Claude Code nel cloud

@@ -337,7 +337,7 @@
 #### Verhalten anpassen
 
 - [Ändern von Systemaufforderungen](https://code.claude.com/docs/de/agent-sdk/modifying-system-prompts.md): Wählen Sie zwischen der `claude_code`-Voreinstellung und einer benutzerdefinierten Systemaufforderung, und passen Sie das Verhalten mit CLAUDE.md, Ausgabestilen, Append oder einer vollständig benutzerdefinierten Aufforderung an.
-- [Agent Skills erweitern](https://code.claude.com/docs/de/agent-sdk/skills.md): Steuern Sie, welche Skills Claude in Claude Agent SDK-Sitzungen aufrufen kann, versenden Sie Befehle nach Name und erstellen Sie Skills, die Ihre Sitzungen entdecken
+- [Agenten mit Skills erweitern](https://code.claude.com/docs/de/agent-sdk/skills.md): Steuern Sie, welche Skills Claude in Sitzungen des Claude Agent SDK aufrufen kann, führen Sie Befehle anhand ihres Namens aus und erstellen Sie Skills, die Ihre Sitzungen erkennen
 - [Plugins im SDK](https://code.claude.com/docs/de/agent-sdk/plugins.md): Laden Sie benutzerdefinierte Plugins, um Claude Code mit Skills, Agenten, Hooks und MCP-Servern über das Agent SDK zu erweitern
 
 #### Kontrolle und Beobachtbarkeit

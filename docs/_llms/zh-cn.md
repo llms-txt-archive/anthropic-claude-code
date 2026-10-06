@@ -38,7 +38,7 @@
 - [让 Claude 从 CLI 使用您的计算机](https://code.claude.com/docs/zh-CN/computer-use.md): 在 Claude Code CLI 中启用 computer use，使 Claude 能够在 macOS 上打开应用、点击、输入和查看您的屏幕。测试原生应用、调试视觉问题，以及自动化仅限 GUI 的工具，无需离开您的终端。
 - [在 VS Code 中使用 Claude Code](https://code.claude.com/docs/zh-CN/vs-code.md): 安装和配置 VS Code 的 Claude Code 扩展。获得 AI 编码协助，包括内联差异、@-提及、计划审查和快捷键。
 - [JetBrains IDEs](https://code.claude.com/docs/zh-CN/jetbrains.md): 在 JetBrains IDE（包括 IntelliJ、PyCharm、WebStorm 等）中使用 Claude Code
-- [Slack 中的 Claude Code](https://code.claude.com/docs/zh-CN/slack.md): 直接从 Slack 工作区委派编码任务。Anthropic 正在为 Team 和 Enterprise 工作区停用此早期版本，转而使用 Claude Tag；它仍然是 Pro 和 Max 计划上的设置路径。
+- [Slack 中的 Claude Code](https://code.claude.com/docs/zh-CN/slack.md): 从 Slack 委派编码任务。此早期版本仅在未连接到 Claude Tag 的工作区中回应来自 Pro 和 Max 账户的频道提及。
 - [Claude Tag](https://code.claude.com/docs/zh-CN/claude-tag.md): 通过 Claude Tag 将 Claude 引入您团队的 Slack 频道，并在 claude.com 上查找其设置和使用文档。
 
 ##### 云端 Claude Code
