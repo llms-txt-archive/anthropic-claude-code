@@ -18,9 +18,9 @@ A [crawler](https://github.com/llms-txt-archive/llmstxt) reads the `llms.txt` in
 
 | Tag | Date | Summary |
 |-----|------|---------|
-| `archive-20261005T225501Z` | 2026-10-05 22:55 UTC | [HIPAA-ready local mode and Agent SDK docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261005T225501Z) |
+| `archive-20261006T031955Z` | 2026-10-06 03:19 UTC | [Desktop, Slack, and background session docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261006T031955Z) |
+| `archive-20261005T225501Z` | 2026-10-05 22:57 UTC | [HIPAA-ready local mode and Agent SDK docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261005T225501Z) |
 | `archive-20261005T162600Z` | 2026-10-05 16:27 UTC | [Reasoning safeguards and HIPAA docs refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261005T162600Z) |
 | `archive-20261005T011649Z` | 2026-10-05 01:18 UTC | [Clarified MCP limits, streaming, and SDK usage docs](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261005T011649Z) |
 | `archive-20261004T223133Z` | 2026-10-04 22:32 UTC | [Shortcut docs clarified for background subagent control](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261004T223133Z) |
 | `archive-20261004T184747Z` | 2026-10-04 18:48 UTC | [Claude Code docs navigation refresh](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261004T184747Z) |
-| `archive-20261004T153000Z` | 2026-10-04 15:30 UTC | [Japanese index adds Week 37 what's new entry](https://github.com/llms-txt-archive/anthropic-claude-code/releases/tag/archive-20261004T153000Z) |

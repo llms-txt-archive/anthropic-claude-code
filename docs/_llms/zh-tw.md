@@ -229,7 +229,7 @@
 
 - [安全性](https://code.claude.com/docs/zh-TW/security.md): 了解 Claude Code 的安全防護措施和安全使用的最佳實踐。
 - [資料使用](https://code.claude.com/docs/zh-TW/data-usage.md): 了解 Anthropic 對 Claude 資料使用政策
-- [零資料保留](https://code.claude.com/docs/zh-TW/zero-data-retention.md): 了解 Claude for Enterprise 合格帳戶可用的 Claude Code 零資料保留 (ZDR)，包括範圍、停用的功能，以及如何要求啟用。
+- [零資料保留](https://code.claude.com/docs/zh-TW/zero-data-retention.md): 了解 Claude for Enterprise 合格帳戶可用的 Claude Code 零資料保留 (ZDR)，包括範圍、停用的功能，以及如何請求啟用。
 - [為 HIPAA-ready 組織設定 Claude Code（本機模式）](https://code.claude.com/docs/zh-TW/hipaa-setup.md): 準備開發人員的電腦，以在 HIPAA 設定下執行 Claude Code（本機模式）。涵蓋版本、網路存取、受管設定及本機資料。
 
 #### 採用

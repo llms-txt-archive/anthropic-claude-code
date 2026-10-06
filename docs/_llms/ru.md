@@ -38,7 +38,7 @@
 - [Позвольте Claude использовать ваш компьютер из CLI](https://code.claude.com/docs/ru/computer-use.md): Включите computer use в Claude Code CLI, чтобы Claude мог открывать приложения, кликать, печатать и видеть ваш экран на macOS. Тестируйте нативные приложения, отлаживайте визуальные проблемы и автоматизируйте инструменты только с GUI без необходимости покидать терминал.
 - [Использование Claude Code в VS Code](https://code.claude.com/docs/ru/vs-code.md): Установите и настройте расширение Claude Code для VS Code. Получите помощь AI при кодировании с встроенными diff, @-упоминаниями, проверкой плана и сочетаниями клавиш.
 - [JetBrains IDEs](https://code.claude.com/docs/ru/jetbrains.md): Используйте Claude Code с JetBrains IDEs, включая IntelliJ, PyCharm, WebStorm и другие
-- [Claude Code в Slack](https://code.claude.com/docs/ru/slack.md): Делегируйте задачи кодирования прямо из вашего рабочего пространства Slack. Anthropic снимает с производства эту более раннюю версию для рабочих пространств Team и Enterprise в пользу Claude Tag; она остается путем настройки для планов Pro и Max.
+- [Claude Code в Slack](https://code.claude.com/docs/ru/slack.md): Делегируйте задачи кодирования из Slack. Эта более ранняя версия отвечает на упоминания в каналах только от учетных записей Pro и Max в рабочих пространствах, не подключенных к Claude Tag.
 - [Claude Tag](https://code.claude.com/docs/ru/claude-tag.md): Интегрируйте Claude в каналы Slack вашей команды с помощью Claude Tag и найдите документацию по его настройке и использованию на claude.com.
 
 ##### Claude Code в облаке
@@ -229,7 +229,7 @@
 
 - [Безопасность](https://code.claude.com/docs/ru/security.md): Узнайте о защитных механизмах Claude Code и лучших практиках безопасного использования.
 - [Использование данных](https://code.claude.com/docs/ru/data-usage.md): Узнайте о политике использования данных Anthropic для Claude
-- [Нулевое хранение данных](https://code.claude.com/docs/ru/zero-data-retention.md): Узнайте о нулевом хранении данных (ZDR) для Claude Code, доступном для квалифицированных учетных записей на Claude for Enterprise, включая область применения, отключенные функции и способы запроса активации.
+- [Нулевое хранение данных](https://code.claude.com/docs/ru/zero-data-retention.md): Узнайте о нулевом хранении данных (ZDR) для Claude Code, доступном для квалифицированных учетных записей на Claude for Enterprise, включая область действия, отключенные функции и способы запроса активации.
 - [Настройка Claude Code (local mode) для организации с HIPAA-конфигурацией](https://code.claude.com/docs/ru/hipaa-setup.md): Подготовьте компьютеры разработчиков к работе Claude Code (local mode) с HIPAA-конфигурацией. Рассматриваются версии, сетевой доступ, управляемые настройки и локальные данные.
 
 #### Внедрение

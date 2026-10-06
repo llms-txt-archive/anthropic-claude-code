@@ -38,7 +38,7 @@
 - [Claude가 CLI에서 컴퓨터를 사용하도록 설정](https://code.claude.com/docs/ko/computer-use.md): Claude Code CLI에서 컴퓨터 사용을 활성화하여 Claude가 macOS에서 앱을 열고, 클릭하고, 입력하고, 화면을 볼 수 있도록 합니다. 터미널을 떠나지 않고 네이티브 앱을 테스트하고, 시각적 문제를 디버깅하고, GUI 전용 도구를 자동화합니다.
 - [VS Code에서 Claude Code 사용하기](https://code.claude.com/docs/ko/vs-code.md): VS Code용 Claude Code 확장 프로그램을 설치하고 구성합니다. 인라인 diff, @-멘션, 계획 검토 및 키보드 단축키를 통해 AI 코딩 지원을 받습니다.
 - [JetBrains IDEs](https://code.claude.com/docs/ko/jetbrains.md): Claude Code를 IntelliJ, PyCharm, WebStorm 등 JetBrains IDE와 함께 사용합니다
-- [Slack의 Claude Code](https://code.claude.com/docs/ko/slack.md): Slack 워크스페이스에서 직접 코딩 작업을 위임합니다. Anthropic은 Team 및 Enterprise 워크스페이스를 위해 이 이전 버전을 Claude Tag로 대체하고 있으며, Pro 및 Max 플랜에서는 이것이 설정 경로로 유지됩니다.
+- [Slack의 Claude Code](https://code.claude.com/docs/ko/slack.md): Slack에서 코딩 작업을 위임합니다. 이 이전 버전은 Claude Tag에 연결되지 않은 워크스페이스에서 Pro 및 Max 계정의 채널 멘션에만 응답합니다.
 - [Claude Tag](https://code.claude.com/docs/ko/claude-tag.md): Claude Tag를 사용하여 팀의 Slack 채널에 Claude를 가져오고 claude.com에서 설정 및 사용 설명서를 찾습니다.
 
 ##### 클라우드의 Claude Code
@@ -229,7 +229,7 @@
 
 - [보안](https://code.claude.com/docs/ko/security.md): Claude Code의 보안 보호 기능과 안전한 사용을 위한 모범 사례에 대해 알아봅니다.
 - [데이터 사용](https://code.claude.com/docs/ko/data-usage.md): Anthropic의 Claude 데이터 사용 정책에 대해 알아봅니다
-- [Zero data retention](https://code.claude.com/docs/ko/zero-data-retention.md): Claude for Enterprise에서 Claude Code의 Zero Data Retention(ZDR)에 대해 알아보세요. 범위, 비활성화된 기능, 활성화 요청 방법을 포함합니다.
+- [Zero data retention](https://code.claude.com/docs/ko/zero-data-retention.md): Claude for Enterprise의 적격 계정에서 사용할 수 있는 Claude Code의 Zero Data Retention(ZDR)에 대해 알아보세요. 범위, 비활성화된 기능, 활성화 요청 방법을 포함합니다.
 - [HIPAA 대응 조직을 위한 Claude Code(로컬 모드) 설정](https://code.claude.com/docs/ko/hipaa-setup.md): HIPAA 구성에서 Claude Code(로컬 모드)를 실행할 수 있도록 개발자 컴퓨터를 준비합니다. 버전, 네트워크 액세스, 관리형 설정, 로컬 데이터를 다룹니다.
 
 #### 도입

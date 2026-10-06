@@ -229,7 +229,7 @@
 
 - [セキュリティ](https://code.claude.com/docs/ja/security.md): Claude Code のセキュリティ対策とセキュアな使用方法のベストプラクティスについて学びます。
 - [データ使用](https://code.claude.com/docs/ja/data-usage.md): Anthropic の Claude のデータ使用ポリシーについて学習します
-- [ゼロデータ保持](https://code.claude.com/docs/ja/zero-data-retention.md): Claude for Enterprise での Claude Code のゼロデータ保持（ZDR）について、スコープ、無効化される機能、有効化のリクエスト方法を学びます。
+- [ゼロデータ保持](https://code.claude.com/docs/ja/zero-data-retention.md): Claude for Enterprise の適格なアカウントで利用可能な Claude Code のゼロデータ保持（ZDR）について、スコープ、無効化される機能、有効化のリクエスト方法を学びます。
 - [HIPAA 対応組織向けに Claude Code（ローカルモード）をセットアップする](https://code.claude.com/docs/ja/hipaa-setup.md): HIPAA 設定の下で Claude Code（ローカルモード）を実行できるよう、開発者のコンピューターを準備します。バージョン、ネットワークアクセス、管理設定、ローカルデータについて説明します。
 
 #### 導入

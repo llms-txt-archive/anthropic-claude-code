@@ -38,7 +38,7 @@
 - [Permitir que Claude use su computadora desde la CLI](https://code.claude.com/docs/es/computer-use.md): Habilite computer use en la CLI de Claude Code para que Claude pueda abrir aplicaciones, hacer clic, escribir y ver su pantalla en macOS. Pruebe aplicaciones nativas, depure problemas visuales y automatice herramientas solo GUI sin salir de su terminal.
 - [Usar Claude Code en VS Code](https://code.claude.com/docs/es/vs-code.md): Instala y configura la extensión Claude Code para VS Code. Obtén asistencia de codificación con IA con diffs en línea, menciones @, revisión de planes y atajos de teclado.
 - [JetBrains IDEs](https://code.claude.com/docs/es/jetbrains.md): Utiliza Claude Code con JetBrains IDEs incluyendo IntelliJ, PyCharm, WebStorm y más
-- [Claude Code en Slack](https://code.claude.com/docs/es/slack.md): Delega tareas de codificación directamente desde tu espacio de trabajo de Slack. Anthropic está retirando esta versión anterior para espacios de trabajo de Team y Enterprise en favor de Claude Tag; permanece como la ruta de configuración en planes Pro y Max.
+- [Claude Code en Slack](https://code.claude.com/docs/es/slack.md): Delega tareas de codificación desde Slack. Esta versión anterior responde a menciones en canales solo de cuentas Pro y Max en espacios de trabajo no conectados a Claude Tag.
 - [Claude Tag](https://code.claude.com/docs/es/claude-tag.md): Integra Claude en los canales de Slack de tu equipo con Claude Tag y encuentra su documentación de configuración y uso en claude.com.
 
 ##### Claude Code en la nube
@@ -229,7 +229,7 @@
 
 - [Seguridad](https://code.claude.com/docs/es/security.md): Aprenda sobre las medidas de seguridad de Claude Code y las mejores prácticas para un uso seguro.
 - [Uso de datos](https://code.claude.com/docs/es/data-usage.md): Conozca las políticas de uso de datos de Anthropic para Claude
-- [Retención cero de datos](https://code.claude.com/docs/es/zero-data-retention.md): Obtenga información sobre la Retención Cero de Datos (ZDR) para Claude Code, disponible para cuentas calificadas en Claude for Enterprise, incluido el alcance, las características deshabilitadas y cómo solicitar la habilitación.
+- [Retención cero de datos](https://code.claude.com/docs/es/zero-data-retention.md): Obtén información sobre la Retención Cero de Datos (ZDR) para Claude Code, disponible para cuentas calificadas en Claude for Enterprise, incluido el alcance, las características deshabilitadas y cómo solicitar la habilitación.
 - [Configura Claude Code (local mode) para una organización preparada para HIPAA](https://code.claude.com/docs/es/hipaa-setup.md): Prepara las computadoras de los desarrolladores para ejecutar Claude Code (local mode) con la configuración de HIPAA. Abarca versiones, acceso de red, configuración administrada y datos locales.
 
 #### Adopción
