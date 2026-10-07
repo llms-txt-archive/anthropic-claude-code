@@ -9,7 +9,7 @@
 #### 시작하기
 
 - [개요](https://code.claude.com/docs/ko/overview.md): Claude Code는 코드베이스를 읽고, 파일을 편집하고, 명령을 실행하고, 개발 도구와 통합하는 에이전트 코딩 도구입니다. 터미널, IDE, 데스크톱 앱 및 브라우저에서 사용할 수 있습니다.
-- [빠른 시작](https://code.claude.com/docs/ko/quickstart.md): Claude Code에 오신 것을 환영합니다!
+- [빠른 시작](https://code.claude.com/docs/ko/quickstart.md): 터미널에 Claude Code를 설치하고 로그인한 후, CLI를 사용하여 코드베이스를 탐색하고 첫 번째 코드 변경을 수행합니다.
 - [변경 로그](https://code.claude.com/docs/ko/changelog.md)
 
 #### 핵심 개념

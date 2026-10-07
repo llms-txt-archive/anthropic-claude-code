@@ -9,7 +9,7 @@
 #### はじめに
 
 - [概要](https://code.claude.com/docs/ja/overview.md): Claude Code は agentic coding ツールで、コードベースを読み取り、ファイルを編集し、コマンドを実行し、開発ツールと統合します。ターミナル、IDE、デスクトップアプリ、ブラウザで利用できます。
-- [クイックスタート](https://code.claude.com/docs/ja/quickstart.md): Claude Code へようこそ！
+- [クイックスタート](https://code.claude.com/docs/ja/quickstart.md): ターミナルに Claude Code をインストールしてサインインし、CLI を使ってコードベースを探索して最初のコード変更を行います。
 - [変更履歴](https://code.claude.com/docs/ja/changelog.md)
 
 #### 基本概念

@@ -9,7 +9,7 @@
 #### 快速入门
 
 - [概述](https://code.claude.com/docs/zh-CN/overview.md): Claude Code 是一个代理编码工具，可以读取你的代码库、编辑文件、运行命令，并与你的开发工具集成。可在终端、IDE、桌面应用和浏览器中使用。
-- [快速开始](https://code.claude.com/docs/zh-CN/quickstart.md): 欢迎使用 Claude Code！
+- [快速入门](https://code.claude.com/docs/zh-CN/quickstart.md): 在终端中安装 Claude Code，完成登录，并使用 CLI 探索您的代码库、进行第一次代码更改。
 - [更新日志](https://code.claude.com/docs/zh-CN/changelog.md)
 
 #### 核心概念

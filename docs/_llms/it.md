@@ -9,7 +9,7 @@
 #### Per iniziare
 
 - [Panoramica](https://code.claude.com/docs/it/overview.md): Claude Code è uno strumento di codifica agentivo che legge la tua base di codice, modifica i file, esegue comandi e si integra con i tuoi strumenti di sviluppo. Disponibile nel tuo terminale, IDE, app desktop e browser.
-- [Guida rapida](https://code.claude.com/docs/it/quickstart.md): Benvenuto in Claude Code!
+- [Guida rapida](https://code.claude.com/docs/it/quickstart.md): Installa Claude Code nel tuo terminale, accedi e usa la CLI per esplorare il tuo codebase e apportare la tua prima modifica al codice.
 - [Changelog](https://code.claude.com/docs/it/changelog.md)
 
 #### Concetti fondamentali

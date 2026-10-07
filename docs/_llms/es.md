@@ -9,7 +9,7 @@
 #### Primeros pasos
 
 - [Descripción general](https://code.claude.com/docs/es/overview.md): Claude Code es una herramienta de codificación agencial que lee tu base de código, edita archivos, ejecuta comandos e integra con tus herramientas de desarrollo. Disponible en tu terminal, IDE, aplicación de escritorio y navegador.
-- [Inicio rápido](https://code.claude.com/docs/es/quickstart.md): ¡Bienvenido a Claude Code!
+- [Inicio rápido](https://code.claude.com/docs/es/quickstart.md): Instala Claude Code en tu terminal, inicia sesión y usa la CLI para explorar tu base de código y hacer tu primer cambio de código.
 - [Registro de cambios](https://code.claude.com/docs/es/changelog.md)
 
 #### Conceptos básicos
@@ -22,7 +22,7 @@
 
 #### Usar Claude Code
 
-- [Cómo Claude recuerda su proyecto](https://code.claude.com/docs/es/memory.md): Proporcione a Claude instrucciones persistentes con archivos CLAUDE.md o AGENTS.md, y permita que Claude acumule aprendizajes automáticamente con auto memory.
+- [Cómo Claude recuerda tu proyecto](https://code.claude.com/docs/es/memory.md): Dale a Claude instrucciones persistentes con archivos CLAUDE.md o AGENTS.md, y deja que Claude acumule aprendizajes automáticamente con la memoria automática.
 - [Gestionar sesiones](https://code.claude.com/docs/es/sessions.md): Nombre, reanude, ramifique y cambie entre conversaciones de Claude Code. Cubre `--continue`, `--resume`, `--from-pr`, el selector `/resume`, nombres de sesión, exportación de transcripciones y dónde se almacenan las transcripciones.
 - [Flujos de trabajo comunes](https://code.claude.com/docs/es/common-workflows.md): Guías paso a paso para explorar bases de código, corregir errores, refactorizar, probar y otras tareas cotidianas con Claude Code.
 - [Biblioteca de prompts](https://code.claude.com/docs/es/prompt-library.md): Prompts para copiar y pegar en Claude Code, etiquetados por tarea y rol.

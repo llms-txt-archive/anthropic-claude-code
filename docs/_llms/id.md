@@ -9,7 +9,7 @@
 #### Memulai
 
 - [Ikhtisar](https://code.claude.com/docs/id/overview.md): Claude Code adalah alat pengkodean agentic yang membaca basis kode Anda, mengedit file, menjalankan perintah, dan terintegrasi dengan alat pengembangan Anda. Tersedia di terminal, IDE, aplikasi desktop, dan browser.
-- [Panduan Cepat](https://code.claude.com/docs/id/quickstart.md): Selamat datang di Claude Code!
+- [Mulai Cepat](https://code.claude.com/docs/id/quickstart.md): Instal Claude Code di terminal Anda, masuk, dan gunakan CLI untuk menjelajahi codebase Anda serta membuat perubahan kode pertama Anda.
 - [Changelog](https://code.claude.com/docs/id/changelog.md)
 
 #### Konsep inti
