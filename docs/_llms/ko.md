@@ -173,7 +173,7 @@
 
 - [플러그인 매니페스트 참조](https://code.claude.com/docs/ko/plugins/manifest-reference.md): plugin.json의 완전한 참조: 모든 필드의 타입과 기본값, 허용되는 경로 형식, userConfig 및 환경 변수 스키마.
 - [마켓플레이스 참조](https://code.claude.com/docs/ko/plugins/marketplace-reference.md): marketplace.json 필드, 플러그인 항목, 플러그인 및 마켓플레이스 소스 객체의 완전한 참조와 각각이 유효한 위치입니다.
-- [플러그인 명령어 참조](https://code.claude.com/docs/ko/plugins/cli-reference.md): claude 플러그인 셸 명령어, 세션 내 /plugin 및 /reload-plugins, 그리고 한 세션 동안 플러그인을 로드하는 플래그에 대한 완전한 참조입니다.
+- [플러그인 명령 참조](https://code.claude.com/docs/ko/plugins/cli-reference.md): claude 플러그인 셸 명령, 세션 내 /plugin 및 /reload-plugins, 그리고 한 세션 동안 플러그인을 로드하는 플래그에 대한 참조입니다.
 
 ### 관리
 
@@ -222,7 +222,7 @@
 #### 사용량 및 비용
 
 - [모니터링](https://code.claude.com/docs/ko/monitoring-usage.md): Claude Code에 대한 OpenTelemetry를 활성화하고 구성하는 방법을 알아봅니다.
-- [비용을 효과적으로 관리하기](https://code.claude.com/docs/ko/costs.md): 토큰 사용량을 추적하고, 팀 지출 한도를 설정하며, 컨텍스트 관리, 모델 선택, 확장 사고 설정 및 전처리 hooks를 통해 Claude Code 비용을 절감합니다.
+- [비용을 효과적으로 관리하기](https://code.claude.com/docs/ko/costs.md): 토큰 사용량을 추적하고, 팀 지출 한도를 설정하며, 컨텍스트 관리, 모델 선택, 확장 사고 설정 및 전처리 훅을 통해 Claude Code 비용을 절감합니다.
 - [팀 사용량을 분석으로 추적하기](https://code.claude.com/docs/ko/analytics.md): Claude Code 사용량 지표를 확인하고, 채택 현황을 추적하며, 분석 대시보드에서 엔지니어링 속도를 측정합니다.
 
 #### 보안 및 데이터

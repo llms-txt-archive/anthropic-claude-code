@@ -173,7 +173,7 @@
 
 - [Справочник манифеста плагина](https://code.claude.com/docs/ru/plugins/manifest-reference.md): Полный справочник по plugin.json: каждое поле с его типом и значением по умолчанию, принятые формы путей и схемы userConfig и переменных окружения.
 - [Справочник Marketplace](https://code.claude.com/docs/ru/plugins/marketplace-reference.md): Полный справочник по полям marketplace.json, записям плагинов и объектам источников плагинов и marketplace, с указанием того, где каждый из них действителен.
-- [Справочник команд плагинов](https://code.claude.com/docs/ru/plugins/cli-reference.md): Полный справочник по командам оболочки claude plugin, /plugin и /reload-plugins в сеансе, а также флагам, которые загружают плагин на один сеанс.
+- [Справочник команд плагинов](https://code.claude.com/docs/ru/plugins/cli-reference.md): Справочник по командам оболочки claude plugin, /plugin и /reload-plugins в сессии, а также флагам, которые загружают плагин на одну сессию.
 
 ### Администрирование
 
